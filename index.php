@@ -39,7 +39,7 @@
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="index.php?logout='1'"><button style="color: red;">logout</button></a>
+						<a href="index.php?logout='1'"><button style="color: red;padding:1px;">logout</button></a>
 					</small>
 					<a href="update.php" style="margin-left:5px;"><button>Go Back</button></a>
 				<?php endif ?>
