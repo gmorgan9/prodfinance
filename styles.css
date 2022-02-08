@@ -91,7 +91,7 @@ form, .content {
 
 /* UPDATE PAGE */
 
-.nav-list-item {
+.nav-list-link {
 	text-decoration: none;
 	color: black;
 	display: inline-block;
