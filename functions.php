@@ -148,11 +148,8 @@ function login(){
 				$_SESSION['success']  = "You are now logged in";
 				header('location: home.php');		  
 			}else{
-				$stmt->close();
                 $sql = "UPDATE users SET loggedin = '1' WHERE id = ?";
-                $stmt = $mysqli->prepare($sql);
-                $stmt->bind_param("i", $id);
-                $stmt->execute();
+				$results = mysqli_query($db, $sql);
                 // Store data in session variables
                 $_SESSION["loggedin"] = true;
 				$_SESSION['user'] = $logged_in_user;
