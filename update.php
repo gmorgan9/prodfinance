@@ -18,10 +18,10 @@
 	</div>
 	
     <div class="nav">
-        <li><a href="update.php">Home</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href="index.php">Profile Info</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="update.php">Home</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href=""></a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href=""></a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="index.php">Profile Info</a></li>
     </div>
 
     <div class="main-content">
