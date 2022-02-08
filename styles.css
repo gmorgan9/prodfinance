@@ -91,7 +91,7 @@ form, .content {
 
 /* UPDATE PAGE */
 
-nav {
+.nav {
 	text-decoration: none;
 	color: black;
 	display: inline-block;
