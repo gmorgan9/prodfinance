@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration system PHP and MySQL - Create user</title>
+	<title>Admin - Create user</title>
 	<link rel="stylesheet" href="styles.css">
 	<style>
 		.header {
