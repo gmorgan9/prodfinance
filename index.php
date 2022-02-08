@@ -41,7 +41,7 @@
 						<br>
 						<a href="index.php?logout='1'" style="color: red;">logout</a>
 					</small>
-					<a href="update.php" style="float:right;"><button>Go Back</button></a>
+					<a href="update.php" style="margin-left:5px;"><button>Go Back</button></a>
 				<?php endif ?>
 			</div>
 		</div>
