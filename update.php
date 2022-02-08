@@ -17,11 +17,11 @@
 		<h2>Home Page</h2>
 	</div>
 	
-    <nav class="nav-list" style="display:inline;">
-        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="update.php">Home</a></li>
-        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a>COMPLETE</li>
-        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a></li>
-        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="index.php">Profile Info</a></li>
+    <nav class="nav-list">
+        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none; display:inline;" class="nav-list-link" href="update.php">Home</a></li>
+        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none; display:inline;" class="nav-list-link" href=""></a>COMPLETE</li>
+        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none; display:inline;" class="nav-list-link" href=""></a></li>
+        <li class="nav-list-item" style="list-style-type:none;"><a style="color:black; text-decoration:none; display:inline;" class="nav-list-link" href="index.php">Profile Info</a></li>
 </nav>
 
     <div class="main-content">
