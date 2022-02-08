@@ -45,7 +45,7 @@ if (isset($_GET['logout'])) {
 
 		<!-- logged in user information -->
 		<div class="profile_info">
-			<img src="../images/admin_profile.png"  >
+			<img src="profile.png"  >
 
 			<div>
 				<?php  if (isset($_SESSION['user'])) : ?>
