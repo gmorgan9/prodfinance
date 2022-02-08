@@ -144,11 +144,7 @@ function login(){
                 // Store data in session variables
                 $_SESSION["loggedin"] = 1;
 				$sql = "UPDATE users SET loggedin = ? WHERE username = ?";
-				$stmt = $mysqli->prepare($sql);
-				$stmt->bind_param('is', $_SESSION['loggedin'], $_SESSION['username']);
-                $stmt->execute();
-                $stmt->fetch();
-                $stmt->close();
+				$results = mysqli_query($db, $sql);
 		if (mysqli_num_rows($results) == 1) { // user found
 			// check if user is admin or user
 			$logged_in_user = mysqli_fetch_assoc($results);
