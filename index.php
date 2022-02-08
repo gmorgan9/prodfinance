@@ -46,5 +46,11 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="main-content">
+        <p>
+            <a href="update.php"><button>go here</button></a>
+        </p>
+    </div>
 </body>
 </html>
