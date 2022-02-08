@@ -143,6 +143,11 @@ function login(){
 			$logged_in_user = mysqli_fetch_assoc($results);
 			if ($logged_in_user['user_type'] == 'admin') {
 
+				
+				$_SESSION['user'] = $logged_in_user;
+				$_SESSION['success']  = "You are now logged in";
+				header('location: home.php');		  
+			}else{
 				$stmt->close();
                 $sql = "UPDATE users SET loggedin = '1' WHERE id = ?";
                 $stmt = $mysqli->prepare($sql);
@@ -150,10 +155,6 @@ function login(){
                 $stmt->execute();
                 // Store data in session variables
                 $_SESSION["loggedin"] = true;
-				$_SESSION['user'] = $logged_in_user;
-				$_SESSION['success']  = "You are now logged in";
-				header('location: home.php');		  
-			}else{
 				$_SESSION['user'] = $logged_in_user;
 				$_SESSION['success']  = "You are now logged in";
 
