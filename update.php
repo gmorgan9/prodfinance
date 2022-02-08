@@ -18,7 +18,7 @@
 	</div>
 	
     <nav class="nav-list">
-        <li class="nav-list-item"><a styles="color: pink;" class="nav-list-link" href="update.php">Home</a></li>
+        <li class="nav-list-item"><a style="color:blue;" class="nav-list-link" href="update.php">Home</a></li>
         <li class="nav-list-item"><a class="nav-list-link" href=""></a>COMPLETE</li>
         <li class="nav-list-item"><a class="nav-list-link" href=""></a></li>
         <li class="nav-list-item"><a class="nav-list-link" href="index.php">Profile Info</a></li>
