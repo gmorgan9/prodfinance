@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Registration system PHP and MySQL - Create user</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles.css">
 	<style>
 		.header {
 			background: #003366;

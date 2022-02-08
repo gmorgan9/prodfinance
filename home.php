@@ -16,7 +16,7 @@ if (isset($_GET['logout'])) {
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles.css">
 	<style>
 	.header {
 		background: #003366;
