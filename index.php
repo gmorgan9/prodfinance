@@ -41,16 +41,10 @@
 						<br>
 						<a href="index.php?logout='1'" style="color: red;">logout</a>
 					</small>
-					<a href="update.php"><button>go here</button></a>
+					<a href="update.php">Go Back</a>
 				<?php endif ?>
 			</div>
 		</div>
 	</div>
-
-	<div class="main-content">
-        <p>
-            <a href="update.php"><button>go here</button></a>
-        </p>
-    </div>
 </body>
 </html>
