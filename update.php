@@ -17,7 +17,7 @@
 		<h2>Home Page</h2>
 	</div>
 	
-    <nav class="nav-list">
+    <nav class="nav-list" style="text-align:center;">
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="update.php">Home</a></li>
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a>COMPLETE</li>
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a></li>
