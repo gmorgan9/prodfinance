@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 	<title>Registration system PHP and MySQL</title>
 </head>
 <body>
