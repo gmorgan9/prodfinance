@@ -138,9 +138,17 @@ function login(){
 		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
 		$results = mysqli_query($db, $query);
 
-		$sql = "UPDATE users SET loggedin = '1' WHERE id = ?";
-				$results = mysqli_query($db, $sql);
 
+
+                
+                // Store data in session variables
+                $_SESSION["loggedin"] = 1;
+				$sql = "UPDATE users SET loggedin = ? WHERE username = ?";
+				$stmt = $mysqli->prepare($sql);
+				$stmt->bind_param('is', $_SESSION['loggedin'], $_SESSION['username']);
+                $stmt->execute();
+                $stmt->fetch();
+                $stmt->close();
 		if (mysqli_num_rows($results) == 1) { // user found
 			// check if user is admin or user
 			$logged_in_user = mysqli_fetch_assoc($results);
@@ -151,9 +159,6 @@ function login(){
 				$_SESSION['success']  = "You are now logged in";
 				header('location: home.php');		  
 			}else{
-                
-                // Store data in session variables
-                $_SESSION["loggedin"] = true;
 				$_SESSION['user'] = $logged_in_user;
 				$_SESSION['success']  = "You are now logged in";
 
