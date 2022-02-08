@@ -87,3 +87,12 @@ form, .content {
 	display: block;
 	clear: both;
 }
+
+
+/* UPDATE PAGE */
+
+nav {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
