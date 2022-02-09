@@ -57,7 +57,7 @@
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="register_btn"> + Create user</button>
-			<a href="admin.php">Back</a>
+			<a href="admin.php" class="btn">Back</a>
 		</div>
 	</form>
 </body>
