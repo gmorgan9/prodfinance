@@ -18,10 +18,21 @@ if (isset($_GET['logout'])) {
 	<title>Profile Info</title>
 	<!-- <link rel="stylesheet" href="styles.css"> -->
 	<style>
+		.header {
+			background: #003366;
+			width: 40%;
+			margin: 50px auto 0px;
+			color: white;
+			text-align: center;
+			border: 1px solid #B0C4DE;
+			border-bottom: none;
+			border-radius: 10px 10px 0px 0px;
+			padding: 20px;
+		}
 		button[name=register_btn] {
 			background: #003366;
 		}
-	form, .content {
+		form, .content {
 			width: 40%;
 			margin: 0px auto;
 			padding: 20px;
