@@ -10,10 +10,6 @@
 	<!-- <link rel="stylesheet" href="styles.css"> -->
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
-        * { 
-	        margin: 0px; 
-	        padding: 0px; 
-        }
         body {
 	        font-size: 120%;
 	        background: #F8F8FF;
