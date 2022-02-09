@@ -64,9 +64,9 @@
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="register.php">Register</a></li>
-            
+                </nav>
 		<?php } ?>
-        </nav>
+        
 
     <div class="main-content">
         <p>
