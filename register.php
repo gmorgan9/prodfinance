@@ -12,6 +12,17 @@ if (isLoggedIN()) {
 <!-- <link rel="stylesheet" href="styles.css"> -->
 	<title>Register</title>
 	<style>
+		.header {
+			width: 40%;
+			margin: 50px auto 0px;
+			color: white;
+			background: #5F9EA0;
+			text-align: center;
+			border: 1px solid #B0C4DE;
+			border-bottom: none;
+			border-radius: 10px 10px 0px 0px;
+			padding: 20px;
+		}
 		form, .content {
 			width: 40%;
 			margin: 0px auto;
