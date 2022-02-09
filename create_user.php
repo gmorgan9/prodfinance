@@ -11,6 +11,15 @@
 		button[name=register_btn] {
 			background: #003366;
 		}
+		.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
 	</style>
 </head>
 <body>
