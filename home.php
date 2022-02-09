@@ -64,7 +64,7 @@ if (isset($_GET['logout'])) {
      							<li id="login"><a href="login.php">Login</a></li>
      							<li id="signup"><a href="register.php">Register</a></li>
 							<?php } 
-							echo $_SESSION['user_type'];?>
+							echo $_SESSION['user'];?>
 
 
 
