@@ -7,8 +7,14 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <style>
+        .main-content {
+            margin-left: 35px;
+        }
+    </style>
 </head>
 <body>
 	<div class="header">
