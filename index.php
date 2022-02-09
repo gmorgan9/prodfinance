@@ -20,24 +20,25 @@
 		?>
       	    <nav class="nav-list" style="margin-top:10px;text-align:center;">
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php">Home</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="#">Portfolio</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="#">About</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="standard.php">Profile</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
             </nav
 		<?php }else{ ?>
 			<nav class="nav-list" style="margin-top:10px;text-align:center;">
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php">Home</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="">Portfolio</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="">About</a></li>
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="login.php">Login</a></li>
-                | 
+                | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="register.php">Register</a></li>
             </nav>
 		<?php } ?>
