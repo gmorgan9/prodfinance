@@ -56,7 +56,7 @@ if (isset($_GET['logout'])) {
 						<br>
 
 
-							<?php if(($_SESSION['user_type'] != "admin") )
+							<?php if(isAdmin()) )
 							{
 							?>
       							<li id="login"><a href="logout.php">Logout</a></li>
@@ -64,7 +64,7 @@ if (isset($_GET['logout'])) {
      							<li id="login"><a href="login.php">Login</a></li>
      							<li id="signup"><a href="register.php">Register</a></li>
 							<?php } 
-							echo $_SESSION['user'];?>
+							echo $_SESSION['user_type'];?>
 
 
 
