@@ -12,6 +12,14 @@ if (!isAdmin()) {
 	<title>Admin - Create user</title>
 	<!-- <link rel="stylesheet" href="styles.css"> -->
 	<style>
+		* { 
+	        margin: 0px; 
+	        padding: 0px; 
+        }
+        body {
+	        font-size: 120%;
+	        background: #F8F8FF;
+        }
 		.header {
 			background: #003366;
 			width: 40%;

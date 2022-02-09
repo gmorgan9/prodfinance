@@ -11,6 +11,14 @@ if (isLoggedIN()) {
 	<title>Login</title>
 	<!-- <link rel="stylesheet" href="styles.css"> -->
 	<style>
+		* { 
+	        margin: 0px; 
+	        padding: 0px; 
+        }
+        body {
+	        font-size: 120%;
+	        background: #F8F8FF;
+        }
 		.header {
 			width: 40%;
 			margin: 50px auto 0px;
