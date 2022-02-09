@@ -1,8 +1,8 @@
-<?php include('functions.php') 
+<?php 
+include('functions.php') 
 
 if (!isAdmin()) {
 	$_SESSION['msg'] = "You must be admin";
-	echo $_SESSION['msg'];
 	header('location: login.php');
 }
 
