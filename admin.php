@@ -15,12 +15,9 @@ if (isset($_GET['logout'])) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Profile Info</title>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-	.header {
-		background: #003366;
-	}
 	button[name=register_btn] {
 		background: #003366;
 	}
@@ -28,7 +25,7 @@ if (isset($_GET['logout'])) {
 </head>
 <body>
 	<div class="header">
-		<h2>Admin - Home Page</h2>
+		<h2>Profile Information</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->

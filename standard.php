@@ -9,12 +9,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Profile Info</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<div class="header">
-		<h2>Home Page</h2>
+		<h2>Profile Information</h2>
 	</div>
 	<div class="content">
 		<!-- notification message -->
