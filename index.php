@@ -18,7 +18,21 @@
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="update.php">Home</a></li>
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a>COMPLETE</li>
         <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a></li>
+
+
         <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="index.php">Profile Info</a></li>
+
+        <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="login.php">login</a></li>
+
+        <?php if(isLoggedIn() )
+							{
+							?>
+      							YES
+							<?php }else{ ?>
+								NOPE
+							<?php } ?>
+
+
 </nav>
 
     <div class="main-content">
