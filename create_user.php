@@ -19,6 +19,7 @@
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	text-decoration: none;
 }
 	</style>
 </head>
