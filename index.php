@@ -41,7 +41,7 @@
 						<br>
 
 
-						<?php if(($_SESSION['user_type'] != "admin") )
+						<?php if(isAdmin() )
 							{
 							?>
       							<li id="login"><a href="logout.php">Logout</a></li>
