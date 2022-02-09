@@ -8,6 +8,7 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
 <body>
 	<div class="header">
