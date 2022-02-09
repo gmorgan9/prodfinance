@@ -8,8 +8,7 @@
 <head>
 	<title>Home</title>
 	<!-- <link rel="stylesheet" href="styles.css"> -->
-    <link rel="icon" type="image/x-icon" href="logo.png">
-
+    <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
         * { 
 	        margin: 0px; 
@@ -19,7 +18,7 @@
 	        font-size: 120%;
 	        background: #F8F8FF;
         } 
-        .main-content {
+        #main-content {
             margin-left: 35px;
         }
         .header {
@@ -68,7 +67,7 @@
             </nav>
 		<?php } ?>
 
-    <div class="main-content">
+    <div id="main-content">
         <p>
             This is some random content!
         </p>
