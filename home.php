@@ -56,7 +56,7 @@ if (isset($_GET['logout'])) {
 						<br>
 
 
-							<?php if(isAdmin()) )
+							<?php if(!isAdmin()) )
 							{
 							?>
       							<li id="login"><a href="logout.php">Logout</a></li>
