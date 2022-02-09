@@ -1,5 +1,11 @@
 <?php include('functions.php') ?>
 
+<?php
+if (!isLoggedIN()) {
+	header('location: index.php');
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
