@@ -18,7 +18,7 @@
 	        font-size: 120%;
 	        background: #F8F8FF;
         } 
-        p {
+        .main-content p {
             margin-left: 35px;
         }
         .header {
