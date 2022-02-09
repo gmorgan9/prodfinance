@@ -44,21 +44,13 @@
 						<?php if(isAdmin() )
 							{
 							?>
-      							<li id="login"><a href="logout.php">Logout</a></li>
-							<?php }else{ ?>
-     							<li id="login"><a href="login.php">Login</a></li>
-     							<li id="signup"><a href="register.php">Register</a></li>
-							<?php } ?>
-
-
-						
-						<a href="index.php?logout='1'"><button style="cursor:pointer;color: #ff3860;border: 1px solid #ff3860;padding:2px;border-radius: 5px;">Logout</button></a>
+      							<a href="index.php?logout='1'"><button style="cursor:pointer;color: #ff3860;border: 1px solid #ff3860;padding:2px;border-radius: 5px;">Logout</button></a>
 						<a href="update.php"><button style="cursor:pointer;margin-left:5px;color: #498afb;border: 1px solid #498afb;padding:2px;border-radius: 5px;">Home</button></a>
 						<a href="create_user.php"><button style="cursor:pointer;margin-left:5px;color: #498afb;border: 1px solid #498afb;padding:2px;border-radius: 5px;">+ add user</button></a>
-					</small>
-					
-
-
+							<?php }else{ ?>
+								<a href="index.php?logout='1'"><button style="cursor:pointer;color: #ff3860;border: 1px solid #ff3860;padding:2px;border-radius: 5px;">Logout</button></a>
+						<a href="update.php"><button style="cursor:pointer;margin-left:5px;color: #498afb;border: 1px solid #498afb;padding:2px;border-radius: 5px;">Home</button></a>
+							<?php } ?>
 				<?php endif ?>
 			</div>
 		</div>
