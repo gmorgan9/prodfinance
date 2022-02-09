@@ -52,6 +52,15 @@ if (!isAdmin()) {
 			border-radius: 5px;
 			border: 1px solid gray;
 		}
+		#user_type {
+			height: 40px;
+			width: 98%;
+			padding: 5px 10px;
+			background: white;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid gray;
+		}
 	</style>
 </head>
 <body>
