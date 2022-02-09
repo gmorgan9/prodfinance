@@ -1,12 +1,4 @@
-<?php 
-include('functions.php') 
-
-if (!isAdmin()) {
-	$_SESSION['msg'] = "You must be admin";
-	header('location: update.php');
-}
-
-?>
+<?php include('functions.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
