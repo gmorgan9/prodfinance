@@ -1,4 +1,7 @@
 <?php include('functions.php') 
+?>
+
+<?php 
 if (!isAdmin()) {
 	header('location: login.php');
 }
