@@ -23,6 +23,7 @@
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a>COMPLETE</li>
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href=""></a></li>
                 <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;"><a style="color:black; text-decoration:none;" class="nav-list-link" href="standard.php">Profile Info</a></li>
+                <li><a href="index.php?logout='1'"><button style="cursor:pointer;color: #ff3860;border: 1px solid #ff3860;padding:2px;border-radius: 5px;">Logout</button></a></li>
             </nav
 		<?php }else{ ?>
 			<nav class="nav-list" style="margin-top:10px;text-align:center;">
