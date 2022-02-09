@@ -56,7 +56,7 @@ if (isset($_GET['logout'])) {
 						<br>
 
 
-						<?php if(isset($_SESSION['user_type']) && !empty($_SESSION['user_type'] == 'admin') )
+						<?php if(isset($_SESSION['user_type']) && ($_SESSION['user_type'] == 'admin') )
 							{
 									?>
       							<li id="login"><a href="logout.php">Logout</a></li>
