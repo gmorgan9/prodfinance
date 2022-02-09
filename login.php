@@ -1,7 +1,7 @@
 <?php include('functions.php') ?>
 
 <?php
-if (!isLoggedIN()) {
+if (isLoggedIN()) {
 	header('location: index.php');
 }
 ?>
