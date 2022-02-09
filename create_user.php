@@ -3,7 +3,7 @@ include('functions.php')
 
 if (!isAdmin()) {
 	$_SESSION['msg'] = "You must be admin";
-	header('location: login.php');
+	header('location: update.php');
 }
 
 ?>
