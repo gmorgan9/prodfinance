@@ -3,7 +3,7 @@
 
 <?php 
 if (!isAdmin()) {
-	header('location: login.php');
+	header('location: index.php');
 }
 ?>
 <!DOCTYPE html>
