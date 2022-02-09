@@ -1,4 +1,10 @@
-* { margin: 0px; padding: 0px; }
+.main-content {
+	margin-left: 20px;
+}
+* { 
+	margin: 0px; 
+	padding: 0px; 
+}
 body {
 	font-size: 120%;
 	background: #F8F8FF;
