@@ -54,6 +54,15 @@ if (isLoggedIN()) {
 			border-radius: 5px;
 			border: 1px solid gray;
 		}
+		.btn {
+			padding: 10px;
+			font-size: 15px;
+			color: white;
+			background: #5F9EA0;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
 		#user_type {
 			height: 40px;
 			width: 98%;
