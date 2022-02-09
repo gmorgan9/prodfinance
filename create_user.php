@@ -28,6 +28,14 @@ if (!isAdmin()) {
 			cursor: pointer;
 			text-decoration: none;
 		}
+		form, .content {
+			width: 40%;
+			margin: 0px auto;
+			padding: 20px;
+			border: 1px solid #B0C4DE;
+			background: white;
+			border-radius: 0px 0px 10px 10px;
+		}
 	</style>
 </head>
 <body>
