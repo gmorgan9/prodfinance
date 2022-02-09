@@ -30,11 +30,10 @@ if (!isAdmin()) {
 			padding: 10px;
 			font-size: 15px;
 			color: white;
-			background-color: #5F9EA0;
+			background: #5F9EA0;
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
-			text-decoration: none;
 		}
 		form, .content {
 			width: 40%;
