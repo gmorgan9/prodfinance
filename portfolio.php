@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Portfolio</title>
 	<!-- <link rel="stylesheet" href="styles.css"> -->
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
@@ -36,7 +36,7 @@
 </head>
 <body>
 	<div class="header">
-		<h2>Portfolio</h2>
+		<h2>Portfolio Page</h2>
 	</div>
 
         <?php if(isLoggedIn())
