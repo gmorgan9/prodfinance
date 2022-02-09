@@ -81,6 +81,22 @@ if (isset($_GET['logout'])) {
 			border: 1px solid #3c763d;
 			margin-bottom: 20px;
 		}
+		.profile_info img {
+			display: inline-block; 
+			width: 50px; 
+			height: 50px; 
+			margin: 5px;
+			/* float: left; */
+		}
+		.profile_info div {
+			display: inline-block; 
+			margin: 5px;
+		}
+		.profile_info:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
 	</style>
 </head>
 <body>
