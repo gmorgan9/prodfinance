@@ -10,24 +10,24 @@ if (!isAdmin()) {
 <html>
 <head>
 	<title>Admin - Create user</title>
-	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="stylesheet" href="styles.css"> -->
 	<style>
 		.header {
 			background: #003366;
 		}
-		button[name=register_btn] {
+		button[name=btn] {
 			background: #003366;
 		}
 		.btn {
-	padding: 10px;
-	font-size: 15px;
-	color: white;
-	background-color: #5F9EA0;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	text-decoration: none;
-}
+			padding: 10px;
+			font-size: 15px;
+			color: white;
+			background-color: #5F9EA0;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
@@ -64,8 +64,8 @@ if (!isAdmin()) {
 			<input type="password" name="password_2">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="register_btn"> + Create user</button>
-			<a href="admin.php" class="btn">Back</a>
+			<button type="submit" class="btn" name="btn"> + Create user</button>
+			<a href="admin.php" name="btn" class="btn">Back</a>
 		</div>
 	</form>
 </body>
