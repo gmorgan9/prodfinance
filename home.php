@@ -63,8 +63,8 @@ if (isset($_GET['logout'])) {
 							<?php }else{ ?>
      							<li id="login"><a href="login.php">Login</a></li>
      							<li id="signup"><a href="register.php">Register</a></li>
-							<?php } ?>
-
+							<?php } 
+							echo 'user_type';?>
 
 
 

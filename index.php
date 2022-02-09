@@ -40,7 +40,7 @@
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
 
-						
+
 						<?php if(($_SESSION['user_type'] != "admin") )
 							{
 							?>
