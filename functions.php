@@ -170,88 +170,88 @@ function isAdmin()
 
 
 
-if (isset($_POST['reset_btn'])) {
-	resetPass();
-}
+// if (isset($_POST['reset_btn'])) {
+// 	resetPass();
+// }
 
-// Reset Password
+// // Reset Password
 
-function resetPass()
-{
+// function resetPass()
+// {
 
-	global $db, $username, $errors;
+// 	global $db, $username, $errors;
 
-	// grap form values
-	$username = e($_POST['username']);
-	$password = e($_POST['password']);
+// 	// grap form values
+// 	$username = e($_POST['username']);
+// 	$password = e($_POST['password']);
 
-	// make sure form is filled properly
-	if (empty($username)) {
-		array_push($errors, "Username is required");
-	}
-	if (empty($password)) {
-		array_push($errors, "Password is required");
-	}
+// 	// make sure form is filled properly
+// 	if (empty($username)) {
+// 		array_push($errors, "Username is required");
+// 	}
+// 	if (empty($password)) {
+// 		array_push($errors, "Password is required");
+// 	}
 
-	// attempt login if no errors on form
-	if (count($errors) == 0) {
-		$password = md5($password);
+// 	// attempt login if no errors on form
+// 	if (count($errors) == 0) {
+// 		$password = md5($password);
 
-		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
-		$results = mysqli_query($db, $query);
-
-
+// 		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
+// 		$results = mysqli_query($db, $query);
 
 
 
-	// Define variables and initialize with empty values
-$new_password = $confirm_password = "";
-$new_password_err = $confirm_password_err = "";
 
-if (count($errors) == 0) {
-	if(empty(trim($_POST["new_password"]))){
-        $new_password_err = "Please enter the new password.";     
-    } elseif(strlen(trim($_POST["new_password"])) < 6){
-        $new_password_err = "Password must have atleast 6 characters.";
-    } else{
-        $new_password = trim($_POST["new_password"]);
-    }
 
-	// Validate confirm password
-    if(empty(trim($_POST["confirm_password"]))){
-        $confirm_password_err = "Please confirm the password.";
-    } else{
-        $confirm_password = trim($_POST["confirm_password"]);
-        if(empty($new_password_err) && ($new_password != $confirm_password)){
-            $confirm_password_err = "Password did not match.";
-        }
-    }
+// 	// Define variables and initialize with empty values
+// $new_password = $confirm_password = "";
+// $new_password_err = $confirm_password_err = "";
 
-	// Check input errors before updating the database
-    if(empty($new_password_err) && empty($confirm_password_err)){
-        // Prepare an update statement
-        $sql = "UPDATE users SET password = ? WHERE id = ?";
+// if (count($errors) == 0) {
+// 	if(empty(trim($_POST["new_password"]))){
+//         $new_password_err = "Please enter the new password.";     
+//     } elseif(strlen(trim($_POST["new_password"])) < 6){
+//         $new_password_err = "Password must have atleast 6 characters.";
+//     } else{
+//         $new_password = trim($_POST["new_password"]);
+//     }
+
+// 	// Validate confirm password
+//     if(empty(trim($_POST["confirm_password"]))){
+//         $confirm_password_err = "Please confirm the password.";
+//     } else{
+//         $confirm_password = trim($_POST["confirm_password"]);
+//         if(empty($new_password_err) && ($new_password != $confirm_password)){
+//             $confirm_password_err = "Password did not match.";
+//         }
+//     }
+
+// 	// Check input errors before updating the database
+//     if(empty($new_password_err) && empty($confirm_password_err)){
+//         // Prepare an update statement
+//         $sql = "UPDATE users SET password = ? WHERE id = ?";
         
-        if($stmt = $mysqli->prepare($sql)){
-            // Bind variables to the prepared statement as parameters
-            $stmt->bind_param("si", $param_password, $param_id);
+//         if($stmt = $mysqli->prepare($sql)){
+//             // Bind variables to the prepared statement as parameters
+//             $stmt->bind_param("si", $param_password, $param_id);
             
-            // Set parameters
-            $param_password = password_hash($new_password, PASSWORD_DEFAULT);
-            $param_id = $_SESSION["id"];
+//             // Set parameters
+//             $param_password = password_hash($new_password, PASSWORD_DEFAULT);
+//             $param_id = $_SESSION["id"];
             
-            // Attempt to execute the prepared statement
-            if($stmt->execute()){
-                // Password updated successfully. Destroy the session, and redirect to login page
-                session_destroy();
-                header("location: login.php");
-                exit();
-            } else{
-                echo "Oops! Something went wrong. Please try again later.";
-            }
-			// Close statement
-            $stmt->close();
-		}
-	}
-}
-}
+//             // Attempt to execute the prepared statement
+//             if($stmt->execute()){
+//                 // Password updated successfully. Destroy the session, and redirect to login page
+//                 session_destroy();
+//                 header("location: login.php");
+//                 exit();
+//             } else{
+//                 echo "Oops! Something went wrong. Please try again later.";
+//             }
+// 			// Close statement
+//             $stmt->close();
+// 		}
+// 	}
+// }
+// }
