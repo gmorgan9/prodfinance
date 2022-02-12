@@ -68,7 +68,7 @@
         }
         /* Remove extra left and right margins, due to padding in columns */
         .row {
-            margin-left: auto;
+            margin-right: auto;
         }
         /* Clear floats after the columns */
         .row:after {
