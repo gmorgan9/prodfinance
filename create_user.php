@@ -130,7 +130,7 @@ if (!isAdmin()) {
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="btn"> + Create user</button>
-			<a href="adminprofileinfo.php" name="btn" class="btn">←Back</a>
+			<a href="standardprofileinfo.php" name="btn" class="btn">←Back</a>
 		</div>
 	</form>
 </body>
