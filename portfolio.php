@@ -61,36 +61,29 @@
             text-decoration:none;
         }
         /* Column KB Cards */
-        /* Float four columns side by side */
+        .grid_1 { width:60px; }
+        .grid_2 { width:140px; }
+        .grid_3 { width:220px; }
+        .grid_4 { width:300px; }
+        .grid_5 { width:380px; }
+        .grid_6 { width:460px; }
+        .grid_7 { width:540px; }
+        .grid_8 { width:620px; }
+        .grid_9 { width:700px; }
+        .grid_10 { width:780px; }
+        .grid_11 { width:860px; }
+        .grid_12 { width:940px; }
+
         .column {
           float: left;
-          width: 20%;
-          padding: 0 10px;
+          margin: 0 10px;
+          overflow: hidden;
+          display: inline;
         }
-        /* Remove extra left and right margins, due to padding in columns */
         .row {
-            margin: 0 -5px;
-        }
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        /* Style the counter cards */
-        .card {
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-          padding: 16px;
-          text-align: center;
-          background-color: #f1f1f1;
-        }
-        /* Responsive columns - one column layout (vertical) on small screens */
-        @media screen and (max-width: 600px) {
-          .column {
-            width: 100%;
-            display: block;
-            margin-bottom: 20px;
-          }
+          width: 960px;
+          margin: 0 auto;
+          overflow: hidden;
         }
     </style>
 </head>
@@ -136,19 +129,22 @@
         </p>
 
         <div class="row">
-  <div class="column">
-    <div class="card">..</div>
-  </div>
-  <div class="column">
-    <div class="card">..</div>
-  </div>
-  <div class="column">
-    <div class="card">..</div>
-  </div>
-  <div class="column">
-    <div class="card">..</div>
-  </div>
-</div>
+            <div class="column grid_4"> </div>
+            <div class="column grid_4"> </div>
+            <div class="column grid_4"> </div>
+        </div>
+
+        <div class="row">
+          <div class="column grid_8"> </div>
+          <div class="column grid_4"> </div>
+        </div>
+                
+        <div class="row">
+          <div class="column grid_2"> </div>
+          <div class="column grid_4"> </div>
+          <div class="column grid_3"> </div>
+          <div class="column grid_3"> </div>
+        </div>
 
 
     </div>
