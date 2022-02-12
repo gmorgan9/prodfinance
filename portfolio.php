@@ -12,8 +12,8 @@
     <style>
         * { 
 	        margin: 0px; 
-	        padding: 0px;
-            box-sizing: border-box; 
+	        padding: 0px; 
+            box-sizing: border-box;
         }
         body {
 	        font-size: 120%;
@@ -69,7 +69,7 @@
         }
         /* Remove extra left and right margins, due to padding in columns */
         .row {
-            margin-right: auto;
+            margin: 0 -5px;
         }
         /* Clear floats after the columns */
         .row:after {
