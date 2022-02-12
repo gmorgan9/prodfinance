@@ -178,6 +178,32 @@ if (isset($_POST['reset_btn'])) {
 
 function resetPass()
 {
+
+	global $db, $username, $errors;
+
+	// grap form values
+	$username = e($_POST['username']);
+	$password = e($_POST['password']);
+
+	// make sure form is filled properly
+	if (empty($username)) {
+		array_push($errors, "Username is required");
+	}
+	if (empty($password)) {
+		array_push($errors, "Password is required");
+	}
+
+	// attempt login if no errors on form
+	if (count($errors) == 0) {
+		$password = md5($password);
+
+		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
+		$results = mysqli_query($db, $query);
+
+
+
+
+
 	// Define variables and initialize with empty values
 $new_password = $confirm_password = "";
 $new_password_err = $confirm_password_err = "";
