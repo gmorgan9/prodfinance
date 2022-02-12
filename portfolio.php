@@ -10,6 +10,10 @@
 	<!-- <link rel="stylesheet" href="styles.css"> -->
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
+
+        :root {
+            --primary-color: #557a95;
+        }
         * { 
 	        margin: 0px; 
 	        padding: 0px; 
@@ -38,7 +42,7 @@
             width: 40%;
 	        margin: 10px auto 0px;
             color: white;
-	        background: #8fbcbc;
+	        background: #004d99;
 	        text-align: center;
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
