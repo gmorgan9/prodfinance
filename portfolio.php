@@ -93,11 +93,11 @@
           height: 200px;
           border-radius: 10px 10px 10px 10px;
         }
-        .solid-line {
-            margin:0;
-            padding:0;
-            height: 10px;
-            background-color:blue;
+        .top-bar {
+            height: 20px;
+            background-size: cover;
+            background-position: 50%;
+            background-color: blue;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
@@ -159,28 +159,28 @@
         <div class="row">
   <div class="column">
     <div class="content">
-        <div class="solid-line"></div>
+        <div class="top-bar"></div>
       <h3>My Work[Box 1]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <div class="solid-line"></div>
+    <div class="top-bar"></div>
       <h3>My Work[Box 2]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <div class="solid-line"></div>
+    <div class="top-bar"></div>
       <h3>My Work[Box 3]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
-    <div class="solid-line"></div>
+    <div class="top-bar"></div>
       <h3>My Work[Box 4]</h3>
       <p>Lorem ipsum..</p>
     </div>
