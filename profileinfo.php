@@ -120,6 +120,16 @@
 			padding:2px;
 			border-radius: 5px;
 		} */
+		.btn {
+			padding: 10px;
+			font-size: 15px;
+			color: white;
+			background-color: var(--secondary-color);
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
