@@ -63,6 +63,7 @@
         /* Column KB Cards */
         .row {
             margin: 8px -16px;
+            width: auto;
         }
 
         /* Add padding BETWEEN each column (if you want) */
@@ -73,8 +74,8 @@
 
         /* Create four equal columns that floats next to each other */
         .column {
-          float: left;
-          width: 20%;
+            float: left;
+            width: 20%;
         }
 
         /* Clear floats after rows */
