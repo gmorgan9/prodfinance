@@ -45,7 +45,7 @@
         }
         .nav-list-link {
             cursor:pointer;
-            color:black;
+            color:white;
             text-decoration:none;
         }
     </style>
@@ -55,7 +55,7 @@
 		<h2>Home Page</h2>
 	
         
-        </div>
+        
 
         <?php if(isLoggedIn())
 		{
@@ -84,6 +84,7 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
                 </nav>
 		<?php } ?>
+        </div>
     <div class="main-content">
         <p>
             This is some random content!
