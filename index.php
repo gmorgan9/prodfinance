@@ -86,7 +86,7 @@
                 <div class="log-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
                 </div>
-        </nav>
+            </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
@@ -99,7 +99,7 @@
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
                 </div>
-                </nav>
+            </nav>
 		<?php } ?>
         </div>
     <div class="main-content">
