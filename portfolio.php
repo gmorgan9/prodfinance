@@ -91,6 +91,7 @@
           padding: 10px;
           text-align: center;
           height: 200px;
+          border-radius: 10px 10px 10px 10px;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
