@@ -167,3 +167,14 @@ function isAdmin()
 		return false;
 	}
 }
+
+
+// Reset Password
+
+// function resetPass()
+// {
+// 	// Define variables and initialize with empty values
+// $new_password = $confirm_password = "";
+// $new_password_err = $confirm_password_err = "";
+
+// }
