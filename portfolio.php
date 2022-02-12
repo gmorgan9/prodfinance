@@ -62,8 +62,8 @@
         }
         /* Column KB Cards */
         .row {
-            margin-left: 20%;
-            margin-right: 20%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
 
         /* Add padding BETWEEN each column (if you want) */
