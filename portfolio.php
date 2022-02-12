@@ -93,7 +93,7 @@
           border-radius: 10px 10px 10px 10px;
         }
         .top-bar {
-            height: 20px;
+            height: 30px;
             background-size: cover;
             background-position: 50%;
             background-color: #002e5d;
