@@ -35,13 +35,13 @@
         /* Navigation */
         .nav-header{
             width: 40%;
-	        margin: 0px auto 0px;
+	        margin: 10px auto 0px;
             color: white;
 	        background: #8fbcbc;
 	        text-align: center;
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
-	        border-radius: 0px 0px 10px 10px;
+	        border-radius: 10px 10px 10px 10px;
 	        padding: 20px;
         }
         .nav-list {
