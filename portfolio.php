@@ -86,7 +86,7 @@
 
         /* Content */
         .content {
-          background-color: #e0ebeb;
+          background-color: #eff5f5;
           padding: 10px;
           text-align: center;
         }
