@@ -86,7 +86,7 @@
 
         /* Content */
         .box {
-          border: 1px solid #B0C4DE;
+          border: 1px solid #002e5d;
           background-color: #eff5f5;
           text-align: center;
           height: 200px;
@@ -96,7 +96,7 @@
             height: 20px;
             background-size: cover;
             background-position: 50%;
-            background-color: blue;
+            background-color: #002e5d;
             border-radius: 10px 10px 0px 0px;
         }
         .content {
