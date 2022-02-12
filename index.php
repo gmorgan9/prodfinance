@@ -37,7 +37,7 @@
             width: 40%;
 	        margin: 0px auto 0px;
 	        color: white;
-	        background: #009296;
+	        background: #bfd9d9;
 	        text-align: center;
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
