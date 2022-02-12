@@ -68,14 +68,13 @@
         }
         /* Remove extra left and right margins, due to padding in columns */
         .row {
-            margin: 0 -5px;
+            margin: 0 -5px 0 5px;
         }
         /* Clear floats after the columns */
         .row:after {
           content: "";
           display: table;
           clear: both;
-          margin-left: 10px;
         }
         /* Style the counter cards */
         .card {
