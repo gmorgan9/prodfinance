@@ -93,6 +93,10 @@
           height: 200px;
           border-radius: 10px 10px 10px 10px;
         }
+        .solid-line {
+            height: 10px;
+            color:blue;
+        }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
@@ -153,24 +157,28 @@
         <div class="row">
   <div class="column">
     <div class="content">
+        <div class="solid-line"></div>
       <h3>My Work[Box 1]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
+    <div class="solid-line"></div>
       <h3>My Work[Box 2]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
+    <div class="solid-line"></div>
       <h3>My Work[Box 3]</h3>
       <p>Lorem ipsum..</p>
     </div>
   </div>
   <div class="column">
     <div class="content">
+    <div class="solid-line"></div>
       <h3>My Work[Box 4]</h3>
       <p>Lorem ipsum..</p>
     </div>
