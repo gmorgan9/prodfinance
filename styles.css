@@ -153,6 +153,9 @@ form, .content {
 .profile-user {
 	color: #888;
 }
+.content {
+	background-color: var(--primary-color);
+}
 
 /* Portfoilo */
 /* Column KB Cards */
