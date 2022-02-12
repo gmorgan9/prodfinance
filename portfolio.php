@@ -62,6 +62,7 @@
         }
         /* Column KB Cards */
         .row {
+            display: block;
             margin-left: auto;
             margin-right: auto;
         }
