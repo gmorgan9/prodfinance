@@ -32,6 +32,12 @@
 	        border-radius: 10px 10px 0px 0px;
 	        padding: 20px;
         }
+        .nav-list-item {
+            list-style-type:none;
+            display:inline;
+            margin-right:8px;
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -45,15 +51,15 @@
 		{
 		?>
       	    <nav class="nav-list" style="margin-top:10px;text-align:center;">
-                <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php">Home</a></li>
+                <li class="nav-list-item"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
-                <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="portfolio.php">Portfolio</a></li>
+                <li class="nav-list-item"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="portfolio.php">Portfolio</a></li>
                 | &nbsp;
-                <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="about.php">About</a></li>
+                <li class="nav-list-item"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
-                <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;margin-right:8px;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="profileinfo.php">Profile</a></li>
+                <li class="nav-list-item"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="profileinfo.php">Profile</a></li>
                 | &nbsp;
-                <li class="nav-list-item" style="list-style-type:none;display:inline;text-align:center;"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+                <li class="nav-list-item"><a style="cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list" style="margin-top:10px;text-align:center;">
