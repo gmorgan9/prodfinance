@@ -33,6 +33,17 @@
 	        padding: 20px;
         }
         /* Navigation */
+        .nav-header{
+            width: 40%;
+	        margin: 50px auto 0px;
+	        color: white;
+	        background: #5F9EA3;
+	        text-align: center;
+	        border: 1px solid #B0C4DE;
+	        border-bottom: none;
+	        border-radius: 10px 10px 0px 0px;
+	        padding: 20px;
+        }
         .nav-list {
             margin-top:10px;
             text-align:center;
@@ -45,7 +56,7 @@
         }
         .nav-list-link {
             cursor:pointer;
-            color:white;
+            color:black;
             text-decoration:none;
         }
     </style>
@@ -55,8 +66,9 @@
 		<h2>Home Page</h2>
 	
         
-        
+        </div>
 
+        <div class="nav-header">
         <?php if(isLoggedIn())
 		{
 		?>
