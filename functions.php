@@ -200,7 +200,7 @@ function resetPass(){
 		$password = md5($password_1);//encrypt the password before saving in the database
 		// $_SESSION['user'] = $logged_in_user;
 			// $query = "UPDATE users SET password = $password WHERE username = $username";
-			$query = "UPDATE users SET $password = ? WHERE $username = ?";
+			$query = "UPDATE users SET password = $password WHERE $username = ?";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: standardprofileinfo.php');
