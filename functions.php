@@ -178,7 +178,7 @@ if (isset($_POST['reset_btn'])) {
 
 function resetPass(){
 	// call these variables with the global keyword to make them available in function
-	global $db, $username $errors;
+	global $db, $username, $errors;
 
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
