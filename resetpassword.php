@@ -94,7 +94,6 @@
         <form method="post" action="resetpassword.php">
         <!-- <p>Please fill out this form to reset your password.</p> -->
 <?php echo display_error(); ?>
-        <p><?php echo "Hello, " . $_SESSION['user']['username'] . "! Please update your Password!"; ?></p>
 	<div class="input-group">
 		<label>Password</label>
 		<input type="password" name="password_1">
