@@ -62,6 +62,7 @@ if (isLoggedIN()) {
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
+			text-decoration: none;
 		}
 		#user_type {
 			height: 40px;

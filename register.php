@@ -55,6 +55,7 @@ if (isLoggedIN()) {
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
+			text-decoration: none;
 		}
 		.input-group input {
 			height: 30px;
