@@ -55,6 +55,45 @@ body {
 	text-decoration:none;
 }
 
+/* Profile Info Page */
+.profile_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	/* float: left; */
+}
+.profile_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+.profile_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.logout-btn {
+	cursor:pointer;
+	color: #ff3860;
+	border: 1px solid #ff3860;
+	padding:2px;
+	border-radius: 5px;
+}
+.main-btn {
+	cursor:pointer;
+	margin-left:5px;
+	color: #498afb;
+	border: 1px solid #498afb;
+	padding:2px;
+	border-radius: 5px;
+}
+.profile-user {
+	color: #888;
+}
+.content {
+	background-color: var(--primary-color);
+}
+
 /* Login Page */
 form, .content {
 	width: 40%;
@@ -116,45 +155,6 @@ form, .content {
 	background: #dff0d8; 
 	border: 1px solid #3c763d;
 	margin-bottom: 20px;
-}
-
-/* Profile Info Page */
-.profile_info img {
-	display: inline-block; 
-	width: 50px; 
-	height: 50px; 
-	margin: 5px;
-	/* float: left; */
-}
-.profile_info div {
-	display: inline-block; 
-	margin: 5px;
-}
-.profile_info:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-.logout-btn {
-	cursor:pointer;
-	color: #ff3860;
-	border: 1px solid #ff3860;
-	padding:2px;
-	border-radius: 5px;
-}
-.main-btn {
-	cursor:pointer;
-	margin-left:5px;
-	color: #498afb;
-	border: 1px solid #498afb;
-	padding:2px;
-	border-radius: 5px;
-}
-.profile-user {
-	color: #888;
-}
-.content {
-	background-color: var(--primary-color);
 }
 
 /* Portfoilo */
