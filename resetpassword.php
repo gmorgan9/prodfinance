@@ -171,7 +171,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		<input type="password" name="newpassword_2">
 	</div>
 	<div class="input-group">
-		<button type="submit" class="btn" name="reset_btn">Reset Password</button>
+		<button type="Submit" class="btn" name="reset_btn">Reset Password</button>
         <a href="standardprofileinfo.php" name="btn" class="btn">←Back</a>
 	</div>
 </form>   
