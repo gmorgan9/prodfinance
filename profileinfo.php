@@ -10,8 +10,34 @@
 <html>
 <head>
 	<title>Profile Info</title>
-	<link rel="stylesheet" href="styles.css">
 	<style>
+		:root {
+			--primary-color: #002E5D;
+			--secondary-color: #002f5dc7;
+		}
+		* { 
+			margin: 0px; 
+			padding: 0px; 
+			box-sizing: border-box;
+		}
+		body {
+			font-size: 120%;
+			background: #F8F8FF;
+		} 
+		.main-content p {
+			margin-left: 35px;
+		}
+		.header {
+			width: 40%;
+			margin: 50px auto 0px;
+			color: white;
+			background: #002e5d;
+			text-align: center;
+			border: 1px solid #B0C4DE;
+			border-bottom: none;
+			border-radius: 10px 10px 0px 0px;
+			padding: 20px;
+		}
 		form, .content {
 			width: 40%;
 			margin: 0px auto;
@@ -83,15 +109,15 @@
 			border: 1px solid #ff3860;
 			padding:2px;
 			border-radius: 5px;
-}
-.main-btn {
-	cursor:pointer;
-	margin-left:5px;
-	color: #498afb;
-	border: 1px solid #498afb;
-	padding:2px;
-	border-radius: 5px;
-}
+		}
+		.main-btn {
+			cursor:pointer;
+			margin-left:5px;
+			color: #498afb;
+			border: 1px solid #498afb;
+			padding:2px;
+			border-radius: 5px;
+		}
 	</style>
 </head>
 <body>
