@@ -96,11 +96,11 @@
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Password</label>
-		<input type="password" name="password_1">
+		<input type="password" name="newpassword_1">
 	</div>
 	<div class="input-group">
 		<label>Confirm password</label>
-		<input type="password" name="password_2">
+		<input type="password" name="newpassword_2">
 	</div>
 	<div class="input-group">
 		<button type="submit" class="btn" name="reset_btn">Reset Password</button>

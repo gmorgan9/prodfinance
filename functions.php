@@ -182,20 +182,20 @@ function resetPass(){
 
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
-	$password_1 = e($_POST['password_1']);
-	$password_2 = e($_POST['password_2']);
+	$password_1 = e($_POST['newpassword_1']);
+	$password_2 = e($_POST['newpassword_2']);
 
 	// form validation: ensure that the form is correctly filled
-	if (empty($password_1)) { 
+	if (empty($newpassword_1)) { 
 		array_push($errors, "Password is required"); 
 	}
-	if ($password_1 != $password_2) {
+	if ($newpassword_1 != $newpassword_2) {
 		array_push($errors, "The two passwords do not match");
 	}
 
 	// register user if there are no errors in the form
 	if (count($errors) == 0) {
-		$password = md5($password_1);//encrypt the password before saving in the database
+		$password = md5($newpassword_1);//encrypt the password before saving in the database
 		$username = $_SESSION['user'];
 
 			$sql = "UPDATE users SET password = '$password' WHERE username = '$username'";
