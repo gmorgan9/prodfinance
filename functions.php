@@ -178,7 +178,7 @@ if (isset($_POST['reset_btn'])) {
 
 function resetPass(){
 	// call these variables with the global keyword to make them available in function
-	global $db, $errors, $username, $email;
+	global $db, $errors;
 
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
@@ -201,7 +201,7 @@ function resetPass(){
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated!!";
 			header('location: standardprofileinfo.php');
-			
+
 			// get id of the created user
 			$logged_in_user_id = mysqli_insert_id($db);
 
