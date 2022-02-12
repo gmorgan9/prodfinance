@@ -105,7 +105,7 @@
 			display: block;
 			clear: both;
 		}
-		.logout-btn {
+		/* .logout-btn {
 			cursor:pointer;
 			color: var(--logout-btn);
 			border: 1px solid var(--logout-btn);
@@ -119,7 +119,7 @@
 			border: 1px solid var(--main-btn);
 			padding:2px;
 			border-radius: 5px;
-		}
+		} */
 	</style>
 </head>
 <body>
