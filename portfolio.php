@@ -86,6 +86,7 @@
 
         /* Content */
         .content {
+          border: 1px solid #B0C4DE;
           background-color: #eff5f5;
           padding: 10px;
           text-align: center;
