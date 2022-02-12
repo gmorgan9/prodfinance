@@ -94,6 +94,8 @@
           border-radius: 10px 10px 10px 10px;
         }
         .solid-line {
+            margin:0;
+            padding:0;
             height: 10px;
             background-color:blue;
         }
