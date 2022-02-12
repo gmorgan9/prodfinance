@@ -201,7 +201,7 @@ function resetPass(){
 		// $_SESSION['user'] = $logged_in_user;
 		$_SESSION['user'] = getUserById($logged_in_user_id);
 			// $query = "UPDATE users SET password = $password WHERE username = $username";
-			$query = "UPDATE users SET password = $password WHERE id = ?";
+			$query = "UPDATE users SET password = $password WHERE username = ?";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: standardprofileinfo.php');
