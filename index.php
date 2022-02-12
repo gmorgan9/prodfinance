@@ -83,7 +83,6 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-                | &nbsp;
                 <div class="log-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
                 </div>
@@ -95,7 +94,6 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-                | &nbsp;
                 <div class="log-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
