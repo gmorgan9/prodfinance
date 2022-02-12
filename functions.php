@@ -181,7 +181,7 @@ function resetPass(){
 	global $db, $username, $errors;
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
-	$username    =  e($_POST['username']);
+	$username    =  e($_SESSION['username']);
 	$password_1 = e($_POST['password_1']);
 	$password_2 = e($_POST['password_2']);
 
