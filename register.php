@@ -116,7 +116,7 @@ if (isLoggedIN()) {
 	</div>
 	<div class="input-group">
 		<button type="submit" class="btn" name="register_btn">Register</button>
-		<a href="index.php" name="btn" class="btn">←Back</a>
+		<a href="index.php" name="btn" class="btn">Back</a>
 	</div>
 	<p>
 		Already a member? <a href="login.php">Sign in</a>
