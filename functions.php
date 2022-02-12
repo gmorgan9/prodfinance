@@ -182,8 +182,8 @@ function resetPass(){
 
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
-	$password_1  =  e($_POST['password_1']);
-	$password_2  =  e($_POST['password_2']);
+	$password_1 = e($_POST['password_1']);
+	$password_2 = e($_POST['password_2']);
 
 	// form validation: ensure that the form is correctly filled
 	if (empty($password_1)) { 
@@ -203,10 +203,10 @@ function resetPass(){
 			header('location: standardprofileinfo.php');
 
 			// get id of the created user
-			$logged_in_user_id = mysqli_insert_id($db);
+			// $logged_in_user_id = mysqli_insert_id($db);
 
-			$_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
-			$_SESSION['success']  = "You are now logged in";
+			// $_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
+			// $_SESSION['success']  = "You are now logged in";
 			header('location: standardprofileinfo.php');				
 		}
 	}
