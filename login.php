@@ -14,15 +14,15 @@ if (isLoggedIN()) {
 			--primary-color: #002E5D;
 			--secondary-color: #002f5dc7;
 		}
-		* { 
-			margin: 0px; 
-			padding: 0px; 
-			box-sizing: border-box;
-		}
-		body {
-			font-size: 120%;
-			background: #F8F8FF;
-		} 
+        * { 
+	        margin: 0px; 
+	        padding: 0px; 
+            box-sizing: border-box;
+        }
+        body {
+	        font-size: 120%;
+	        background: #F8F8FF;
+        }  
 		.main-content p {
 			margin-left: 35px;
 		}
