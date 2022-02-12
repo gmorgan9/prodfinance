@@ -79,7 +79,7 @@ include('functions.php');
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="header">
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>
 
