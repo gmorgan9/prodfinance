@@ -87,7 +87,7 @@
         /* Content */
         .box {
           border: 1px solid #002e5d;
-          background-color: #eff5f5;
+          background-color: #F8F8FF;
           text-align: center;
           height: 200px;
           border-radius: 10px 10px 10px 10px;
