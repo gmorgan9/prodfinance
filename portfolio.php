@@ -97,6 +97,7 @@
             background-size: cover;
             background-position: 50%;
             background-color: blue;
+            border-radius: 10px 10px 0px 0px;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
