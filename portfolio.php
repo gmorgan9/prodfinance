@@ -139,7 +139,7 @@
             <div class="column grid_4"> .. </div>
         </div>
                 
-        <   iv class="row">
+        <div class="row">
             <div class="column grid_2"> .. </div>
             <div class="column grid_4"> .. </div>
             <div class="column grid_3"> .. </div>
