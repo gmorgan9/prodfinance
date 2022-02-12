@@ -73,7 +73,7 @@
 
         /* Create four equal columns that floats next to each other */
         .column {
-          /* float: left; */
+          float: left;
           width: 20%;
         }
 
@@ -88,6 +88,7 @@
         .content {
           background-color: white;
           padding: 10px;
+          text-align: center;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
