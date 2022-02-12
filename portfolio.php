@@ -61,23 +61,48 @@
             text-decoration:none;
         }
         /* Column KB Cards */
-        .grid_1 { width:60px; }
-        .grid_2 { width:140px; }
-        .grid_3 { width:220px; }
-        .grid_4 { width:300px; }
-        .grid_5 { width:380px; }
-
-        .column {
-          float: left;
-          margin: 0 10px;
-          overflow: hidden;
-          display: inline;
-        }
         .row {
-          width: 960px;
-          margin: 0 auto;
-          overflow: hidden;
-        }
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
     </style>
 </head>
 <body>
@@ -122,22 +147,31 @@
         </p>
 
         <div class="row">
-            <div class="column grid_4"> .4. </div>
-            <div class="column grid_4"> .4. </div>
-            <div class="column grid_4"> .4. </div>
-        </div>
-
-        <div class="row">
-            <div class="column grid_8"> .8. </div>
-            <div class="column grid_4"> .4. </div>
-        </div>
-                
-        <div class="row">
-            <div class="column grid_2"> .2. </div>
-            <div class="column grid_4"> .4. </div>
-            <div class="column grid_3"> .3. </div>
-            <div class="column grid_3"> .3. </div>
-        </div>
+  <div class="column">
+    <div class="content">
+      <h3>My Work[Box 1]</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My Work[Box 2]</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My Work[Box 3]</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My Work[Box 4]</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+</div>
 
 
     </div>
