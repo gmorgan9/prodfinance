@@ -66,13 +66,6 @@
         .grid_3 { width:220px; }
         .grid_4 { width:300px; }
         .grid_5 { width:380px; }
-        .grid_6 { width:460px; }
-        .grid_7 { width:540px; }
-        .grid_8 { width:620px; }
-        .grid_9 { width:700px; }
-        .grid_10 { width:780px; }
-        .grid_11 { width:860px; }
-        .grid_12 { width:940px; }
 
         .column {
           float: left;
