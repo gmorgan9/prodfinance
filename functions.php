@@ -180,17 +180,8 @@ function resetPass(){
 	// call these variables with the global keyword to make them available in function
 	global $db, $username, $errors;
 
-
-	// $query = "SELECT * FROM users WHERE id=" . $id;
-	// $result = mysqli_query($db, $query);
-	// $user = mysqli_fetch_assoc($result);
-
-	getUserById($id);
-
-
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
-	$username    =  e($_SESSION['username']);
 	$password_1 = e($_POST['password_1']);
 	$password_2 = e($_POST['password_2']);
 
@@ -206,19 +197,9 @@ function resetPass(){
 	if (count($errors) == 0) {
 		$password = md5($password_1);//encrypt the password before saving in the database
 
-		
-		
-			// $query = "UPDATE users SET password = $password WHERE username = $username";
-			$query = "UPDATE users SET password = '$password' WHERE $id = ?";
+			$query = "UPDATE users SET password = '$password' WHERE username = ?";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
-			header('location: standardprofileinfo.php');
-
-			// get id of the created user
-			// $logged_in_user_id = mysqli_insert_id($db);
-
-			// $_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
-			// $_SESSION['success']  = "You are now logged in";
-			// header('location: standardprofileinfo.php');				
+			header('location: standardprofileinfo.php');		
 		}
 	}
