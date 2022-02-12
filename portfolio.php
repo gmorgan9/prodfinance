@@ -75,6 +75,7 @@
           content: "";
           display: table;
           clear: both;
+          margin-left: 10px;
         }
         /* Style the counter cards */
         .card {
