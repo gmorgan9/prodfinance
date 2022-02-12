@@ -7,9 +7,7 @@ session_start();
 //     header("location: login.php");
 //     exit;
 // }
- 
-// Include config file
-require_once "config.php";
+$db = mysqli_connect('localhost', 'gwm', 'gwmpass', 'multi_login');
  
 // Define variables and initialize with empty values
 $new_password = $confirm_password = "";
