@@ -182,7 +182,6 @@ function resetPass(){
 
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
-	$username   = e($_POST['username']);
 	$password_1 = e($_POST['password_1']);
 	$password_2 = e($_POST['password_2']);
 
@@ -198,7 +197,7 @@ function resetPass(){
 	if (count($errors) == 0) {
 		$password = md5($password_1);//encrypt the password before saving in the database
 
-			$query = "UPDATE users SET password = ? WHERE username = $username";
+			$query = "UPDATE users SET password = ? WHERE username = $_SESSION['username']";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: standardprofileinfo.php');
