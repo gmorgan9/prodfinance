@@ -86,7 +86,7 @@
 
         /* Content */
         .box {
-          border: 1px solid #002e5d;
+          /* border: 1px solid #002e5d; */
           background-color: #fff;
           text-align: center;
           height: 200px;
