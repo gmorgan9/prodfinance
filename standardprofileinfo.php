@@ -140,6 +140,7 @@
 						<?php }else{ ?>
 							<a href="index.php?logout='1'"><button style="cursor:pointer;color: #ff3860;border: 1px solid #ff3860;padding:2px;border-radius: 5px;">Logout</button></a>
 							<a href="index.php"><button style="cursor:pointer;margin-left:5px;color: #498afb;border: 1px solid #498afb;padding:2px;border-radius: 5px;">Home</button></a>
+							<a href="resetpassword.php"><button style="cursor:pointer;margin-left:5px;color: #498afb;border: 1px solid #498afb;padding:2px;border-radius: 5px;">Reset Password</button></a>
 						<?php } ?>
 					</small>
 				<?php endif ?>

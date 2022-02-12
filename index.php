@@ -37,7 +37,6 @@
 <body>
 	<div class="header">
 		<h2>Home Page</h2>
-        <h4><?php echo "Welcome, " . $_SESSION['user']['username'] . "!" ?></h4>
 	</div>
 
         <?php if(isLoggedIn())
