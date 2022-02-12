@@ -65,7 +65,7 @@ if (isLoggedIN()) {
 			padding: 10px;
 			font-size: 15px;
 			color: white;
-			background-color: var(--secondary-color: #002f5dc7);
+			background-color: var(--secondary-color);
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
