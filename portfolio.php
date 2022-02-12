@@ -95,7 +95,7 @@
         }
         .solid-line {
             height: 10px;
-            color:blue;
+            background-color:blue;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
