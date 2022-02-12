@@ -8,6 +8,10 @@
 		:root {
 			--primary-color: #002E5D;
 			--secondary-color: #002f5dc7;
+			--red-background: #f2dede;
+			--red-text: #a94442;
+			--green-text: #3c763d;
+			--green-background: #dff0d8;
 		}
         * { 
 	        margin: 0px; 
@@ -17,12 +21,15 @@
         body {
 	        font-size: 120%;
 	        background: #F8F8FF;
-        } 
+        }  
+		.main-content p {
+			margin-left: 35px;
+		}
 		.header {
 			width: 40%;
 			margin: 50px auto 0px;
 			color: white;
-			background: #5F9EA0;
+			background-color: var(--primary-color);
 			text-align: center;
 			border: 1px solid #B0C4DE;
 			border-bottom: none;
@@ -53,15 +60,15 @@
 			border-radius: 5px;
 			border: 1px solid gray;
 		}
-        .btn {
+		.btn {
 			padding: 10px;
 			font-size: 15px;
 			color: white;
-			background: #5F9EA0;
+			background-color: var(--secondary-color);
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
-            text-decoration: none;
+			text-decoration: none;
 		}
 		#user_type {
 			height: 40px;
@@ -76,16 +83,16 @@
 			width: 92%; 
 			margin: 0px auto; 
 			padding: 10px; 
-			border: 1px solid #a94442; 
-			color: #a94442; 
-			background: #f2dede; 
+			border: 1px solid var(--red-text); 
+			color: var(--red-text); 
+			background: var(--red-background); 
 			border-radius: 5px; 
 			text-align: left;
 		}
 		.success {
-			color: #3c763d; 
-			background: #dff0d8; 
-			border: 1px solid #3c763d;
+			color: var(--green-text); 
+			background: var(--green-background); 
+			border: 1px solid var(--green-text);
 			margin-bottom: 20px;
 		}
     </style>
