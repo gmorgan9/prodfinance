@@ -185,8 +185,7 @@ function resetPass(){
 	// $result = mysqli_query($db, $query);
 	// $user = mysqli_fetch_assoc($result);
 
-	$_SESSION['user'] = getUserById($logged_in_user_id);
-	$user = $_SESSION['user'];
+	getUserById($id)
 
 
 	// receive all input values from the form. Call the e() function
@@ -210,7 +209,7 @@ function resetPass(){
 		
 		
 			// $query = "UPDATE users SET password = $password WHERE username = $username";
-			$query = "UPDATE users SET password = '$password' WHERE $user = ?";
+			$query = "UPDATE users SET password = '$password' WHERE $id = ?";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: standardprofileinfo.php');
