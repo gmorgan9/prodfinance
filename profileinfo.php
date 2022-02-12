@@ -11,26 +11,7 @@
 <head>
 	<title>Profile Info</title>
 	<link rel="stylesheet" href="styles.css">
-	<!-- <style>
-		* { 
-	        margin: 0px; 
-	        padding: 0px; 
-        }
-        body {
-	        font-size: 120%;
-	        background: #F8F8FF;
-        }
-		.header {
-			width: 40%;
-			margin: 50px auto 0px;
-			color: white;
-			background: #5F9EA0;
-			text-align: center;
-			border: 1px solid #B0C4DE;
-			border-bottom: none;
-			border-radius: 10px 10px 0px 0px;
-			padding: 20px;
-		}
+	<style>
 		form, .content {
 			width: 40%;
 			margin: 0px auto;
@@ -96,7 +77,7 @@
 			display: block;
 			clear: both;
 		}
-	</style> -->
+	</style>
 </head>
 <body>
 	<div class="header">
