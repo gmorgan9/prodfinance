@@ -38,7 +38,6 @@
 	        margin: 10px auto 0px;
             color: white;
 	        background: #8fbcbc;
-	        text-align: center;
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
 	        border-radius: 10px 10px 10px 10px;
@@ -46,18 +45,19 @@
         }
         .nav-list {
             margin-top:10px;
-            text-align:center;
         }
         .nav-list-item {
             list-style-type:none;
             display:inline;
             margin-right:8px;
-            text-align:center;
         }
         .nav-list-link {
             cursor:pointer;
             color:white;
             text-decoration:none;
+        }
+        .nav-set {
+            float: left;
         }
         .log-set {
             float: right;
@@ -76,6 +76,7 @@
 		{
 		?>
       	    <nav class="nav-list">
+                <div class="nav-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
@@ -83,17 +84,20 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+                </div>
                 <div class="log-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
                 </div>
             </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
+                <div class="nav-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+                </div>
                 <div class="log-set">
                 <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
