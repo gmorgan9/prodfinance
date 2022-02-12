@@ -87,17 +87,17 @@
         /* Content */
         .box {
           border: 1px solid #002e5d;
-          background-color: #F8F8FF;
+          background-color: #fff;
           text-align: center;
           height: 200px;
-          border-radius: 10px 10px 10px 10px;
+          /* border-radius: 10px 10px 10px 10px; */
         }
         .top-bar {
             height: 30px;
             background-size: cover;
             background-position: 50%;
             background-color: #002e5d;
-            border-radius: 10px 10px 0px 0px;
+            /* border-radius: 10px 10px 0px 0px; */
         }
         .content {
             padding: 10px;
