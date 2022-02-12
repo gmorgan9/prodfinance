@@ -129,21 +129,21 @@
         </p>
 
         <div class="row">
-            <div class="column grid_4"> .. </div>
-            <div class="column grid_4"> .. </div>
-            <div class="column grid_4"> .. </div>
+            <div class="column grid_4"> .4. </div>
+            <div class="column grid_4"> .4. </div>
+            <div class="column grid_4"> .4. </div>
         </div>
 
         <div class="row">
-            <div class="column grid_8"> .. </div>
-            <div class="column grid_4"> .. </div>
+            <div class="column grid_8"> .8. </div>
+            <div class="column grid_4"> .4. </div>
         </div>
                 
         <div class="row">
-            <div class="column grid_2"> .. </div>
-            <div class="column grid_4"> .. </div>
-            <div class="column grid_3"> .. </div>
-            <div class="column grid_3"> .. </div>
+            <div class="column grid_2"> .2. </div>
+            <div class="column grid_4"> .4. </div>
+            <div class="column grid_3"> .3. </div>
+            <div class="column grid_3"> .3. </div>
         </div>
 
 
