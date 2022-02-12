@@ -42,7 +42,7 @@
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
 	        border-radius: 10px 10px 10px 10px;
-	        padding: 5px 5px 5px 5px;
+	        padding: 10px 5px 10px 5px;
         }
         .nav-list {
             margin-top:10px;
