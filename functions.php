@@ -181,9 +181,12 @@ function resetPass(){
 	global $db, $username, $errors;
 
 
-	$query = "SELECT * FROM users WHERE id=" . $id;
-	$result = mysqli_query($db, $query);
-	$user = mysqli_fetch_assoc($result);
+	// $query = "SELECT * FROM users WHERE id=" . $id;
+	// $result = mysqli_query($db, $query);
+	// $user = mysqli_fetch_assoc($result);
+
+	$_SESSION['user'] = getUserById($logged_in_user_id);
+	$user = $_SESSION['user'];
 
 
 	// receive all input values from the form. Call the e() function
