@@ -171,7 +171,7 @@ function isAdmin()
 
 
 if (isset($_POST['reset_btn'])) {
-	login();
+	resetPass();
 }
 
 // Reset Password
