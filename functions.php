@@ -200,6 +200,7 @@ function resetPass(){
 		$password = md5($password_1);//encrypt the password before saving in the database
 		// $_SESSION['user'] = $logged_in_user;
 		$logged_in_user_id = mysqli_insert_id($db);
+		$_SESSION['user'] = getUserById($logged_in_user_id);
 			// $query = "UPDATE users SET password = $password WHERE username = $username";
 			$query = "UPDATE users SET password = $password WHERE $logged_in_user_id = ?";
 			mysqli_query($db, $query);
@@ -207,7 +208,7 @@ function resetPass(){
 			header('location: standardprofileinfo.php');
 
 			// get id of the created user
-			$logged_in_user_id = mysqli_insert_id($db);
+			// $logged_in_user_id = mysqli_insert_id($db);
 
 			// $_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
 			// $_SESSION['success']  = "You are now logged in";
