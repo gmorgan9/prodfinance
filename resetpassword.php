@@ -85,7 +85,7 @@ include('functions.php');
     </div>
     
         <form method="post" action="resetpassword.php">
-        <p>Please fill out this form to reset your password.</p>
+        <!-- <p>Please fill out this form to reset your password.</p> -->
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Password</label>
