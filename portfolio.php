@@ -90,7 +90,7 @@
           background-color: #eff5f5;
           padding: 10px;
           text-align: center;
-          height: 20%;
+          height: 30px;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
