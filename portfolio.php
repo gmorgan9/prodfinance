@@ -88,7 +88,6 @@
         .content {
           border: 1px solid #B0C4DE;
           background-color: #eff5f5;
-          padding: 10px;
           text-align: center;
           height: 200px;
           border-radius: 10px 10px 10px 10px;
