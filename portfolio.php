@@ -158,9 +158,8 @@
 
         <div class="row">
   <div class="column">
-  <div class="top-bar"></div>
     <div class="content">
-        
+    <div class="top-bar"></div>
       <h3>My Work[Box 1]</h3>
       <p>Lorem ipsum..</p>
     </div>
