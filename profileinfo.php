@@ -121,8 +121,7 @@
 			border-radius: 5px;
 		} */
 		.btn {
-			padding: 10px;
-			font-size: 15px;
+			padding: 5px;
 			color: white;
 			background-color: var(--secondary-color);
 			border: none;
