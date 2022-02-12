@@ -85,7 +85,7 @@
         }
 
         /* Content */
-        .content {
+        .box {
           border: 1px solid #B0C4DE;
           background-color: #eff5f5;
           text-align: center;
@@ -98,6 +98,9 @@
             background-position: 50%;
             background-color: blue;
             border-radius: 10px 10px 0px 0px;
+        }
+        .content {
+            padding: 10px;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
@@ -158,31 +161,39 @@
 
         <div class="row">
   <div class="column">
-    <div class="content">
+    <div class="box">
     <div class="top-bar"></div>
+    <div class="content">
       <h3>My Work[Box 1]</h3>
       <p>Lorem ipsum..</p>
+      </div>
     </div>
   </div>
   <div class="column">
-    <div class="content">
+    <div class="box">
     <div class="top-bar"></div>
+    <div class="content">
       <h3>My Work[Box 2]</h3>
       <p>Lorem ipsum..</p>
+      </div>
     </div>
   </div>
   <div class="column">
-    <div class="content">
+    <div class="box">
     <div class="top-bar"></div>
+    <div class="content">
       <h3>My Work[Box 3]</h3>
       <p>Lorem ipsum..</p>
+      </div>
     </div>
   </div>
   <div class="column">
-    <div class="content">
+    <div class="box">
     <div class="top-bar"></div>
+    <div class="content">
       <h3>My Work[Box 4]</h3>
       <p>Lorem ipsum..</p>
+      </div>
     </div>
   </div>
 </div>
