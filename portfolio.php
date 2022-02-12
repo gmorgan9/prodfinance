@@ -74,7 +74,7 @@
         /* Create four equal columns that floats next to each other */
         .column {
             float: left;
-            width: 20%;
+            width: 30%;
         }
 
         /* Clear floats after rows */
