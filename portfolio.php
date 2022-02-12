@@ -75,6 +75,7 @@
         .column {
             float: left;
             width: 30%;
+            height: 50%;
         }
 
         /* Clear floats after rows */
