@@ -35,7 +35,7 @@
         /* Navigation */
         .nav-header{
             width: 40%;
-	        margin: 50px auto 0px;
+	        /* margin: 50px auto 0px; */
 	        color: white;
 	        background: #5F9EA3;
 	        text-align: center;
