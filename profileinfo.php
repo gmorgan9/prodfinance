@@ -77,6 +77,21 @@
 			display: block;
 			clear: both;
 		}
+		.logout-btn {
+			cursor:pointer;
+			color: #ff3860;
+			border: 1px solid #ff3860;
+			padding:2px;
+			border-radius: 5px;
+}
+.main-btn {
+	cursor:pointer;
+	margin-left:5px;
+	color: #498afb;
+	border: 1px solid #498afb;
+	padding:2px;
+	border-radius: 5px;
+}
 	</style>
 </head>
 <body>
