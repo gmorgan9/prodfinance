@@ -59,9 +59,6 @@
             color:white;
             text-decoration:none;
         }
-        .log-set {
-            float: right;
-        }
     </style>
 </head>
 <body>
@@ -83,10 +80,9 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-                <div class="log-set">
+                | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-                </div>
-            </nav>
+        </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
@@ -94,12 +90,11 @@
                 <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-                <div class="log-set">
+                | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
-                </div>
-            </nav>
+                </nav>
 		<?php } ?>
         </div>
     <div class="main-content">
