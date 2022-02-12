@@ -37,7 +37,7 @@
 <body>
 	<div class="header">
 		<h2>Home Page</h2>
-	</div>
+	
 
         <?php if(isLoggedIn())
 		{
@@ -67,7 +67,7 @@
                 </nav>
 		<?php } ?>
         
-
+        </div>
     <div class="main-content">
         <p>
             This is some random content!
