@@ -210,4 +210,3 @@ function resetPass(){
 			header('location: standardprofileinfo.php');				
 		}
 	}
-}
