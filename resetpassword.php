@@ -82,7 +82,7 @@ include('functions.php');
     <div class="header">
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>
-
+    </div>
         <form method="post" action="resetpassword.php">
 <?php echo display_error(); ?>
 	<div class="input-group">
@@ -96,7 +96,6 @@ include('functions.php');
 	<div class="input-group">
 		<button type="submit" class="btn" name="reset_btn">Reset Password</button>
 	</div>
-</form>
-    </div>    
+</form>   
 </body>
 </html>
