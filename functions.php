@@ -170,88 +170,44 @@ function isAdmin()
 
 
 
-// if (isset($_POST['reset_btn'])) {
-// 	resetPass();
-// }
 
-// // Reset Password
+// call the register() function if register_btn is clicked
+if (isset($_POST['reset_btn'])) {
+	resetPass();
+}
 
-// function resetPass()
-// {
+function resetPass(){
+	// call these variables with the global keyword to make them available in function
+	global $db, $errors, $username, $email;
 
-// 	global $db, $username, $errors;
+	// receive all input values from the form. Call the e() function
+    // defined below to escape form values
+	$password_1  =  e($_POST['password_1']);
+	$password_2  =  e($_POST['password_2']);
 
-// 	// grap form values
-// 	$username = e($_POST['username']);
-// 	$password = e($_POST['password']);
+	// form validation: ensure that the form is correctly filled
+	if (empty($password_1)) { 
+		array_push($errors, "Password is required"); 
+	}
+	if ($password_1 != $password_2) {
+		array_push($errors, "The two passwords do not match");
+	}
 
-// 	// make sure form is filled properly
-// 	if (empty($username)) {
-// 		array_push($errors, "Username is required");
-// 	}
-// 	if (empty($password)) {
-// 		array_push($errors, "Password is required");
-// 	}
+	// register user if there are no errors in the form
+	if (count($errors) == 0) {
+		$password = md5($password_1);//encrypt the password before saving in the database
 
-// 	// attempt login if no errors on form
-// 	if (count($errors) == 0) {
-// 		$password = md5($password);
+			$query = "UPDATE users SET password = ? WHERE id = ?";
+			mysqli_query($db, $query);
+			$_SESSION['success']  = "Password successfully updated!!";
+			header('location: standardprofileinfo.php');
+			
+			// get id of the created user
+			$logged_in_user_id = mysqli_insert_id($db);
 
-// 		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
-// 		$results = mysqli_query($db, $query);
-
-
-
-
-
-// 	// Define variables and initialize with empty values
-// $new_password = $confirm_password = "";
-// $new_password_err = $confirm_password_err = "";
-
-// if (count($errors) == 0) {
-// 	if(empty(trim($_POST["new_password"]))){
-//         $new_password_err = "Please enter the new password.";     
-//     } elseif(strlen(trim($_POST["new_password"])) < 6){
-//         $new_password_err = "Password must have atleast 6 characters.";
-//     } else{
-//         $new_password = trim($_POST["new_password"]);
-//     }
-
-// 	// Validate confirm password
-//     if(empty(trim($_POST["confirm_password"]))){
-//         $confirm_password_err = "Please confirm the password.";
-//     } else{
-//         $confirm_password = trim($_POST["confirm_password"]);
-//         if(empty($new_password_err) && ($new_password != $confirm_password)){
-//             $confirm_password_err = "Password did not match.";
-//         }
-//     }
-
-// 	// Check input errors before updating the database
-//     if(empty($new_password_err) && empty($confirm_password_err)){
-//         // Prepare an update statement
-//         $sql = "UPDATE users SET password = ? WHERE id = ?";
-        
-//         if($stmt = $mysqli->prepare($sql)){
-//             // Bind variables to the prepared statement as parameters
-//             $stmt->bind_param("si", $param_password, $param_id);
-            
-//             // Set parameters
-//             $param_password = password_hash($new_password, PASSWORD_DEFAULT);
-//             $param_id = $_SESSION["id"];
-            
-//             // Attempt to execute the prepared statement
-//             if($stmt->execute()){
-//                 // Password updated successfully. Destroy the session, and redirect to login page
-//                 session_destroy();
-//                 header("location: login.php");
-//                 exit();
-//             } else{
-//                 echo "Oops! Something went wrong. Please try again later.";
-//             }
-// 			// Close statement
-//             $stmt->close();
-// 		}
-// 	}
-// }
-// }
+			$_SESSION['user'] = getUserById($logged_in_user_id); // put logged in user in session
+			$_SESSION['success']  = "You are now logged in";
+			header('location: standardprofileinfo.php');				
+		}
+	}
+}
