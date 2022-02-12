@@ -167,14 +167,14 @@
 						<?php if(isAdmin())
 						{
 						?>
-      						<a href="index.php?logout='1'"><button class="logout-btn">Logout</button></a>
-							<a href="index.php"><button class="main-btn">Home</button></a>
-							<a href="create_user.php"><button class="main-btn">Add User</button></a>
-							<a href="resetpassword.php"><button class="main-btn">Reset Password</button></a>
+      						<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
+							<a href="index.php"><button class="btn">Home</button></a>
+							<a href="create_user.php"><button class="btn">Add User</button></a>
+							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
 						<?php }else{ ?>
-							<a href="index.php?logout='1'"><button class="logout-btn">Logout</button></a>
-							<a href="index.php"><button class="main-btn">Home</button></a>
-							<a href="resetpassword.php"><button class="main-btn">Reset Password</button></a>
+							<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
+							<a href="index.php"><button class="btn">Home</button></a>
+							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
 						<?php } ?>
 					</small>
 				<?php endif ?>
