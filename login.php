@@ -30,7 +30,7 @@ if (isLoggedIN()) {
 			width: 40%;
 			margin: 50px auto 0px;
 			color: white;
-			background: #002e5d;
+			background-color: var(--primary-color);
 			text-align: center;
 			border: 1px solid #B0C4DE;
 			border-bottom: none;
@@ -65,7 +65,7 @@ if (isLoggedIN()) {
 			padding: 10px;
 			font-size: 15px;
 			color: white;
-			background: #5F9EA0;
+			background-color: var(--secondary-color: #002f5dc7);
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;
