@@ -45,7 +45,7 @@
         <?php if(isLoggedIn())
 		{
 		?>
-      	    <nav class="nav-list" style="margin-top:10px;text-align:center;">
+      	    <nav class="nav-list" style="color:white;margin-top:10px;text-align:center;">
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:white;cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
                 <li class="nav-list-item" style="list-style-type:none;display:inline;margin-right:8px;text-align:center;"><a style="color:white;cursor:pointer;color:black; text-decoration:none;" class="nav-list-link" href="portfolio.php">Portfolio</a></li>
