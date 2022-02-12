@@ -178,10 +178,7 @@ if (isset($_POST['reset_btn'])) {
 
 function resetPass(){
 	// call these variables with the global keyword to make them available in function
-	global $db, $errors;
-
-	
-
+	global $db, $username, $errors;
 	// receive all input values from the form. Call the e() function
     // defined below to escape form values
 	$password_1 = e($_POST['password_1']);
@@ -198,10 +195,10 @@ function resetPass(){
 	// register user if there are no errors in the form
 	if (count($errors) == 0) {
 		$password = md5($password_1);//encrypt the password before saving in the database
-		$_SESSION['user'] = $logged_in_user;
+		// $_SESSION['user'] = $logged_in_user;
 		// $_SESSION['user'] = getUserById($logged_in_user_id);
 			// $query = "UPDATE users SET password = $password WHERE username = $username";
-			$query = "UPDATE users SET password = $password WHERE username = ?";
+			$query = "UPDATE users SET password = $password WHERE $username = ?";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: standardprofileinfo.php');
