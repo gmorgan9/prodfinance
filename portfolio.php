@@ -62,7 +62,7 @@
         }
         /* Column KB Cards */
         .row {
-            margin: 8px -8px;
+            margin: 8px auto;
         }
 
         /* Add padding BETWEEN each column (if you want) */
