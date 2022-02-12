@@ -47,6 +47,15 @@ if (isLoggedIN()) {
 			text-align: left;
 			margin: 3px;
 		}
+		.btn {
+			padding: 10px;
+			font-size: 15px;
+			color: white;
+			background: #5F9EA0;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
 		.input-group input {
 			height: 30px;
 			width: 93%;
