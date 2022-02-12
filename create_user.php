@@ -24,24 +24,21 @@ if (!isAdmin()) {
 	        background: #F8F8FF;
         } 
 		.header {
-			background: #003366;
+			background: var(--primary-color);
 			width: 40%;
 			margin: 50px auto 0px;
 			color: white;
 			text-align: center;
-			border: 1px solid #B0C4DE;
+			border: 1px solid var(--primary-color);
 			border-bottom: none;
 			border-radius: 10px 10px 0px 0px;
 			padding: 20px;
-		}
-		button[name=btn] {
-			background: #003366;
 		}
 		.btn {
 			padding: 10px;
 			font-size: 15px;
 			color: white;
-			background-color: #003366;
+			background-color: var(--secondary-color);
 			border: none;
 			border-radius: 5px;
 			cursor: pointer;

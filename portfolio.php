@@ -29,9 +29,9 @@
 	        width: 40%;
 	        margin: 50px auto 0px;
 	        color: white;
-	        background: #002e5d;
+	        background: var(--primary-color);
 	        text-align: center;
-	        border: 1px solid #B0C4DE;
+	        border: 1px solid var(--primary-color);
 	        border-bottom: none;
 	        border-radius: 10px 10px 0px 0px;
 	        padding: 20px;
@@ -41,9 +41,9 @@
             width: 40%;
 	        margin: 10px auto 0px;
             color: white;
-	        background: #002f5dc7;
+	        background: var(--secondary-color);
 	        text-align: center;
-	        border: 1px solid #B0C4DE;
+	        border: 1px solid var(--secondary-color);
 	        border-bottom: none;
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 15px 5px 20px 5px;
@@ -67,7 +67,6 @@
         .row {
             margin-left: 12%;
         }
-
         /* Add padding BETWEEN each column (if you want) */
         .row,
         .row > .column {

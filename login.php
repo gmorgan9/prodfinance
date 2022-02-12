@@ -13,10 +13,10 @@ if (isLoggedIN()) {
 		:root {
 			--primary-color: #002E5D;
 			--secondary-color: #002f5dc7;
-			--error-background: #f2dede;
-			--error-text: #a94442;
-			--success-text: #3c763d;
-			--success-background: #dff0d8;
+			--red-background: #f2dede;
+			--red-text: #a94442;
+			--green-text: #3c763d;
+			--green-background: #dff0d8;
 		}
         * { 
 	        margin: 0px; 
@@ -88,16 +88,16 @@ if (isLoggedIN()) {
 			width: 92%; 
 			margin: 0px auto; 
 			padding: 10px; 
-			border: 1px solid var(--error-text); 
-			color: var(--error-text); 
-			background: var(--error-background); 
+			border: 1px solid var(--red-text); 
+			color: var(--red-text); 
+			background: var(--red-background); 
 			border-radius: 5px; 
 			text-align: left;
 		}
 		.success {
-			color: var(--success-text); 
-			background: var(--success-background); 
-			border: 1px solid var(--success-text);
+			color: var(--green-text); 
+			background: var(--green-background); 
+			border: 1px solid var(--green-text);
 			margin-bottom: 20px;
 		}
 	</style>

@@ -14,6 +14,8 @@
 		:root {
 			--primary-color: #002E5D;
 			--secondary-color: #002f5dc7;
+			--logout-btn: #ff3860;
+			--main-btn: #498afb;
 		}
         * { 
 	        margin: 0px; 
@@ -31,9 +33,9 @@
 			width: 40%;
 			margin: 50px auto 0px;
 			color: white;
-			background: #002e5d;
+			background: var(--primary-color);
 			text-align: center;
-			border: 1px solid #B0C4DE;
+			border: 1px solid var(--primary-color);
 			border-bottom: none;
 			border-radius: 10px 10px 0px 0px;
 			padding: 20px;
@@ -105,16 +107,16 @@
 		}
 		.logout-btn {
 			cursor:pointer;
-			color: #ff3860;
-			border: 1px solid #ff3860;
+			color: var(--logout-btn);
+			border: 1px solid var(--logout-btn);
 			padding:2px;
 			border-radius: 5px;
 		}
 		.main-btn {
 			cursor:pointer;
 			margin-left:5px;
-			color: #498afb;
-			border: 1px solid #498afb;
+			color: var(--main-btn);
+			border: 1px solid var(--main-btn);
 			padding:2px;
 			border-radius: 5px;
 		}
