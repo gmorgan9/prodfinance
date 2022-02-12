@@ -42,7 +42,7 @@
             width: 40%;
 	        margin: 10px auto 0px;
             color: white;
-	        background: #004080;
+	        background: #002f5dc7;
 	        text-align: center;
 	        border: 1px solid #B0C4DE;
 	        border-bottom: none;
