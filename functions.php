@@ -185,7 +185,7 @@ function resetPass(){
 	// $result = mysqli_query($db, $query);
 	// $user = mysqli_fetch_assoc($result);
 
-	getUserById($id)
+	getUserById($id);
 
 
 	// receive all input values from the form. Call the e() function
