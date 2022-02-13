@@ -86,12 +86,10 @@
 
         /* Content */
         .box {
-          /* border: 1px solid #002e5d; */
           background-color: #fff;
           text-align: center;
           height: 200px;
           box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
-          /* border-radius: 10px 10px 10px 10px; */
         }
         .box:hover {
           transition: transform .3s;
