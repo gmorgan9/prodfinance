@@ -40,7 +40,7 @@
         .nav-header{
             /* width: 40%; */
 	        margin: 10px auto 0px;
-            color: white;
+          color: white;
 	        background: var(--secondary-color);
 	        text-align: center;
 	        border: 1px solid var(--secondary-color);
