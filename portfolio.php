@@ -176,7 +176,6 @@
   bottom: 0;
   padding: 20px;
   border: 1px solid #ccc;
-  overflow: hidden;
 }
 .tab-content > * {
   opacity: 0;
@@ -282,18 +281,6 @@ LOGO
       </div>
         </div>
       </div> -->
-
-
-      
-
-
-
-<div class="tab-links">
-  <div >
-    <input type="radio" id="tab-1" name="tab-group-1">
-    Tab-1
-  </div>
-</div>
 
 
 
