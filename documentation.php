@@ -50,6 +50,7 @@
         }
         .nav-list {
             margin-top:10px;
+            display: inline;
         }
         .nav-list-item {
             list-style-type:none;
@@ -60,6 +61,10 @@
             cursor:pointer;
             color:white;
             text-decoration:none;
+        }
+        .log-step {
+          float:right;
+          display: flex;
         }
         /* Column KB Cards */
         .row {
@@ -144,10 +149,7 @@
 
 
 
-        .log-step {
-          float:right;
-          display: flex;
-        }
+        
   
 
 
