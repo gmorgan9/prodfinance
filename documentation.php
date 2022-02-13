@@ -62,7 +62,7 @@
             text-decoration:none;
         }
         .log-step {
-          text-align:right;
+          text-align:left;
           display: flex;
         }
         /* Column KB Cards */
