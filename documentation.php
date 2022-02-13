@@ -145,7 +145,7 @@
 
 
         .log-step {
-          float:right;
+          text-align: right;
         }
   
 
