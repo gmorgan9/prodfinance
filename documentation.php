@@ -174,7 +174,7 @@
         <div class="box">
           <div class="top-bar"></div>
             <div class="content">
-              <h3>My Work[Box 1]</h3>
+              <h3>Creating Domain/Subdomains on Cloudflare</h3>
               <p>Lorem ipsum..</p>
             </div>
         </div>
