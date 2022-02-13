@@ -95,7 +95,7 @@
           /* border-radius: 10px 10px 10px 10px; */
         }
         .top-bar {
-            height: 30px;
+            height: 20px;
             background-size: cover;
             background-position: 50%;
             background-color: #002e5d;
