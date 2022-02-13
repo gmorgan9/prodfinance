@@ -150,8 +150,10 @@
   min-height: 200px; /* This part sucks */
   clear: both;
   margin: 25px 0;
+  justify-content: center;
 }
 .tab {
+  float: left;
   justify-content: center;
 }
 .tab label {
