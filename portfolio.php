@@ -120,7 +120,7 @@
         }
 
 
-        /* HEADER-TOP */
+        /* HEADER-TOP
         .headercontent-top {
           position: sticky;
           color: white;
@@ -142,12 +142,12 @@
         .header-titles {
           position: relative;
           padding: 9px 36px 9px 13px;
-        }     
+        }      */
     </style>
 </head>
 <body>
 
-<div class="headercontent-top">
+<!-- <div class="headercontent-top">
   <div class="header-logo">
 LOGO
   </div>
@@ -164,7 +164,7 @@ LOGO
     </div>
   </div>
 
-</div>
+</div> -->
 
 	<div class="header">
 		<h2>Portfolio Page</h2>
@@ -199,7 +199,7 @@ LOGO
                 </nav>
 		<?php } ?>
         </div>
-        
+        <br><br>
 
     <div class="main-content">
       <h1 style="text-align:center;">
