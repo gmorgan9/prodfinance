@@ -61,9 +61,6 @@
             color:white;
             text-decoration:none;
         }
-        /* .log-step {
-          display: flex;
-        } */
         /* Column KB Cards */
         .row {
             margin-left: 12%;
@@ -121,58 +118,9 @@
         }
 
 
-        /* HEADER-TOP
-        .headercontent-top {
-          position: sticky;
-          color: white;
-          background: var(--primary-color);
-          padding: 0;
-          display: grid;
-          grid-gap: 0;
-          grid-template-columns: 72px auto;
-        }
-        .header-logo {
-          display: -ms-flexbox;
-          display: flex;
-          -ms-flex-align: center;
-          align-items: center;
-          -ms-flex-pack: center;
-          justify-content: center;
-          min-height: 56px;
-        }
-        .header-titles {
-          position: relative;
-          padding: 9px 36px 9px 13px;
-        }      */
-
-
-
-        
-  
-
-
     </style>
 </head>
 <body>
-
-<!-- <div class="headercontent-top">
-  <div class="header-logo">
-LOGO
-  </div>
-  <div class="header-titles">
-    <div class="subheader">
-      <h4>
-        Welcome
-      </h4>
-    </div>
-    <div class="mainheader">
-      <h2>
-        Documentation
-      </h2>
-    </div>
-  </div>
-
-</div> -->
 
 	<div class="header">
 		<h2>Documentation</h2>
@@ -188,11 +136,11 @@ LOGO
             <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
             | &nbsp;
             <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-            <div class="log-step" style="float:right;">
+          <div class="log-step" style="float:right;">
             <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
             | &nbsp;
             <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-    </div>
+          </div>
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
@@ -201,7 +149,7 @@ LOGO
           <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
           | &nbsp;
           <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-          <div class="log-step" style="float:right;">
+        <div class="log-step" style="float:right;">
           <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
           | &nbsp;
           <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
@@ -217,11 +165,6 @@ LOGO
         <h4 style="text-align:center;">Portfolio here</h4>
       </div>
 
-
-
-
-    
-    
 <div class="row">
       <div class="column">
         <div class="box">
@@ -262,14 +205,6 @@ LOGO
         </div>
       </div>
     </div>
-
-
-
-
-
-
-    
-
 
     </div>
 </body>
