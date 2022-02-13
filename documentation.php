@@ -40,7 +40,7 @@
         .nav-header{
             /* width: 40%; */
 	        margin: 10px auto 0px;
-            color: white;
+          color: white;
 	        background: var(--secondary-color);
 	        text-align: center;
 	        border: 1px solid var(--secondary-color);
@@ -50,7 +50,6 @@
         }
         .nav-list {
             margin-top:10px;
-            display: inline;
         }
         .nav-list-item {
             list-style-type:none;
@@ -63,7 +62,7 @@
             text-decoration:none;
         }
         .log-step {
-          float:right;
+          text-align:right;
           display: flex;
         }
         /* Column KB Cards */
