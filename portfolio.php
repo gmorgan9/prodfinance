@@ -204,7 +204,7 @@ LOGO
     <div class="main-content">
       <div class="content-header">
         <h2 style="text-align:center;">Documentation</h2>
-        <h5 style="text-align:center;">Portfolio here</h5>
+        <h4 style="text-align:center;">Portfolio here</h4>
       </div>
 
     <div class="row">
