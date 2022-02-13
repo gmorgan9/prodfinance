@@ -61,9 +61,9 @@
             color:white;
             text-decoration:none;
         }
-        .log-step {
+        /* .log-step {
           display: flex;
-        }
+        } */
         /* Column KB Cards */
         .row {
             margin-left: 12%;
