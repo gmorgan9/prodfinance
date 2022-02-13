@@ -269,36 +269,7 @@ LOGO
       </div> -->
 
 
-      <div class="tabs">
-    
-    <div class="tab">
-        <input type="radio" id="tab-1" name="tab-group-1">
-        <label for="tab-1">Tab One</label>
-        
-        <div class="tab-content">
-            stuff
-        </div> 
-    </div>
-     
-    <div class="tab">
-        <input type="radio" id="tab-2" name="tab-group-1">
-        <label for="tab-2">Tab Two</label>
-        
-        <div class="tab-content">
-            stuff
-        </div> 
-    </div>
-     
-     <div class="tab">
-        <input type="radio" id="tab-3" name="tab-group-1">
-        <label for="tab-3">Tab Three</label>
       
-        <div class="tab-content">
-            stuff
-        </div> 
-    </div>
-     
- </div>
 
 
 
@@ -346,6 +317,39 @@ LOGO
         </div>
       </div>
     </div>
+
+
+    <div class="tabs">
+    
+    <div class="tab">
+        <input type="radio" id="tab-1" name="tab-group-1">
+        <label for="tab-1">Tab One</label>
+        
+        <div class="tab-content">
+            stuff
+        </div> 
+    </div>
+     
+    <div class="tab">
+        <input type="radio" id="tab-2" name="tab-group-1">
+        <label for="tab-2">Tab Two</label>
+        
+        <div class="tab-content">
+            stuff
+        </div> 
+    </div>
+     
+     <div class="tab">
+        <input type="radio" id="tab-3" name="tab-group-1">
+        <label for="tab-3">Tab Three</label>
+      
+        <div class="tab-content">
+            stuff
+        </div> 
+    </div>
+     
+ </div>
+
 
 
     </div>
