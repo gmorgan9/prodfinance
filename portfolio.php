@@ -137,6 +137,10 @@
           justify-content: center;
           min-height: 56px;
         }
+        .header-titles {
+          position: relative;
+          padding: 9px 36px 9px 13px;
+        }     
     </style>
 </head>
 <body>
