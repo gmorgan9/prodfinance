@@ -196,6 +196,30 @@ You are going to need to change the permission of the folder. Do this by running
 <pre><code>
 sudo chmod -R 755 /var/www
 </code></pre>
+<br>
+<h3>
+    Step 2:
+</h3>
+<p>
+It's time to create the Index Page for your website. You are going to need to create an index.html file for each domain.  This step is going to show you how to create one index.html for one domain, but you will do the same thing for each domain if you have multiple. 
+<br>
+Create index.html within your directory you created in step 1(you can use whatever text editor you want, I use nano).
+</p>
+<pre><code>
+sudo nano /var/www/domain.com/public_html/index.html
+</code></pre>
+<br>
+<p>
+You can add any text that you want within the document but for a test document while we make sure that we can get the website up and running, you can put just a test line of text like this.
+</p>
+<pre><code>
+testing for domain.com
+</code></pre>
+<br>
+<p>
+You will need to create an index.html file for each of the sites you are creating.
+</p>
+<br>
 
 
 </div>
