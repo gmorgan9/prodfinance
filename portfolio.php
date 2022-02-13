@@ -152,9 +152,9 @@ LOGO
   </div>
   <div class="header-titles">
     <div class="subheader">
-      <h3>
+      <h4>
         Welcome
-      </h3>
+      </h4>
     </div>
     <div class="mainheader">
       <h2>
