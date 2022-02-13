@@ -21,9 +21,6 @@
         body {
 	        font-size: 120%;
 	        background: #F8F8FF;
-        } 
-        .main-content p {
-            margin-left: 35px;
         }
         .header {
 	        width: 40%;
