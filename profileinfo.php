@@ -156,12 +156,12 @@
 						{
 						?>
       						<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
-							<a href="index.php"><button class="btn">Home</button></a>
+							<a href="javascript:history.back()"><button class="btn">Back</button></a>
 							<a href="create_user.php"><button class="btn">Add User</button></a>
 							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
 						<?php }else{ ?>
 							<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
-							<a href="index.php"><button class="btn">Home</button></a>
+							<a href="javascript:history.back()"><button class="btn">Back</button></a>
 							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
 						<?php } ?>
 					</small>
