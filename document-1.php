@@ -117,6 +117,10 @@
           }
         }
 
+        .steps {
+            margin-left: 35px;
+            margin-right: 35px;
+        }
 
     </style>
 </head>
