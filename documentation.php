@@ -93,6 +93,9 @@
           box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
           /* border-radius: 10px 10px 10px 10px; */
         }
+        .box:hover {
+          transform: scale(1.5);
+        }
         .top-bar {
             height: 20px;
             background-size: cover;
