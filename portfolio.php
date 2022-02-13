@@ -152,7 +152,7 @@
   margin: 25px 0;
 }
 .tab {
-  float: left;
+  justify-content: center;
 }
 .tab label {
   background: #eee;
