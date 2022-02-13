@@ -206,10 +206,10 @@ LOGO
       <h2 style="text-align:center;">
         Documentation
       </h2>
-        <p style="text-align:center;">
-            Portfolio here
-        </p>
-        </div>
+      <p style="text-align:center;">
+      Portfolio here
+      </p>
+    </div>
 
         <div class="row">
   <div class="column">
