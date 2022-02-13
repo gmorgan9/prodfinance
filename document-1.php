@@ -170,7 +170,12 @@
       </div>
 
 <div class="steps">
-
+<h3>
+    Introdcution
+</h3>
+<p>
+    This documentation will go over how to create a domain/subdomain on cloudflare. It will also go through how to edit and update all the necessary files needed.
+</p>
 
 <h3>
     Step 1:
