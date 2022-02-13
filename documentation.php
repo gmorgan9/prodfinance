@@ -42,6 +42,7 @@
 	        margin: 10px auto 0px;
             color: white;
 	        background: var(--secondary-color);
+	        text-align: center;
 	        border: 1px solid var(--secondary-color);
 	        border-bottom: none;
 	        border-radius: 10px 10px 10px 10px;
