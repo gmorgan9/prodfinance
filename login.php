@@ -121,7 +121,7 @@ if (isLoggedIN()) {
 		<div class="input-group">
 			<button type="submit" class="btn" name="login_btn">Login</button>
 			<a href="index.php" name="btn" class="btn">Back</a>
-			<input type="button" value="Go back!" onclick="history.back()">
+			<input type="button" name="btn" class="btn" value="Back" onclick="history.back()">
 		</div>
 		<p>
 			Not yet a member? <a href="register.php">Sign up</a>
