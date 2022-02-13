@@ -144,10 +144,8 @@
 
 
 
-        .nav-list-item-log {
-          list-style-type:none;
-          display:inline;
-          margin-right:8px;
+        .log-step {
+          display: inline;
           text-align: right;
         }
   
@@ -192,11 +190,11 @@ LOGO
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 </div>
-                <span>
-                <li class="nav-list-item-log"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+                <div class="log-step">
+                <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
                 | &nbsp;
-                <li class="nav-list-item-log"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-    </span>
+                <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+                </div>
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
@@ -207,11 +205,11 @@ LOGO
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 </div>
-                <span>
-                <li class="nav-list-item-log"><a class="nav-list-link" href="login.php">Login</a></li>
+                <div class="log-step">
+                <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
-                <li class="nav-list-item-log"><a class="nav-list-link" href="register.php">Register</a></li>
-    </span>
+                <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+                </div>
                 </nav>
 		<?php } ?>
         </div>
