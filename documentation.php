@@ -144,7 +144,7 @@
 
 
 
-        span {
+        #log-step {
           text-align: right;
         }
   
@@ -190,9 +190,9 @@ LOGO
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 </div>
                 <span>
-                <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" id="log-step" href="profileinfo.php">Profile</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" id="log-step" href="index.php?logout='1'">Logout</a></li>
     </span>
         </nav>
 		<?php }else{ ?>
@@ -205,9 +205,9 @@ LOGO
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 </div>
                 <span>
-                <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" id="log-step" href="login.php">Login</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" id="log-step" href="register.php">Register</a></li>
     </span>
                 </nav>
 		<?php } ?>
