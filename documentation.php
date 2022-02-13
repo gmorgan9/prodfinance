@@ -149,6 +149,7 @@
         }
         .nav-step {
           float:left;
+          display: relative;
         }
   
 
