@@ -164,8 +164,8 @@
 
     <div class="main-content">
       <div class="content-header">
-        <h2 style="text-align:center;">Documentation</h2>
-        <h4 style="text-align:center;">Portfolio here</h4>
+        <h2 style="text-align:center;">Knowledge Based Documentation</h2>
+        <h4 style="text-align:center;">Check out these documents</h4>
       </div>
 
 <div class="row">
