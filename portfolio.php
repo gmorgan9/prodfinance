@@ -292,6 +292,16 @@ LOGO
 
 
 
+    
+    
+
+
+    <div class="tabs">
+  <div class="tab">
+    <input type="radio" id="tab-1" name="tab-group-1" checked>
+    <label for="tab-1">Tab One</label>
+    <div class="tab-content">
+      
     <div class="row">
       <div class="column">
         <div class="box">
@@ -320,6 +330,8 @@ LOGO
             </div>
         </div>
       </div>
+    </div>
+    <div class="row">
       <div class="column">
         <div class="box">
           <div class="top-bar"></div>
@@ -332,28 +344,103 @@ LOGO
     </div>
 
 
-    <div class="tabs">
-  <div class="tab">
-    <input type="radio" id="tab-1" name="tab-group-1" checked>
-    <label for="tab-1">Tab One</label>
-    <div class="tab-content">
-      <p>Stuff for Tab One</p>
     </div>
   </div>
   <div class="tab">
     <input type="radio" id="tab-2" name="tab-group-1">
     <label for="tab-2">Tab Two</label>
     <div class="tab-content">
-      <p>Stuff for Tab Two</p>
-      <img src="//placekitten.com/200/100">
+      
+    <div class="row">
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 1]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 2]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 3]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 4]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
     </div>
   </div>
   <div class="tab">
     <input type="radio" id="tab-3" name="tab-group-1">
     <label for="tab-3">Tab Three</label>
     <div class="tab-content">
-      <p>Stuff for Tab Three</p>
-      <img src="//placekitten.com/200/100">
+      
+    <div class="row">
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 1]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 2]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 3]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 4]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
     </div>
   </div>
 </div>
