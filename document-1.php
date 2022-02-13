@@ -176,12 +176,12 @@
 <p>
     This documentation will go over how to create a domain/subdomain on cloudflare. It will also go through how to edit and update all the necessary files needed.
 </p>
-
+<br><br>
 <h3>
     Step 1:
 </h3>
 <p>
-You are going to need to create a directory in you /var/www directory connected with apache2. Do this by using this command, where you will change the domain.com with your desired domain/subdomain name:
+    You are going to need to create a directory in you /var/www directory connected with apache2. Do this by using this command, where you will change the domain.com with your desired domain/subdomain name:
 </p>
 
 
