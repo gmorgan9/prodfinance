@@ -157,7 +157,10 @@
         
 
     <div class="main-content">
-        <p>
+      <h1 style="text-align:center;">
+        Documentation
+      </h1>
+        <p style="text-align:center;">
             Portfolio here
         </p>
 
