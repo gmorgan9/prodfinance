@@ -152,14 +152,14 @@ LOGO
   </div>
   <div class="header-titles">
     <div class="subheader">
-      <h2>
+      <h3>
         Welcome
-      </h2>
+      </h3>
     </div>
     <div class="mainheader">
-      <h1>
+      <h2>
         Documentation
-      </h1>
+      </h2>
     </div>
   </div>
 
