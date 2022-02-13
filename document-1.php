@@ -126,7 +126,7 @@
 <body>
 
 	<div class="header">
-		<h2>Test - Documentation</h2>
+		<h2>Documentation</h2>
 	</div>
 
   <div class="nav-header">
