@@ -16,6 +16,10 @@
 			--secondary-color: #002f5dc7;
 			--logout-btn: #ff3860;
 			--main-btn: #498afb;
+			--red-background: #f2dede;
+			--red-text: #a94442;
+			--green-text: #3c763d;
+			--green-background: #dff0d8;
 		}
         * { 
 	        margin: 0px; 
@@ -129,6 +133,9 @@
 			cursor: pointer;
 			text-decoration: none;
 		}
+		.logout-btn {
+			background-color: var(--red-background);
+		}
 	</style>
 </head>
 <body>
@@ -166,7 +173,7 @@
 						<?php if(isAdmin())
 						{
 						?>
-      						<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
+      						<a href="index.php?logout='1'"><button class="logout-btn">Logout</button></a>
 							<a href="index.php"><button class="btn">Home</button></a>
 							<a href="create_user.php"><button class="btn">Add User</button></a>
 							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
