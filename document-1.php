@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Documentation</title>
+	<title>Test - Documentation</title>
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
         :root {
@@ -22,6 +22,9 @@
 	        font-size: 120%;
 	        background: #F8F8FF;
         } 
+        .main-content p {
+            margin-left: 35px;
+        }
         .header {
 	        width: 40%;
 	        margin: 50px auto 0px;
@@ -60,7 +63,7 @@
         }
         /* Column KB Cards */
         .row {
-            margin-left: 8%;
+            margin-left: 12%;
         }
         /* Add padding BETWEEN each column (if you want) */
         .row,
@@ -102,10 +105,6 @@
         .content {
             padding: 10px;
         }
-        .content p {
-          margin-left: 10px;
-          margin-right: 10px;
-        }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
@@ -127,7 +126,7 @@
 <body>
 
 	<div class="header">
-		<h2>Documentation</h2>
+		<h2>Test - Documentation</h2>
 	</div>
 
   <div class="nav-header">
@@ -163,54 +162,11 @@
   </div>
         <br><br><br>
 
-    <div class="main-content">
+        <div class="main-content">
       <div class="content-header">
-        <h2 style="text-align:center;">Knowledge Based Documentation</h2>
-        <h4 style="text-align:center;color:gray;">Check out these documents</h4>
+        <h2 style="text-align:center;">Creating Domain/Subdomains on Cloudflare</h2>
+        <h4 style="text-align:center; color:gray;">Check it out</h4>
       </div>
-
-<div class="row">
-      <div class="column">
-      <a href="document-1.php" style="text-decoration:none;color:black;"><div class="box">
-          <div class="top-bar"></div>
-            <div class="content">
-              <h3>Creating Domain/Subdomains on Cloudflare</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-        </div>
-    </a>
-      </div>
-      <div class="column">
-        <a href="testdocument.php" style="text-decoration:none;color:black;"><div class="box">
-          <div class="top-bar"></div>
-            <div class="content">
-              <h3>Test Document</h3>
-              <p>Here are the first few words of the document and hope that it fits and wraps the text..</p>
-            </div>
-        </div>
-        </a>
-      </div>
-      <div class="column">
-        <div class="box">
-          <div class="top-bar"></div>
-            <div class="content">
-              <h3>My Work[Box 3]</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="box">
-          <div class="top-bar"></div>
-            <div class="content">
-              <h3>My Work[Box 4]</h3>
-              <p>Lorem ipsum..</p>
-            </div>
-        </div>
-      </div>
-    </div>
 
     </div>
 </body>
