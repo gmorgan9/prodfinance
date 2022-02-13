@@ -288,7 +288,12 @@ LOGO
 
 
 
-
+<div class="tab-links">
+  <div >
+    <input type="radio" id="tab-1" name="tab-group-1">
+    Tab-1
+  </div>
+</div>
 
 
 
