@@ -182,8 +182,8 @@
         <a href="testdocument.php" style="text-decoration:none;color:black;"><div class="box">
           <div class="top-bar"></div>
             <div class="content">
-              <h3>My Work[Box 2]</h3>
-              <p>Lorem ipsum..</p>
+              <h3>Test Document</h3>
+              <p>Here are the first few words of the document and hope that it fits and wraps the text..</p>
             </div>
         </div>
         </a>
