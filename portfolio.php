@@ -108,7 +108,7 @@
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
           .column {
-            width: 50%;
+            width: 70%;
           }
         }
 
