@@ -179,7 +179,7 @@
         </div>
       </div>
       <div class="column">
-        <a href="index.com"><div class="box">
+        <a href="index.php" style="text-decoration:none;color:black;"><div class="box">
           <div class="top-bar"></div>
             <div class="content">
               <h3>My Work[Box 2]</h3>
