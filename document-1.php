@@ -186,6 +186,7 @@
 <pre><code>
 sudo mkdir -p /var/www/domain.com/public_html
 </code></pre>
+<br>
 <h3>
     Step 2:
 </h3>
