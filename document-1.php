@@ -33,6 +33,16 @@
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 20px;
         }
+        .btn {
+			padding: 10px;
+			font-size: 15px;
+			color: white;
+			background-color: var(--secondary-color);
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			text-decoration: none;
+		}
         /* Navigation */
         .nav-header{
           width: 60%;
