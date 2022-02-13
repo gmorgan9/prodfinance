@@ -144,7 +144,7 @@
 
 
 
-        .nav-list span {
+        .nav-header span {
           text-align: right;
         }
   
