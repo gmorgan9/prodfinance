@@ -122,7 +122,7 @@
 
         /* HEADER-TOP */
         .headercontent-top {
-          background: var(--headerBgColor);
+          background: var(--primary-color);
           padding: 0;
           display: grid;
           grid-gap: 0;
