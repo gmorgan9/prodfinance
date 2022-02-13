@@ -272,7 +272,7 @@ LOGO
       <div class="tabs">
     
     <div class="tab">
-        <input type="radio" id="tab-1" name="tab-group-1" checked>
+        <input type="radio" id="tab-1" name="tab-group-1">
         <label for="tab-1">Tab One</label>
         
         <div class="tab-content">
