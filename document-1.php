@@ -121,6 +121,9 @@
             margin-left: 250px;
             margin-right: 250px;
         }
+        code{
+            color: red;
+        }
 
     </style>
 </head>
