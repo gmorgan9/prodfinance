@@ -202,12 +202,14 @@ LOGO
         <br><br>
 
     <div class="main-content">
-      <h1 style="text-align:center;">
+      <div class="content-header">
+      <h2 style="text-align:center;">
         Documentation
-      </h1>
+      </h2>
         <p style="text-align:center;">
             Portfolio here
         </p>
+        </div>
 
         <div class="row">
   <div class="column">
