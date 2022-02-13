@@ -177,7 +177,7 @@
     Introdcution
 </h3>
 <p>
-    This documentation will go over how to create a domain/subdomain on cloudflare. It will also go through how to edit and update all the necessary files needed. 
+    This documentation will go over how to create a domain/subdomain on cloudflare. It will also go through how to edit and update all the necessary files needed. These steps are going to show you what to do after you have your cloudflare account set up and you have purchased a domain from cloudflare or your desired domain registrar.
 </p>
 <br>
 <h3>
