@@ -168,6 +168,22 @@
         <h4 style="text-align:center; color:gray;">Check it out</h4>
       </div>
 
+<div class="steps">
+
+
+<h1>
+    Step 1:
+</h1>
+<p>
+You are going to need to create a directory in you /var/www directory connected with apache2. Do this by using this command, where you will change the domain.com with your desired domain/subdomain name:
+</p>
+
+
+
+</div>
+
+
+
     </div>
 </body>
 </html>
