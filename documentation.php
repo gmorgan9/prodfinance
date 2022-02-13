@@ -42,7 +42,6 @@
 	        margin: 10px auto 0px;
             color: white;
 	        background: var(--secondary-color);
-	        text-align: center;
 	        border: 1px solid var(--secondary-color);
 	        border-bottom: none;
 	        border-radius: 10px 10px 10px 10px;
@@ -50,13 +49,11 @@
         }
         .nav-list {
             margin-top:10px;
-            text-align:center;
         }
         .nav-list-item {
             list-style-type:none;
             display:inline;
             margin-right:8px;
-            text-align:center;
         }
         .nav-list-link {
             cursor:pointer;
@@ -149,6 +146,9 @@
         .log-step {
           float:right;
         }
+        .nav-step {
+          float:left;
+        }
   
 
 
@@ -184,11 +184,13 @@ LOGO
 		{
 		?>
       	    <nav class="nav-list">
+              <div class="nav-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+                </div>
                 <div class="log-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
                 | &nbsp;
@@ -197,11 +199,13 @@ LOGO
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
+        <div class="nav-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+                </div>
                 <div class="log-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
