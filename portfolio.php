@@ -118,9 +118,30 @@
             width: 100%;
           }
         }
+
+
+        /* HEADER-TOP */
+        .headercontent-top {
+          background: var(--headerBgColor);
+          padding: 0;
+          display: grid;
+          grid-gap: 0;
+          grid-template-columns: 72px auto;
+        }
     </style>
 </head>
 <body>
+
+<div class="headercontent-top">
+  <div class="header-logo">
+LOGO
+  </div>
+  <div class="header-titles">
+DOCUMENTIATION
+  </div>
+
+</div>
+
 	<div class="header">
 		<h2>Portfolio Page</h2>
 	</div>
