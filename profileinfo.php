@@ -109,21 +109,6 @@
 			display: block;
 			clear: both;
 		}
-		/* .logout-btn {
-			cursor:pointer;
-			color: var(--logout-btn);
-			border: 1px solid var(--logout-btn);
-			padding:2px;
-			border-radius: 5px;
-		}
-		.main-btn {
-			cursor:pointer;
-			margin-left:5px;
-			color: var(--main-btn);
-			border: 1px solid var(--main-btn);
-			padding:2px;
-			border-radius: 5px;
-		} */
 		.btn {
 			padding: 5px;
 			color: white;
