@@ -179,13 +179,14 @@
         </div>
       </div>
       <div class="column">
-        <div class="box">
+        <a href="index.com"><div class="box">
           <div class="top-bar"></div>
             <div class="content">
               <h3>My Work[Box 2]</h3>
               <p>Lorem ipsum..</p>
             </div>
         </div>
+        </a>
       </div>
       <div class="column">
         <div class="box">
