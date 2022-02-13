@@ -201,7 +201,7 @@ sudo chmod -R 755 /var/www
 </code></pre>
 <br>
 <h3>
-    Step 2:
+    Step 3:
 </h3>
 <p>
 It's time to create the Index Page for your website. You are going to need to create an index.html file for each domain.  This step is going to show you how to create one index.html for one domain, but you will do the same thing for each domain if you have multiple. 
@@ -223,6 +223,23 @@ testing for domain.com
 You will need to create an index.html file for each of the sites you are creating.
 </p>
 <br>
+<h3>
+    Step 4:
+</h3>
+<p>
+Now its time to copy the config files for each site. You will do this by running the following command:
+</p>
+<pre><code>
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/domain.com.conf
+</code></pre>
+<br>
+<p>
+You will need to do this for each of the sites that you are creating, just make sure you change the "domain.com" to your domain/subdomain name.
+</p>
+<br>
+
+
+
 
 
 </div>
