@@ -34,6 +34,7 @@
 	        padding: 20px;
         }
         .btn {
+            margin-left: 150px;
 			padding: 10px;
 			font-size: 15px;
 			color: white;
