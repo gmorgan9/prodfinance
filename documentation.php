@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio</title>
+	<title>Documentation</title>
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
         :root {
@@ -173,7 +173,7 @@ LOGO
 </div> -->
 
 	<div class="header">
-		<h2>Portfolio Page</h2>
+		<h2>documentation</h2>
 	</div>
 
     <div class="nav-header">
@@ -183,7 +183,7 @@ LOGO
       	    <nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
@@ -195,7 +195,7 @@ LOGO
 			<nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;

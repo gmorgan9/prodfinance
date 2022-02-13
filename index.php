@@ -79,7 +79,7 @@
       	    <nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
@@ -91,7 +91,7 @@
 			<nav class="nav-list">
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
                 | &nbsp;
-                <li class="nav-list-item"><a class="nav-list-link" href="portfolio.php">Portfolio</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
                 | &nbsp;
