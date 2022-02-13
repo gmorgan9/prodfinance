@@ -122,6 +122,7 @@
 
         /* HEADER-TOP */
         .headercontent-top {
+          color: white;
           background: var(--primary-color);
           padding: 0;
           display: grid;
@@ -150,7 +151,16 @@
 LOGO
   </div>
   <div class="header-titles">
-DOCUMENTIATION
+    <div class="subheader">
+      <h2>
+        Welcome
+      </h2>
+    </div>
+    <div class="mainheader">
+      <h1>
+        Documentation
+      </h1>
+    </div>
   </div>
 
 </div>
