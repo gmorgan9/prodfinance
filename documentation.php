@@ -90,7 +90,7 @@
           background-color: #fff;
           text-align: center;
           height: 200px;
-          box-shadow: 3px 1.5px 1.5px lightgray;
+          box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
           /* border-radius: 10px 10px 10px 10px; */
         }
         .top-bar {
