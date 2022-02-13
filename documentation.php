@@ -94,7 +94,7 @@
           /* border-radius: 10px 10px 10px 10px; */
         }
         .box:hover {
-          transform: scale(1.5);
+          transition: transform .2s;
           transform: scale(.5);
         }
         .top-bar {
