@@ -78,7 +78,7 @@
           <div class="log-step" style="float:right;margin-right:35px;">
             <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
             | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="javascript:history.back()?logout='1'">Logout</a></li>
+            <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
           </div>
         </nav>
 		<?php }else{ ?>
