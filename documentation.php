@@ -146,6 +146,9 @@
 
 
 
+        .log-step {
+          float:right;
+        }
   
 
 
@@ -173,7 +176,7 @@ LOGO
 </div> -->
 
 	<div class="header">
-		<h2>documentation</h2>
+		<h2>Documentation</h2>
 	</div>
 
     <div class="nav-header">
@@ -186,10 +189,11 @@ LOGO
                 <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-                | &nbsp;
+                <div class="log-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+                </div>
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
@@ -198,10 +202,11 @@ LOGO
                 <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-                | &nbsp;
+                <div class="log-step">
                 <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
                 | &nbsp;
                 <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+                </div>
                 </nav>
 		<?php } ?>
         </div>
