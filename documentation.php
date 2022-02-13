@@ -144,9 +144,9 @@
 
 
 
-        .log-step {
+        /* .log-step {
           display: inline;
-        }
+        } */
   
 
 
