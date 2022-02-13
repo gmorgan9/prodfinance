@@ -137,8 +137,7 @@
 			padding: 5px;
 			color: var(--red-text);
 			background-color: var(--red-background);
-			border: 2px solid var(--red-text);
-			border: none;
+			border: 1px solid var(--red-text);
 			border-radius: 5px;
 			cursor: pointer;
 			text-decoration: none;
