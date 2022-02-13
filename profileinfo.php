@@ -133,15 +133,6 @@
 			cursor: pointer;
 			text-decoration: none;
 		}
-		.logout-btn {
-			padding: 5px;
-			color: var(--red-text);
-			background-color: var(--red-background);
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			text-decoration: none;
-		}
 	</style>
 </head>
 <body>
