@@ -95,7 +95,7 @@
         }
         .box:hover {
           transition: transform .2s;
-          transform: scale(1);
+          transform: scale(1.25);
         }
         .top-bar {
             height: 20px;
