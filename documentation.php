@@ -38,7 +38,7 @@
         }
         /* Navigation */
         .nav-header{
-            /* width: 40%; */
+          width: 60%;
 	        margin: 10px auto 0px;
           color: white;
 	        background: var(--secondary-color);
