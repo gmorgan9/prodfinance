@@ -190,7 +190,7 @@ LOGO
             <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
             <li class="nav-list-item" style="text-align:right;"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
             | &nbsp;
-            <li class="nav-list-item" ><a class="nav-list-link" href="index.php?logout='1'" style="text-align:right;">Logout</a></li>
+            <li class="nav-list-item" style="text-align:right;"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
