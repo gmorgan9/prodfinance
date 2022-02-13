@@ -30,7 +30,7 @@
 	        text-align: center;
 	        border: 1px solid var(--primary-color);
 	        border-bottom: none;
-	        border-radius: 10px 10px 0px 0px;
+	        border-radius: 10px 10px 10px 10px;
 	        padding: 20px;
         }
         /* Navigation */
