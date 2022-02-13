@@ -128,6 +128,15 @@
           grid-gap: 0;
           grid-template-columns: 72px auto;
         }
+        .header-logo {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          min-height: 56px;
+        }
     </style>
 </head>
 <body>
