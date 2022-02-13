@@ -165,7 +165,7 @@
 		<?php } ?>
   </div>
         <br><br><br>
-
+        <a href="javascript:history.back()" name="btn" class="btn" >Back</a>
         <div class="main-content">
       <div class="content-header">
         <h2 style="text-align:center;">Creating Domain/Subdomains on Cloudflare</h2>
