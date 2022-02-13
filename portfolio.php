@@ -207,6 +207,27 @@ LOGO
         <h4 style="text-align:center;">Portfolio here</h4>
       </div>
 
+
+
+      <div class="tabs">
+        <div class="tabmodule" data-tab-id="test">
+          <div class="tablabel">test</div>
+        </div>
+        <div class="tabcontent" data-tab-content>
+        <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 1]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+        </div>
+      </div>
+
+
+
     <div class="row">
       <div class="column">
         <div class="box">
