@@ -22,7 +22,6 @@
 	        font-size: 120%;
 	        background: #F8F8FF;
         } 
-        
         .header {
 	        width: 40%;
 	        margin: 50px auto 0px;
@@ -102,6 +101,10 @@
         }
         .content {
             padding: 10px;
+        }
+        .content p {
+          margin-left: 10px;
+          margin-right: 10px;
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
