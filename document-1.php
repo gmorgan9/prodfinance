@@ -118,8 +118,8 @@
         }
 
         .steps {
-            margin-left: 35px;
-            margin-right: 35px;
+            margin-left: 55px;
+            margin-right: 55px;
         }
 
     </style>
