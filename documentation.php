@@ -92,7 +92,7 @@
           box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
         }
         .box:hover {
-          transition: transform .3s;
+          transition: transform .3s ease;
           transform: scale(1.025);
         }
         .top-bar {
