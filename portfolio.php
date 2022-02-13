@@ -122,13 +122,13 @@
 
         /* HEADER-TOP */
         .headercontent-top {
+          position: sticky;
           color: white;
           background: var(--primary-color);
           padding: 0;
           display: grid;
           grid-gap: 0;
           grid-template-columns: 72px auto;
-          position: sticky;
         }
         .header-logo {
           display: -ms-flexbox;
