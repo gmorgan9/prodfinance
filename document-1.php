@@ -183,9 +183,10 @@
 <p>
     You are going to need to create a directory in you /var/www directory connected with apache2. Do this by using this command, where you will change the domain.com with your desired domain/subdomain name:
 </p>
-<code>
+
+<codeblock>
 sudo mkdir -p /var/www/domain.com/public_html
-</code>
+</codeblock>
 
 
 
