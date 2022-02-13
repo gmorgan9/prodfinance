@@ -128,6 +128,7 @@
           display: grid;
           grid-gap: 0;
           grid-template-columns: 72px auto;
+          position: fixed;
         }
         .header-logo {
           display: -ms-flexbox;
