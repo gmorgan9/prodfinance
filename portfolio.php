@@ -203,52 +203,48 @@ LOGO
 
     <div class="main-content">
       <div class="content-header">
-      <h2 style="text-align:center;">
-        Documentation
-      </h2>
-      <p style="text-align:center;">
-      Portfolio here
-      </p>
-    </div>
+        <h2 style="text-align:center;">Documentation</h2>
+        <h5 style="text-align:center;">Portfolio here</h5>
+      </div>
 
-        <div class="row">
-  <div class="column">
-    <div class="box">
-    <div class="top-bar"></div>
-    <div class="content">
-      <h3>My Work[Box 1]</h3>
-      <p>Lorem ipsum..</p>
+    <div class="row">
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 1]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 2]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 3]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+          <div class="top-bar"></div>
+            <div class="content">
+              <h3>My Work[Box 4]</h3>
+              <p>Lorem ipsum..</p>
+            </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="box">
-    <div class="top-bar"></div>
-    <div class="content">
-      <h3>My Work[Box 2]</h3>
-      <p>Lorem ipsum..</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="box">
-    <div class="top-bar"></div>
-    <div class="content">
-      <h3>My Work[Box 3]</h3>
-      <p>Lorem ipsum..</p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="box">
-    <div class="top-bar"></div>
-    <div class="content">
-      <h3>My Work[Box 4]</h3>
-      <p>Lorem ipsum..</p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
     </div>
