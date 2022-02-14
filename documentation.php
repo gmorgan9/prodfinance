@@ -118,6 +118,7 @@
             height: 100px;
           }
           #nav-list {
+            margin-top: 10px;
             text-align: center;
           }
           #login, #register {
