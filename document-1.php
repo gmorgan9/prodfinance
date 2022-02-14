@@ -7,6 +7,7 @@
 <html>
 <head>
 	<title>Test - Documentation</title>
+  <meta name="viewport" content="width=device-width">
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
     <style>
         :root {
@@ -21,7 +22,7 @@
         body {
 	        font-size: 120%;
 	        background: #F8F8FF;
-        }
+        } 
         .header {
 	        width: 40%;
 	        margin: 50px auto 0px;
@@ -33,17 +34,6 @@
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 20px;
         }
-        .btn {
-            margin-left: 300px;
-			padding: 10px;
-			font-size: 15px;
-			color: white;
-			background-color: var(--secondary-color);
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			text-decoration: none;
-		}
         /* Navigation */
         .nav-header{
           width: 60%;
@@ -71,7 +61,7 @@
         }
         /* Column KB Cards */
         .row {
-            margin-left: 12%;
+            margin-left: 8%;
         }
         /* Add padding BETWEEN each column (if you want) */
         .row,
@@ -113,20 +103,73 @@
         .content {
             padding: 10px;
         }
+        .content p {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+        hr {
+          display: none;
+        }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
+          .header {
+            width: 350px;
+          }
+          .nav-header {
+            width: 350px;
+            height: 100px;
+          }
+          #nav-list {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+          }
+          #login, #register {
+            text-decoration: none;
+            color: white;
+          }
+          #loginreg {
+            margin-top: 5px;
+            text-align: center;
+          }
           .column {
-            width: 70%;
+            width: 50%;
           }
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 600px) {
+          .header {
+            width: 350px;
+          }
+          .nav-header {
+            width: 350px;
+            height: 100px;
+          }
+          #nav-list {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+          }
+          #login, #register {
+            text-decoration: none;
+            color: white;
+          }
+          #loginreg {
+            margin-top: 5px;
+            text-align: center;
+          }
+          hr {
+            display: block;
+            margin-left: 75px;
+          }
           .column {
             width: 100%;
+            margin-left: -15px;
           }
         }
+
 
         .steps {
             margin-left: 250px;
@@ -145,35 +188,25 @@
 	</div>
 
   <div class="nav-header">
-    <?php if(isLoggedIn())
-		{
-		?>
-        <nav class="nav-list">
-            <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
-            | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
-            | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-          <div class="log-step" style="float:right;margin-right:35px;">
-            <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-            | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-          </div>
-        </nav>
-		<?php }else{ ?>
-			<nav class="nav-list">
-          <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
-          | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
-          | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-        <div class="log-step" style="float:right;margin-right:35px;">
-          <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
-          | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+    <div id="nav-list">
+      <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+    </div>
+    <hr style="width:50%">
+    <div class="nav-list-log">
+      <?php if(isLoggedIn()){?>
+        <div id="profilelogout">
+          <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
+          <li class="nav-list-item"><a id="logout" href="index.php?logout='1'">Logout</a></li>
         </div>
-      </nav>
-		<?php } ?>
+		  <?php }else{ ?>
+        <div id="loginreg">
+          <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
+          <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
+        </div>
+		  <?php } ?>
+    </div>
   </div>
         <br><br><br>
         <a href="javascript:history.back()" name="btn" class="btn" >Back</a>
