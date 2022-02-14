@@ -119,6 +119,7 @@
           }
           .nav-list-log a {
             color: red;
+            text-align: center;
           }
           .column {
             width: 50%;
