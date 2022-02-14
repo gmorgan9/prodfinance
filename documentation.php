@@ -209,7 +209,7 @@
         <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
 		  <?php } ?>
     </div>
-  </div>
+  
 
   <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
         <div class="bar1"></div>
@@ -232,6 +232,7 @@
     </div>
             
           </ul>
+        </div>
         </div>
 
 
