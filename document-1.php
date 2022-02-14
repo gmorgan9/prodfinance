@@ -303,6 +303,30 @@ cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/do
 You will need to do this for each of the sites that you are creating, just make sure you change the "domain.com" to your domain/subdomain name.
 </p>
 <br>
+<h3>
+    Step 5:
+</h3>
+<p>
+Now it is time to edit the config file that you just copied for your site. You will do this by running this code(again using the text editor that you desire). 
+</p>
+<pre><code>
+sudo nano /etc/apache2/sites-available/domain.com.conf
+</code></pre>
+<br>
+<p>
+Now inside your file, you will add/edit the lines.
+</p>
+<br>
+<pre><code>
+'<VirtualHost *:81>' <br>
+ServerAdmin webmaster@localhost<br>
+ServerName domain.com<br>
+ServerAlias www.domain.com<br>
+DocumentRoot /var/www/domain.com/public_html<br>
+ErrorLog ${APACHE_LOG_DIR}/error.log<br>
+CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
+</VirtualHost>
+</code></pre>
 
 
 
