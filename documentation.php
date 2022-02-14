@@ -118,7 +118,7 @@
             height: 100px;
           }
           #loginreg {
-            margin-left: 45px;
+            text-align: center;
           }
           .column {
             width: 50%;
