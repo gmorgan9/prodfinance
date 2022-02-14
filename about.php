@@ -42,6 +42,10 @@
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 15px 5px 20px 5px;
         }
+        #nav-list {
+            margin-top:10px;
+            margin-left: 35px;
+        }
         #loginreg,#profilelogout {
           float: right;
           margin-top: -2.95%;
