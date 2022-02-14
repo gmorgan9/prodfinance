@@ -136,6 +136,26 @@
           .column {
             width: 50%;
           }
+          .steps {
+            clear: all;
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+            width: 95% !important;
+            text-align: center !important;
+          }
+          .content-header {
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+          }
+          .btn {
+            margin-left: 42.5%;
+            margin-top: -50px;
+            position: absolute;
+          }
+          hr {
+            display: block;
+            margin-left: 75px;
+          }
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

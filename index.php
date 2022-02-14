@@ -113,7 +113,7 @@
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
-          .header {
+            .header {
             width: 350px;
           }
           .nav-header {
@@ -135,6 +135,26 @@
           }
           .column {
             width: 50%;
+          }
+          .steps {
+            clear: all;
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+            width: 95% !important;
+            text-align: center !important;
+          }
+          .content-header {
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+          }
+          .btn {
+            margin-left: 42.5%;
+            margin-top: -50px;
+            position: absolute;
+          }
+          hr {
+            display: block;
+            margin-left: 75px;
           }
         }
 
