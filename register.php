@@ -10,6 +10,7 @@ if (isLoggedIN()) {
 <html>
 <head>
 	<title>Register</title>
+	<meta name="viewport" content="width=device-width">
 	<style>
 		:root {
 			--primary-color: #002E5D;

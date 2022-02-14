@@ -147,6 +147,7 @@
             color: white;
           }
           #loginreg {
+            float: none;
             margin-top: 5px;
             text-align: center;
           }

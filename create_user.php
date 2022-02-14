@@ -9,6 +9,7 @@ if (!isAdmin()) {
 <html>
 <head>
 	<title>Admin - Create user</title>
+	<meta name="viewport" content="width=device-width">
 	<style>
 		:root {
 			--primary-color: #002E5D;
