@@ -117,9 +117,6 @@
             width: 350px;
             height: 100px;
           }
-          .nav-list {
-            text-align: center;
-          }
           .column {
             width: 50%;
           }
@@ -151,11 +148,11 @@
             <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
             | &nbsp;
             <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-          <div class="log-step" style="float:right;margin-right:35px;">
+          <!-- <div class="log-step" style="float:right;margin-right:35px;"> -->
             <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
             <p>| &nbsp;</p>
             <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-          </div>
+          <!-- </div> -->
         </nav>
 		<?php }else{ ?>
 			<nav class="nav-list">
