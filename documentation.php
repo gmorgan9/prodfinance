@@ -118,9 +118,7 @@
             height: 100px;
           }
           #loginreg {
-            display: inline;
-            color: red;
-            margin-left: 35px;
+            margin-left: 45px;
           }
           .column {
             width: 50%;
