@@ -117,12 +117,8 @@
             width: 350px;
             height: 100px;
           }
-          .log-step {
-            color: red;
-          }
-          .log-step li {
-            color: red;
-            margin-left: -15px;
+          .nav-list {
+            text-align: center;
           }
           .column {
             width: 50%;
