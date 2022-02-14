@@ -183,8 +183,8 @@
     margin-right: 45%;
   }
   .nav-header {
-    width: 40%;
-    height: 10%;
+    width: 20%;
+    height: 8%;
   }
   .nav-header nav {
     display: none;
