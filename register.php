@@ -113,7 +113,7 @@ if (isLoggedIN()) {
             height: 100px;
           }
 		  form, .content {
-			width: 80%;
+			width: 85%;
 		}
           .column {
             width: 50%;
