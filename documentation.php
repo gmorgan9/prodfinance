@@ -118,7 +118,7 @@
             height: 100px;
           }
           .log-step li {
-            margin-left: 10px;
+            margin-left: 20px;
           }
           .column {
             width: 50%;
