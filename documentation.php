@@ -111,7 +111,7 @@
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
-        @media screen and (max-width: 900px) {
+        @media screen and (min-width: 900px) {
           .header {
             width: 350px;
           }
