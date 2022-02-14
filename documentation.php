@@ -123,6 +123,7 @@
           }
           #nav-list {
             margin-top: 10px;
+            margin-bottom: 5px;
             text-align: center;
           }
           #login, #register {
@@ -130,6 +131,7 @@
             color: white;
           }
           #loginreg {
+            margin-top: 5px;
             text-align: center;
           }
           .column {
