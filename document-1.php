@@ -154,8 +154,8 @@
             text-align: center !important;
           }
           .content-header {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
           }
           .btn {
             margin-left: 42.5%;
