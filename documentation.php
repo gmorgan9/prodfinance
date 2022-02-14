@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          #profile {
+          #register {
             color: red;
           }
           .column {
