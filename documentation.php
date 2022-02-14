@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .nav-list-item-log {
+          .nav-list-link-log {
             margin-right: 40px;
           }
           .column {
