@@ -141,7 +141,7 @@
         @media screen and (max-width: 600px) {
           hr {
             display: block;
-            margin-left: 70px;
+            margin-left: 75px;
           }
           .column {
             width: 100%;
