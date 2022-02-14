@@ -118,7 +118,7 @@
             height: 100px;
           }
           .nav-list-link-log {
-            margin-right: 40px;
+            color: red;
           }
           .column {
             width: 50%;
