@@ -117,10 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .nav-list-link-log {
-            text-align:center;
-          }
-          .log {
+          .log-step {
             margin-left: -40px;
           }
           .column {
@@ -168,8 +165,8 @@
           | &nbsp;
           <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
         <div class="log-step" style="float:right;margin-right:35px;">
-          <li class="nav-list-item"><a class="nav-list-link-log" href="login.php">Login | </a></li>
-          <li class="nav-list-item"><a class="nav-list-link-log" href="register.php">Register</a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login | </a></li>
+          <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
         </div>
       </nav>
 		<?php } ?>
