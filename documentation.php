@@ -115,7 +115,7 @@
           }
           .nav-header {
             width: 350px;
-            height: 50px;
+            height: 100px;
           }
           .column {
             width: 70%;
