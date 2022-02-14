@@ -139,6 +139,7 @@
           .steps {
             clear: all;
             margin-left: 10px !important;
+            margin-right: none !important;
             text-align: center;
           }
         }
