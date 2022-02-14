@@ -118,10 +118,10 @@
             height: 100px;
           }
           .nav-list-link-log {
-            margin-left: -20px;
+            margin-left: -40px;
           }
           .log {
-            margin-left: -20px;
+            margin-left: -40px;
           }
           .column {
             width: 50%;
