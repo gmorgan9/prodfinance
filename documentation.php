@@ -146,7 +146,7 @@
             margin-left: 75px;
           }
           .column {
-            width: 100%;
+            width: 50%;
           }
         }
 
