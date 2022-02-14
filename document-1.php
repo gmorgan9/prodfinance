@@ -169,7 +169,7 @@
             margin-left: -15px;
           }
           .steps {]
-            margin-left: unset;
+            margin-left: 0;
             text-align: center;
           }
         }
