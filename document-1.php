@@ -43,7 +43,7 @@
 		    	border-radius: 5px;
 		    	cursor: pointer;
 		    	text-decoration: none;
-          margin-left: 42.5%;
+          margin-left: 30%;
           margin-top: -50px;
           position: absolute;
 		    }
