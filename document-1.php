@@ -138,9 +138,9 @@
           }
           .steps {
             clear: all;
-            margin-left: 0 !important;
-            margin-right: 0 !important;
-            width: 100% !important;
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+            width: 95% !important;
             text-align: center !important;
           }
         }
