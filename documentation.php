@@ -168,7 +168,7 @@
           | &nbsp;
           <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
         <div class="log-step" style="float:right;margin-right:35px;">
-          <li class="nav-list-item"><a class="nav-list-link-log" href="login.php">Login | &nbsp;</a></li>
+          <li class="nav-list-item"><a class="nav-list-link-log" href="login.php">Login | </a></li>
           <li class="nav-list-item"><a class="nav-list-link-log" href="register.php">Register</a></li>
         </div>
       </nav>
