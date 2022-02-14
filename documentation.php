@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .log-step {
+          .log-step a {
             color: red;
           }
           .column {
