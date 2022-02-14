@@ -118,7 +118,7 @@
             height: 100px;
           }
           .nav-list-item-log {
-            margin-left: -30px;
+            margin-left: -10px;
           }
           .column {
             width: 50%;
