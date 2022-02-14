@@ -168,9 +168,8 @@
             width: 100%;
             margin-left: -15px;
           }
-          .steps {
-            color: white;
-            margin-left: 25px;
+          .steps {]
+            margin-left: unset;
             text-align: center;
           }
         }
