@@ -155,6 +155,7 @@
           }
           .btn {
             margin-left: 50%;
+            margin-right: 50%;
             margin-top: -50px;
             position: absolute;
           }
