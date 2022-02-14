@@ -112,7 +112,7 @@
         }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
-        @media screen and (min-width: 900px) {
+        @media screen and (max-width: 900px) {
           .header {
             width: 350px;
           }
@@ -139,7 +139,7 @@
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (min-width: 600px) {
+        @media screen and (max-width: 600px) {
           .header {
             width: 350px;
           }
