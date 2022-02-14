@@ -122,7 +122,7 @@
             height: 100px;
           }
           #nav-list {
-            margin-left: none;
+            margin-left: none !important;
             margin-top: 10px;
             margin-bottom: 5px;
             text-align: center;
