@@ -136,6 +136,10 @@
           .column {
             width: 50%;
           }
+          .steps {
+            margin-left: 25px;
+            text-align: center;
+          }
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
