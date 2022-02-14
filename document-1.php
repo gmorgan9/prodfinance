@@ -169,7 +169,7 @@
             margin-left: -15px;
           }
           .steps {
-            margin: unset;
+            margin-left: 25px;
             text-align: center;
           }
         }
