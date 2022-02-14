@@ -125,11 +125,11 @@
             margin-bottom: 5px;
             text-align: center;
           }
-          #login, #register {
+          #login, #register, #logout, #register {
             text-decoration: none;
             color: white;
           }
-          #loginreg {
+          #loginreg, #profilelogout {
             float: none;
             margin-top: 5px;
             text-align: center;
@@ -161,31 +161,6 @@
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 600px) {
-          .header {
-            width: 350px;
-          }
-          .nav-header {
-            width: 350px;
-            height: 100px;
-          }
-          #nav-list {
-            margin-top: 10px;
-            margin-bottom: 5px;
-            text-align: center;
-          }
-          #login, #register, #profile, #logout {
-            text-decoration: none;
-            color: white;
-          }
-          #loginreg, #profilelogout {
-            float: none;
-            margin-top: 5px;
-            text-align: center;
-          }
-          hr {
-            display: block;
-            margin-left: 75px;
-          }
           .column {
             width: 100%;
             margin-left: -15px;

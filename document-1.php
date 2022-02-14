@@ -130,7 +130,7 @@
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
-          .header {
+            .header {
             width: 350px;
           }
           .nav-header {
@@ -142,11 +142,11 @@
             margin-bottom: 5px;
             text-align: center;
           }
-          #login, #register {
+          #login, #register, #logout, #register {
             text-decoration: none;
             color: white;
           }
-          #loginreg {
+          #loginreg, #profilelogout {
             float: none;
             margin-top: 5px;
             text-align: center;
@@ -177,7 +177,7 @@
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {        
+        @media screen and (max-width: 600px) {
           .column {
             width: 100%;
             margin-left: -15px;
