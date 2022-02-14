@@ -117,6 +117,9 @@
             width: 350px;
             height: 100px;
           }
+          .nav-list-item-log {
+            margin-left: -30px;
+          }
           .column {
             width: 50%;
           }
@@ -161,11 +164,11 @@
           <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
           | &nbsp;
           <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-        <!-- <div class="log-step" style="float:right;margin-right:35px;"> -->
-          <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
+        <div class="log-step" style="float:right;margin-right:35px;">
+          <li class="nav-list-item-log"><a class="nav-list-link" href="login.php">Login</a></li>
           | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
-        <!-- </div> -->
+          <li class="nav-list-item-log"><a class="nav-list-link" href="register.php">Register</a></li>
+        </div>
       </nav>
 		<?php } ?>
   </div>
