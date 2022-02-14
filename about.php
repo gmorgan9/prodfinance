@@ -170,13 +170,11 @@
             text-align: center;
           }
           #login, #register {
-            
             text-decoration: none;
             color: white;
           }
           #loginreg {
-            margin-top: none !important;
-            margin-bottom: none !important;
+            float: none;
             margin-top: 5px;
             text-align: center;
           }
