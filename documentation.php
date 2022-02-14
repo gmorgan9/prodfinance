@@ -180,7 +180,6 @@
           #hamburger-icon {
     display: block;
     margin-left: 35%;
-    margin-right: 50%;
   }
   .nav-header {
     width: 20%;
