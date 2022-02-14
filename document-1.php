@@ -415,7 +415,7 @@ cloudflared tunnel create &lt;your tunnel name>
 </code></pre>
 <br>
 <p>
-In this command you will replace &lt;your tunnel name> with a desired name for your tunnel. It can be anything usually a one word name. This will create the tunnel within your cloudflare. You can check your tunnel list at your <a href="https://dash.teams.cloudflare.com/">https://dash.teams.cloudflare.com/</a> URL which you can access through your cloudflare dashboard or you can run a command to list the current tunnels you have running. Keep track of the tunnel ID(UUID), you will need this later on. It will also create a file that has your tunnel ID(UUID).json. This is what controls the tunnel credentials file for you and you will need it later on when we configure your config.yaml file. 
+In this command you will replace &lt;your tunnel name> with a desired name for your tunnel. It can be anything usually a one word name. This will create the tunnel within your cloudflare. You can check your tunnel list at your <a href="https://dash.teams.cloudflare.com/" target="_blank">https://dash.teams.cloudflare.com/</a> URL which you can access through your cloudflare dashboard or you can run a command to list the current tunnels you have running. Keep track of the tunnel ID(UUID), you will need this later on. It will also create a file that has your tunnel ID(UUID).json. This is what controls the tunnel credentials file for you and you will need it later on when we configure your config.yaml file. 
 </p>
 <pre><code>
 cloudflared tunnel list
@@ -525,7 +525,7 @@ sudo systemctl enable cloudflared
 <p>
 You should now be able to access your site anywhere on any network. If you want to go back and add another subdomain you can just go back and follow these steps.
 <br><br>
-If there are any questions that you have, please feel free to contact <a href="mailto:garr.morg@gmail.com">here</a>.
+If there are any questions that you have, please feel free to contact <a href="mailto:garr.morg@gmail.com" target="_blank">here</a>.
 </p>
 <br><br><br>
 
