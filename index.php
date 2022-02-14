@@ -45,16 +45,16 @@
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 15px 5px 20px 5px;
         }
-        .nav-list {
-            margin-top:10px;
-            margin-left: 35px;
+        #loginreg,#profilelogout {
+          float: right;
+          margin-top: -3%;
         }
         .nav-list-item {
             list-style-type:none;
             display:inline;
             margin-right:8px;
         }
-        .nav-list-link {
+        .nav-list-link,#login,#logout,#profile,#register {
             cursor:pointer;
             color:white;
             text-decoration:none;
