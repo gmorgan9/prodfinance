@@ -112,21 +112,6 @@
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
-          .column {
-            width: 50%;
-          }
-        }
-
-        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {
-          hr {
-            display: block;
-            margin-left: 75px;
-          }
-          .column {
-            width: 100%;
-            margin-left: -15px;
-          }
           .header {
             width: 350px;
           }
@@ -146,6 +131,21 @@
           #loginreg {
             margin-top: 5px;
             text-align: center;
+          }
+          .column {
+            width: 50%;
+          }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          hr {
+            display: block;
+            margin-left: 75px;
+          }
+          .column {
+            width: 100%;
+            margin-left: -15px;
           }
         }
 
