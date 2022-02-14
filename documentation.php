@@ -180,6 +180,9 @@
           #hamburger-icon {
     display: block;
   }
+  .header nav {
+    display: none;
+  }
           .column {
             width: 100%;
           }
@@ -195,6 +198,7 @@
 	</div>
 
   <div class="nav-header">
+    <nav>
     <div class="nav-list">
       <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
@@ -209,6 +213,7 @@
         <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
 		  <?php } ?>
     </div>
+    </nav>
   
 
   <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
