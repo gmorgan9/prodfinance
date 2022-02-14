@@ -154,7 +154,7 @@
         <li id="profile"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
         <li id="logout"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
 		  <?php }else{ ?>
-        <li id="login"><a class="nav-list-link" href="login.php">Login</a></li>
+        <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
         <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
 		  <?php } ?>
     </div>
