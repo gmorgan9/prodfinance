@@ -170,6 +170,8 @@
             text-align: center;
           }
           #login, #register {
+            margin-top: none;
+            margin-bottom: none;
             text-decoration: none;
             color: white;
           }
