@@ -349,15 +349,15 @@ For an example, the grayed out "Listen 81" is what I added in because that is th
 <br>
 Listen 80<br>
 Listen 81<br>
-<br>
+
 &lt;IfModule ssl_module><br>
 	Listen 443<br>
 &lt;/IfModule><br>
-<br>
+
 &lt;IfModule mod_gnutls.c><br>
 	Listen 443<br>
 &lt;/IfModule><br>
-<br>
+
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 </code></pre>
 <br>
@@ -460,6 +460,26 @@ ingress:<br>
     service: http://localhost:81<br>
 # you'll always need this at the end as the "catch all" for if an endpoint is not found<br>
   - service: http_status:404
+</code></pre>
+<br>
+<p>
+You can see the difference between the single domain/sub domain config file and the multiple domain/sub domain config file. The main difference is that you don't have the URL line in the multiple domain/sub domain config file because you are using the ingress method. Under the ingress you will put hostname: which is going to be how you access it instead of the ip address(of course this hostname is going to have to be a domain that you have purchased, if you it's a sub domain, it will be a sub of the domain that you purchased). And then you will see the service line, this will be where you put "http://localhost:80", where the :80 is the port number that you used for that subdomain back in step 5. 
+<br><br>
+The next part of this step is routing your traffic. This will be done by using the following command: 
+</p>
+<pre><code>
+cloudflared tunnel route dns &lt;TUNNEL NAME> &lt;hostname>
+</code></pre>
+<br>
+<p>
+In using this command, you will need to replace &lt;TUNNEL NAME> with the tunnel name you assigned to your tunnel when you created it above. And then the host name will be either the URL you put on the url line in the single domain/sub domain config file or the hostname in the ingress section in the multiple domain/sub domain config file. If you are creating a tunnel route for the single domain/sub domain you will just have to do this once, but if you are doing it for multiple domains/sub domains, then you will have to do a single command of the "cloudflared tunnel route dns <code>&lt;NAME> &lt;hostname>"</code> for each domain/sub domain you have on the multiple config file.
+<br><br>
+We are going to now run your tunnel to make sure your domain/sub domains are up and running. You should be able to go to the domain or sub domain to get to the site to see if its working correctly. 
+<br><br>
+If you currently have a tunnel running, you will need to follow some steps but if you don't have a tunnel currently running, then skip to the next section. If you have a tunnel running, you will need to disable the Daemon that you have up and running. Run the next commands in a line:
+</p>
+<pre><code>
+cloudflared tunnel route dns &lt;TUNNEL NAME> &lt;hostname>
 </code></pre>
 <br>
 
