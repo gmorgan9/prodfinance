@@ -138,7 +138,27 @@
         }
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 600px) {
+        @media screen and (min-width: 600px) {
+          .header {
+            width: 350px;
+          }
+          .nav-header {
+            width: 350px;
+            height: 100px;
+          }
+          #nav-list {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+          }
+          #login, #register {
+            text-decoration: none;
+            color: white;
+          }
+          #loginreg {
+            margin-top: 5px;
+            text-align: center;
+          }
           hr {
             display: block;
             margin-left: 75px;
