@@ -479,9 +479,55 @@ We are going to now run your tunnel to make sure your domain/sub domains are up 
 If you currently have a tunnel running, you will need to follow some steps but if you don't have a tunnel currently running, then skip to the next section. If you have a tunnel running, you will need to disable the Daemon that you have up and running. Run the next commands in a line:
 </p>
 <pre><code>
-cloudflared tunnel route dns &lt;TUNNEL NAME> &lt;hostname>
+sudo systemctl stop cloudflared
 </code></pre>
 <br>
+<pre><code>
+sudo systemctl disable cloudflared
+</code></pre>
+<br>
+<pre><code>
+sudo rm /etc/cloudflared/config.yml
+</code></pre>
+<br>
+<p>
+This is going to remove the activated Daemon that you have running. Once you remove that, then you will be able to run you tunnel correctly. If you don’t have a tunnel currently running, then this is where you are going to need to be. To get your tunnel up and running manually, you will need to run this command:
+</p>
+<pre><code>
+cloudflared tunnel --config /&lt;path_to_config.yaml>/config.yaml run
+</code></pre>
+<br>
+<p>
+Where you will replace &lt;path_to_config.yaml> with the path to your config.yaml file. And then this will run your tunnel and you should be able to get to your site via your domain or sub domain. If you are able to get to your domain/sub domain via domain.com or subdomain.domain.com, then you know its working and its time to put up your tunnel via a Daemon. To do this, you need to run the following simple code if you are in the directory that your config file is in:
+</p>
+<pre><code>
+sudo cloudflared --config config.yaml service install
+</code></pre>
+<br>
+<p>
+Run the following code if you are not in the folder that includes your config.yaml file:
+</p>
+<pre><code>
+sudo cloudflared --config /&lt;path_to_config.yaml>/config.yaml service install
+</code></pre>
+<br>
+<p>
+After running that script, then you will need to run the following commands in consistent to finish up the Daemon set-up:
+</p>
+<pre><code>
+sudo systemctl start cloudflared
+</code></pre>
+<br>
+<pre><code>
+sudo systemctl enable cloudflared
+</code></pre>
+<br>
+<p>
+You should now be able to access your site anywhere on any network. If you want to go back and add another subdomain you can just go back and follow these steps.
+<br><br>
+If there are any questions that you have, please feel free to contact <a href="mailto:garr.morg@gmail.com">here</a>.
+</p>
+<br><br><br>
 
 
 
