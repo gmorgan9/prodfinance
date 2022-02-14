@@ -173,11 +173,11 @@
             margin-bottom: 5px;
             text-align: center;
           }
-          #login, #register {
+          #login, #register, #profile, #logout {
             text-decoration: none;
             color: white;
           }
-          #loginreg {
+          #loginreg, #profilelogout {
             margin-top: 5px;
             text-align: center;
           }
