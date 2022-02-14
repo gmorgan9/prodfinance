@@ -318,14 +318,14 @@ Now inside your file, you will add/edit the lines.
 </p>
 <br>
 <pre><code>
-'<VirtualHost *:81>' <br>
+&lt;VirtualHost *:81> <br>
 ServerAdmin webmaster@localhost<br>
 ServerName domain.com<br>
 ServerAlias www.domain.com<br>
 DocumentRoot /var/www/domain.com/public_html<br>
 ErrorLog ${APACHE_LOG_DIR}/error.log<br>
 CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
-</VirtualHost>
+&lt;/VirtualHost>
 </code></pre>
 
 
