@@ -96,6 +96,30 @@
 			border: 1px solid var(--green-text);
 			margin-bottom: 20px;
 		}
+		/* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+          .header {
+            width: 350px;
+          }
+          .nav-header {
+            width: 350px;
+            height: 100px;
+          }
+		  form, .content {
+			width: 84%;
+		}
+          .column {
+            width: 50%;
+          }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {        
+          .column {
+            width: 100%;
+            margin-left: -15px;
+          }
+        }
     </style>
 </head>
 <body>
