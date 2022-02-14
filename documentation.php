@@ -117,9 +117,8 @@
             width: 350px;
             height: 100px;
           }
-          .nav-list-log a {
+          #register {
             color: red;
-            text-align: center;
           }
           .column {
             width: 50%;
@@ -150,11 +149,11 @@
     </div>
     <div class="nav-list-log">
       <?php if(isLoggedIn()){?>
-        <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+        <li id="profile"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+        <li id="logout"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
 		  <?php }else{ ?>
-        <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+        <li id="login"><a class="nav-list-link" href="login.php">Login</a></li>
+        <li id="register"><a class="nav-list-link" href="register.php">Register</a></li>
 		  <?php } ?>
     </div>
   </div>
