@@ -64,7 +64,7 @@
         }
         #loginreg,#profilelogout {
           float: right;
-          margin-top: -2.8%;
+          margin-top: -2.95%;
         }
         .nav-list-item {
             list-style-type:none;
