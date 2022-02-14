@@ -117,6 +117,10 @@
             width: 350px;
             height: 100px;
           }
+          #login, #register {
+            text-decoration: none;
+            color: white;
+          }
           #loginreg {
             text-align: center;
           }
