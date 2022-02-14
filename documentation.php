@@ -180,7 +180,7 @@
           #hamburger-icon {
     display: block;
   }
-  .header nav {
+  .nav-header nav {
     display: none;
   }
           .column {
