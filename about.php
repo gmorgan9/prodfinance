@@ -122,6 +122,7 @@
             height: 100px;
           }
           #nav-list {
+            margin-left: none;
             margin-top: 10px;
             margin-bottom: 5px;
             text-align: center;
