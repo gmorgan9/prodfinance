@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          #register, #login {
+          #loginreg {
             display: inline;
             color: red;
             margin-left: 35px;
@@ -154,8 +154,10 @@
         <li id="profile"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
         <li id="logout"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
 		  <?php }else{ ?>
+        <div id="loginreg">
         <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
         <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
+        </div>
 		  <?php } ?>
     </div>
   </div>
