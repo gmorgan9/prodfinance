@@ -182,6 +182,10 @@
     margin-left: 45%;
     margin-right: 45%;
   }
+  .nav-header {
+    width: 40%;
+    height: 10%;
+  }
   .nav-header nav {
     display: none;
   }
