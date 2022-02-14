@@ -140,7 +140,7 @@
             clear: all;
             margin-left: 10px !important;
             margin-right: none !important;
-            width: 100% !important;
+            width: 80% !important;
             text-align: center;
           }
         }
