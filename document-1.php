@@ -168,6 +168,10 @@
             width: 100%;
             margin-left: -15px;
           }
+          .steps {
+            margin: unset;
+            text-align: center;
+          }
         }
 
 
