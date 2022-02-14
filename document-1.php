@@ -153,6 +153,10 @@
             width: 95% !important;
             text-align: center !important;
           }
+          .content-header {
+            margin-left: 5%;
+            margin-right: 5%;
+          }
           .btn {
             margin-left: 42.5%;
             margin-top: -50px;
