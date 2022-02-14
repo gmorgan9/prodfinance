@@ -117,7 +117,7 @@
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: red;
+  background-color: var(--primary-color);
   margin: 6px 0;
   transition: 0.4s;
 }
