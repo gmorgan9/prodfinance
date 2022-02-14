@@ -327,6 +327,40 @@ ErrorLog ${APACHE_LOG_DIR}/error.log<br>
 CustomLog ${APACHE_LOG_DIR}/access.log combined<br>
 &lt;/VirtualHost>
 </code></pre>
+<br>
+<p>
+Update ServerName, ServerAlias, and DocumentRoot where it mentions domain.com, you change it with your domain/subdomain. You can also change to port number from :80 to whatever port you are porting your site off of. You will have to make sure that you edit your /etc/apache2/ports.conf. This file contains the ports that your IP address listens to. 
+<br><br>
+To edit this file, run the following command: 
+</p>
+<pre><code>
+sudo nano /etc/apache2/ports.conf
+</code></pre>
+<br>
+<p>
+In this file where you see Listen 80, you will add whatever port you are wanting to Listen to. 
+<br><br>
+For an example, the grayed out "Listen 81" is what I added in because that is the port I want my Ipaddress to listen to.
+</p>
+<pre><code>
+# If you just change the port or add more ports here, you will likely also<br>
+# have to change the VirtualHost statement in<br>
+# /etc/apache2/sites-enabled/000-default.conf<br>
+<br>
+Listen 80<br>
+Listen 81<br>
+<br>
+&lt;IfModule ssl_module><br>
+	Listen 443<br>
+&lt;/IfModule><br>
+<br>
+&lt;IfModule mod_gnutls.c><br>
+	Listen 443<br>
+&lt;/IfModule><br>
+<br>
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+</code></pre>
+
 
 
 
