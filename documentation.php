@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .log-step li {
+          .nav-list-item-log {
             margin-right: 20px;
           }
           .column {
@@ -152,9 +152,9 @@
             | &nbsp;
             <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
           <div class="log-step" style="float:right;margin-right:35px;">
-            <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+            <li class="nav-list-item-log"><a class="nav-list-link-log" href="profileinfo.php">Profile</a></li>
             | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+            <li class="nav-list-item-log"><a class="nav-list-link-log" href="index.php?logout='1'">Logout</a></li>
           </div>
         </nav>
 		<?php }else{ ?>
