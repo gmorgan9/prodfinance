@@ -472,7 +472,7 @@ cloudflared tunnel route dns &lt;TUNNEL NAME> &lt;hostname>
 </code></pre>
 <br>
 <p>
-In using this command, you will need to replace &lt;TUNNEL NAME> with the tunnel name you assigned to your tunnel when you created it above. And then the host name will be either the URL you put on the url line in the single domain/sub domain config file or the hostname in the ingress section in the multiple domain/sub domain config file. If you are creating a tunnel route for the single domain/sub domain you will just have to do this once, but if you are doing it for multiple domains/sub domains, then you will have to do a single command of the "cloudflared tunnel route dns <code>&lt;NAME> &lt;hostname>"</code> for each domain/sub domain you have on the multiple config file.
+In using this command, you will need to replace &lt;TUNNEL NAME> with the tunnel name you assigned to your tunnel when you created it above. And then the host name will be either the URL you put on the url line in the single domain/sub domain config file or the hostname in the ingress section in the multiple domain/sub domain config file. If you are creating a tunnel route for the single domain/sub domain you will just have to do this once, but if you are doing it for multiple domains/sub domains, then you will have to do a single command of the <code>cloudflared tunnel route dns &lt;NAME> &lt;hostname></code> for each domain/sub domain you have on the multiple config file.
 <br><br>
 We are going to now run your tunnel to make sure your domain/sub domains are up and running. You should be able to go to the domain or sub domain to get to the site to see if its working correctly. 
 <br><br>
