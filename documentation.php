@@ -144,6 +144,7 @@
 }
 
 .mobile-menu {
+  background-color: red;
   display: none;
   position: absolute;
   top: 50px;
