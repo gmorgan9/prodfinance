@@ -245,7 +245,7 @@
         <h2 style="text-align:center;">Creating Domain/Subdomains on Cloudflare</h2>
         <h4 style="text-align:center; color:gray;">Check it out</h4>
       </div>
-
+<br><br>
 <div class="steps">
 <h3>
     Introdcution
