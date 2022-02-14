@@ -110,6 +110,7 @@
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
           .header {
+            width: 50px;
             color: red;
           }
           .column {
