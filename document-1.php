@@ -35,15 +35,15 @@
 	        padding: 20px;
         }
         .btn {
-			padding: 10px;
-			font-size: 15px;
-			color: white;
-			background-color: var(--secondary-color);
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			text-decoration: none;
-		}
+		    	padding: 10px;
+		    	font-size: 15px;
+		    	color: white;
+		    	background-color: var(--secondary-color);
+		    	border: none;
+		    	border-radius: 5px;
+		    	cursor: pointer;
+		    	text-decoration: none;
+		    }
         /* Navigation */
         .nav-header{
           width: 60%;
@@ -152,6 +152,10 @@
             margin-right: 5px !important;
             width: 95% !important;
             text-align: center !important;
+          }
+          .btn {
+            margin-left: 20px;
+            margin-top: -15px;
           }
         }
 
