@@ -142,33 +142,17 @@
 	</div>
 
   <div class="nav-header">
-    <?php if(isLoggedIn())
-		{
-		?>
-        <nav class="nav-list">
-            <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
-            | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
-            | &nbsp;
-            <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-          <!-- <div class="log-step" style="float:right;margin-right:35px;"> -->
-            <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-            <p>| &nbsp;</p>
-            <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-          <!-- </div> -->
-        </nav>
+    <div class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+    </div>
+    <?php if(isLoggedIn()){?>
+      <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
 		<?php }else{ ?>
-			<nav class="nav-list">
-          <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
-          | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
-          | &nbsp;
-          <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-        <ul class="log-step" style="float:right;margin-right:35px;">
-          <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login | </a></li>
-          <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
-    </ul>
-      </nav>
+      <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
 		<?php } ?>
   </div>
         <br><br><br>
