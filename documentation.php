@@ -122,6 +122,7 @@
           }
           .log-step a {
             color: red;
+            margin-left: -15px;
           }
           .column {
             width: 50%;
