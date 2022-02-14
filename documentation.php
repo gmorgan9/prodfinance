@@ -135,7 +135,7 @@
             text-align: center;
           }
           .column {
-            width: 50%;
+            width: 35%;
           }
         }
 
