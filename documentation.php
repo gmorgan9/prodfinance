@@ -117,8 +117,8 @@
             width: 350px;
             height: 100px;
           }
-          .log-step {
-            margin-left: -40px;
+          .nav-list-log {
+            color: red;
           }
           .column {
             width: 50%;
@@ -147,13 +147,15 @@
       <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
     </div>
-    <?php if(isLoggedIn()){?>
-      <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-      <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-		<?php }else{ ?>
-      <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
-      <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
-		<?php } ?>
+    <div class="nav-list-log">
+      <?php if(isLoggedIn()){?>
+        <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+		  <?php }else{ ?>
+        <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
+        <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
+		  <?php } ?>
+    </div>
   </div>
         <br><br><br>
 
