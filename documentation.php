@@ -120,6 +120,9 @@
           .log-step {
             color: red;
           }
+          .log-step a {
+            color: red;
+          }
           .column {
             width: 50%;
           }
