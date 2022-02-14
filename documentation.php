@@ -120,8 +120,11 @@
           .log-step {
             color: red;
           }
-          .log-step a {
+          .log-step li {
             color: red;
+            margin-left: -15px;
+          }
+          .log-step p {
             margin-left: -15px;
           }
           .column {
