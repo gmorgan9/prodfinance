@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .nav-list-log {
+          .nav-list-log li {
             color: red;
           }
           .column {
