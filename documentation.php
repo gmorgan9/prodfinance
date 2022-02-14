@@ -117,6 +117,9 @@
             width: 350px;
             height: 100px;
           }
+          .log-step {
+            text-align: center;
+          }
           .column {
             width: 70%;
           }
