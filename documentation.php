@@ -117,7 +117,7 @@
             width: 350px;
             height: 100px;
           }
-          .log {
+          #log {
             color: red;
           }
           .column {
@@ -152,7 +152,7 @@
             | &nbsp;
             <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
           <div class="log-step" style="float:right;margin-right:35px;">
-            <div class="log"><li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li></div>
+            <div id="log"><li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li></div>
             <div class="log">| &nbsp;</div>
             <div class="log"><li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li></div>
           </div>
