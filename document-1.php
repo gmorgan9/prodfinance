@@ -168,7 +168,7 @@
             width: 100%;
             margin-left: -15px;
           }
-          .steps {
+          .steps h3,p {
             margin-left: 0;
             text-align: center;
           }
