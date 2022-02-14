@@ -65,16 +65,14 @@
         #loginreg,#profilelogout {
           float: right;
           margin-top: -3%;
+          cursor:pointer;
+          color:white;
+          text-decoration:none;
         }
         .nav-list-item {
             list-style-type:none;
             display:inline;
             margin-right:8px;
-        }
-        .nav-list-link {
-            cursor:pointer;
-            color:white;
-            text-decoration:none;
         }
         /* Column KB Cards */
         .row {
