@@ -118,7 +118,7 @@
             height: 100px;
           }
           .nav-list-link-log {
-            margin-left: -40px;
+            text-align:center;
           }
           .log {
             margin-left: -40px;
