@@ -154,8 +154,7 @@
             text-align: center !important;
           }
           .btn {
-            margin-left: 50%;
-            margin-right: 50%;
+            margin-left: 40%;
             margin-top: -50px;
             position: absolute;
           }
