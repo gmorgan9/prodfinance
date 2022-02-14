@@ -107,56 +107,6 @@
           margin-right: 10px;
         }
 
-
-        #hamburger-icon {
-  margin: auto 0;
-  display: none;
-  cursor: pointer;
-}
-
-#hamburger-icon div {
-  width: 35px;
-  height: 3px;
-  background-color: var(--primary-color);
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.open .bar2 {
-  opacity: 0;
-}
-
-.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -8px);
-  transform: rotate(45deg) translate(-6px, -8px);
-}
-
-.open .mobile-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.mobile-menu {
-  background-color: rgba(170, 170, 170, 0.45);
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  height: calc(100vh - 50px);
-  width: 100%;
-}
-
-.mobile-menu li {
-  margin-bottom: 10px;
-}
-
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
           .header {
@@ -178,17 +128,6 @@
 
         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
         @media screen and (max-width: 600px) {
-          #hamburger-icon {
-    display: block;
-    margin-left: 25%;
-  }
-  .nav-header {
-    width: 20%;
-    height: 8%;
-  }
-  .nav-header nav {
-    display: none;
-  }
           .column {
             width: 100%;
           }
@@ -204,7 +143,6 @@
 	</div>
 
   <div class="nav-header">
-    <nav>
     <div class="nav-list">
       <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
@@ -219,35 +157,7 @@
         <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
 		  <?php } ?>
     </div>
-    </nav>
-  
-
-  <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="mobile-menu">
-        <div class="nav-list">
-      <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
-      <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
-      <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
-    </div>
-    <div class="nav-list-log">
-      <?php if(isLoggedIn()){?>
-        <li class="nav-list-item"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
-		  <?php }else{ ?>
-        <li class="nav-list-item"><a class="nav-list-link" href="login.php">Login</a></li>
-        <li class="nav-list-item"><a class="nav-list-link" href="register.php">Register</a></li>
-		  <?php } ?>
-    </div>
-            
-          </ul>
-        </div>
-        </div>
-
-
-
+  </div>
         <br><br><br>
 
     <div class="main-content">
@@ -300,12 +210,5 @@
     </div>
 
     </div>
-    <script>
-
-function toggleMobileMenu(menu) {
-  menu.classList.toggle('open');
-}
-
-    </script>
 </body>
 </html>
