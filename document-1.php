@@ -137,7 +137,7 @@
             width: 50%;
           }
           .steps {
-            clear: all;
+            clear: all !important;
             text-align: center;
           }
         }
