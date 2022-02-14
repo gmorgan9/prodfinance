@@ -360,6 +360,108 @@ Listen 81<br>
 <br>
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 </code></pre>
+<br>
+<h3>
+    Step 6:
+</h3>
+<p>
+Now its time to enable your config files. You will first have to disable the 000-default.conf file. You will do this by running the following command:
+</p>
+<pre><code>
+sudo a2dissite 000-default.conf
+</code></pre>
+<br>
+<p>
+You will now enable your conf files by running the following command:
+</p>
+<br>
+<pre><code>
+sudo a2ensite domain.com.conf
+</code></pre>
+<br>
+<p>
+You will now have to restart the apache2 service so it will register our changes.
+</p>
+<br>
+<pre><code>
+sudo systemctl restart apache2
+</code></pre>
+<br>
+<h3>
+    Step 7:
+</h3>
+<p>
+This is an important step, we want to check whether or not our sites are up and running. You will do this but going to your ip address. For example if your ip address is 192.168.1.10 you will want to go to the port you used for the site, so it will be 192.168.1.10:80, where the :80 is your port you are trying to go to. Once you can see that they are working, then we will move on to the steps that lead us into the Cloudflare steps.
+</p>
+<br>
+<h2>
+Cloudflare Steps 
+</h2>
+<h3>
+    Step 8:
+</h3>
+<p>
+In this step, we are going to create a tunnel, but if you already have a tunnel created then you can jump to step () and you can skip the tunnel set up steps. To create a tunnel, you will run this command to get your connection authorized. 
+</p>
+<pre><code>
+cloudflared tunnel login
+</code></pre>
+<br>
+<p>
+This will either redirect you or give you a link that you can copy which is where you will authorize your site for the tunnel login. After this step you will create the tunnel with the following command: 
+</p>
+<pre><code>
+cloudflared tunnel create &lt;your tunnel name>
+</code></pre>
+<br>
+<p>
+In this command you will replace &lt;your tunnel name> with a desired name for your tunnel. It can be anything usually a one word name. This will create the tunnel within your cloudflare. You can check your tunnel list at your <a href="https://dash.teams.cloudflare.com/">https://dash.teams.cloudflare.com/</a> URL which you can access through your cloudflare dashboard or you can run a command to list the current tunnels you have running. Keep track of the tunnel ID(UUID), you will need this later on. It will also create a file that has your tunnel ID(UUID).json. This is what controls the tunnel credentials file for you and you will need it later on when we configure your config.yaml file. 
+</p>
+<pre><code>
+cloudflared tunnel list
+</code></pre>
+<br>
+<p>
+This command will help you see if the tunnel you created was actually created. If not, just try again with the tunnel create command above. 
+<br><br>
+The next part of this step would be to create the config.yaml file, but if you already have one then you can just edit the file. I am going to show two different ways to have your config.yaml file. One will be to just have one site running on your tunnel and the second one will allow for you to have multiple domains/sub domains. If you don't have the command, run the following command:
+</p>
+<pre><code>
+sudo nano config.yaml
+</code></pre>
+<br>
+<p>
+Once you get this file created, you will put this information in for a single domain/sub domain and just make sure you update it with the information you need, which I will point out for you.
+</p>
+<pre><code>
+url: http://localhost:81<br>
+tunnel: &lt;tunnel UUID><br>
+credentials-file: /&lt;path_to_config.yaml>/&lt;tunnel UUID>.json<br>
+</code></pre>
+<br>
+<p>
+I am going to go through the parts of this config.yaml file. In the url you will keep "http://localhost:81", where the :81 is the port for this specific domain/sub domain that you used back in step 5.. In the tunnel line, you will put the tunnel UUID from when you created the tunnel. In the credentials line, you are going to place the full path of the credentials file. To find the exact path of your config.yaml file, you can run the following command:
+</p>
+<pre><code>
+readlink -f config.yaml
+</code></pre>
+<br>
+<p>
+That was to set up the config.yaml file for a single domain/sub domain, but for multiple domains/sub domains to run through a single tunnel, we will use ingress. For this you will post in the following information:
+</p>
+<pre><code>
+tunnel: &lt;tunnel UUID><br>
+credentials-file: /&lt;path_to_config.yaml>/&lt;tunnel UUID>.json<br>
+
+ingress:<br>
+  - hostname: domain.us<br>
+    service: http://localhost:80<br>
+  - hostname: domain.subdomain.us<br>
+    service: http://localhost:81<br>
+# you'll always need this at the end as the "catch all" for if an endpoint is not found<br>
+  - service: http_status:404
+</code></pre>
+<br>
 
 
 
