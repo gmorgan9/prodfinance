@@ -117,6 +117,9 @@
             width: 350px;
             height: 100px;
           }
+          #nav-list {
+            text-align: center;
+          }
           #login, #register {
             text-decoration: none;
             color: white;
@@ -146,19 +149,21 @@
 	</div>
 
   <div class="nav-header">
-    <div class="nav-list">
+    <div id="nav-list">
       <li class="nav-list-item"><a class="nav-list-link" href="index.php">Home</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
     </div>
     <div class="nav-list-log">
       <?php if(isLoggedIn()){?>
-        <li id="profile"><a class="nav-list-link" href="profileinfo.php">Profile</a></li>
-        <li id="logout"><a class="nav-list-link" href="index.php?logout='1'">Logout</a></li>
+        <div id="profilelogout">
+          <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
+          <li class="nav-list-item"><a id="logout" href="index.php?logout='1'">Logout</a></li>
+        </div>
 		  <?php }else{ ?>
         <div id="loginreg">
-        <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
-        <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
+          <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
+          <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
         </div>
 		  <?php } ?>
     </div>
