@@ -119,6 +119,7 @@
           }
           #register {
             color: red;
+            margin-left: 35px;
           }
           .column {
             width: 50%;
