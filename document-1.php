@@ -43,6 +43,9 @@
 		    	border-radius: 5px;
 		    	cursor: pointer;
 		    	text-decoration: none;
+          margin-left: 42.5%;
+          margin-top: -50px;
+          position: absolute;
 		    }
         /* Navigation */
         .nav-header{
@@ -55,7 +58,7 @@
 	        border-radius: 10px 10px 10px 10px;
 	        padding: 15px 5px 20px 5px;
         }
-        .nav-list {
+        #nav-list {
             margin-top:10px;
             margin-left: 35px;
         }
@@ -185,14 +188,13 @@
             color: red;
         }
         pre {
-  overflow-x: auto;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  word-wrap: break-word;
-}
-
+          overflow-x: auto;
+          white-space: pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          word-wrap: break-word;
+        }
     </style>
 </head>
 <body>
