@@ -170,12 +170,13 @@
             text-align: center;
           }
           #login, #register {
-            margin-top: none !important;
-            margin-bottom: none !important;
+            
             text-decoration: none;
             color: white;
           }
           #loginreg {
+            margin-top: none !important;
+            margin-bottom: none !important;
             margin-top: 5px;
             text-align: center;
           }
