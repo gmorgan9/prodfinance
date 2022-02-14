@@ -115,7 +115,6 @@
 
           .header {
             width: 350px;
-            color: red;
           }
           .nav-header {
             width: 350px;
