@@ -135,7 +135,7 @@
             text-align: center;
           }
           .column {
-            width: 35%;
+            width: 50%;
           }
         }
 
@@ -146,7 +146,8 @@
             margin-left: 75px;
           }
           .column {
-            width: 50%;
+            width: 100%;
+            margin-left: -15px;
           }
         }
 
