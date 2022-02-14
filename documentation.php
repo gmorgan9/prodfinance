@@ -117,7 +117,8 @@
             width: 350px;
             height: 100px;
           }
-          #register {
+          #register, #login {
+            display: inline;
             color: red;
             margin-left: 35px;
           }
