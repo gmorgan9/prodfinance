@@ -179,7 +179,7 @@
         @media screen and (max-width: 600px) {
           #hamburger-icon {
     display: block;
-    margin-left: 35%;
+    margin-left: 30%;
   }
   .nav-header {
     width: 20%;
