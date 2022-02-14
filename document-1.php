@@ -155,6 +155,7 @@
           }
           .btn {
             margin-left: 20px;
+            margin-top: -50px;
             position: absolute;
           }
         }
