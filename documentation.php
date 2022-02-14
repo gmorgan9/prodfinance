@@ -106,6 +106,9 @@
           margin-left: 10px;
           margin-right: 10px;
         }
+        hr {
+          display: hidden;
+        }
 
         /* Responsive layout - makes a two column-layout instead of four columns */
         @media screen and (max-width: 900px) {
@@ -155,6 +158,7 @@
       <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
       <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
     </div>
+    <hr style="width:50%">
     <div class="nav-list-log">
       <?php if(isLoggedIn()){?>
         <div id="profilelogout">
