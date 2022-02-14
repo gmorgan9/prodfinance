@@ -121,7 +121,7 @@
             left: -50;
           }
           .column {
-            width: 70%;
+            width: 50%;
           }
         }
 
