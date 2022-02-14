@@ -62,6 +62,9 @@
             margin-top:10px;
             margin-left: 35px;
         }
+        #loginreg,#profilelogout {
+          float: right;
+        }
         .nav-list-item {
             list-style-type:none;
             display:inline;
