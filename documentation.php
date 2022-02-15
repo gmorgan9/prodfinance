@@ -10,14 +10,6 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
-    <style>
-       
-        
-        
-
-
-
-    </style>
 </head>
 <body>
 
