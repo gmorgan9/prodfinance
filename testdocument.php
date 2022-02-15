@@ -55,7 +55,7 @@
 	</div>
 	<div class="input-group">
 		<label>KB Conten</label>
-		<input type="password" name="password_1">
+		<input type="text" name="kb_post">
 	</div>
 	<div class="input-group">
 		<button type="submit" class="log-btn" name="register_btn">Publish</button>
