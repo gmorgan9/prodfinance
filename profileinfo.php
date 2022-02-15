@@ -48,14 +48,14 @@
 						<?php if(isAdmin())
 						{
 						?>
-      						<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
-							<a href="javascript:history.back()"><button class="btn">Back</button></a>
-							<a href="create_user.php"><button class="btn">Add User</button></a>
-							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
+      						<a href="index.php?logout='1'"><button class="log-btn">Logout</button></a>
+							<a href="javascript:history.back()"><button class="log-btn">Back</button></a>
+							<a href="create_user.php"><button class="log-btn">Add User</button></a>
+							<a href="resetpassword.php"><button class="log-btn">Reset Password</button></a>
 						<?php }else{ ?>
-							<a href="index.php?logout='1'"><button class="btn">Logout</button></a>
-							<a href="javascript:history.back()"><button class="btn">Back</button></a>
-							<a href="resetpassword.php"><button class="btn">Reset Password</button></a>
+							<a href="index.php?logout='1'"><button class="log-btn">Logout</button></a>
+							<a href="javascript:history.back()"><button class="log-btn">Back</button></a>
+							<a href="resetpassword.php"><button class="log-btn">Reset Password</button></a>
 						<?php } ?>
 					</small>
 				<?php endif ?>
