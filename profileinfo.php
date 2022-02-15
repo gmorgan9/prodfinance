@@ -17,7 +17,7 @@
 	<div class="log-header">
 		<h2>Profile Information</h2>
 	</div>
-	<div class="content">
+	<div class="message-content">
 		<!-- notification message -->
 		<?php if (isset($_SESSION['success'])) : ?>
 			<div class="error success" >
