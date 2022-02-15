@@ -30,7 +30,7 @@ if (isLoggedIN()) {
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="login_btn">Login</button>
-			<a href="javascript:history.back()" name="btn" class="btn" >Back</a>
+			<a href="javascript:history.back()" name="log-btn" class="btn" >Back</a>
 		</div>
 		<p>
 			Not yet a member? <a href="register.php">Sign up</a>

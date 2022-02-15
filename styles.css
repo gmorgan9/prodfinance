@@ -67,7 +67,7 @@ form, .content {
     border-radius: 5px;
     border: 1px solid gray;
 }
-/* .btn {
+.log-btn {
     padding: 10px;
     font-size: 15px;
     color: white;
@@ -76,7 +76,7 @@ form, .content {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-} */
+}
 #user_type {
     height: 40px;
     width: 98%;
