@@ -206,6 +206,8 @@
 
    here is the test document
 
+   <input type="text" style="height:300px;width:200px;">
+
     </div>
 </body>
 </html>
