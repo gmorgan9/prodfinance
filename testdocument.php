@@ -43,29 +43,32 @@
    here is the test document
 
 
-      <form method="post" role="form">
-        <div class="form-group">
-          <input type="text" class="form-control" name="title" placeholder="Title"/>
-        </div>
-        <div class="form-group">
-          <label> Image </label>
-          <div class="input-group">
-            
-            <span class="input-group-btn">
-              <span class="btn btn-primary btn-file">
-                Browse <input type="file" name="bimgs" multiple>
-              </span>
-             </span>
-            <input type="text" class="form-control" readonly>
-           </div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control bcontent" name="content"></textarea>
-        </div>
-        <div class="form-group">
-           <input type="submit" name="Submit" value="Publish" class="btn btn-primary form-control" />
-        </div>
-      </form>
+   <form method="post" action="register.php">
+<?php echo display_error(); ?>
+	<div class="input-group">
+		<label>Username</label>
+		<input type="text" name="username" value="<?php echo $username; ?>">
+	</div>
+	<div class="input-group">
+		<label>Email</label>
+		<input type="email" name="email" value="<?php echo $email; ?>">
+	</div>
+	<div class="input-group">
+		<label>Password</label>
+		<input type="password" name="password_1">
+	</div>
+	<div class="input-group">
+		<label>Confirm password</label>
+		<input type="password" name="password_2">
+	</div>
+	<div class="input-group">
+		<button type="submit" class="btn" name="register_btn">Register</button>
+		<a href="javascript:history.back()" name="btn" class="btn">Back</a>
+	</div>
+	<p>
+		Already a member? <a href="login.php">Sign in</a>
+	</p>
+</form>
    
 
 
