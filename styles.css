@@ -1,6 +1,8 @@
 :root {
     --primary-color: #002E5D;
     --secondary-color: #002f5dc7;
+    --backgroud: #F8F8FF;
+    --light-text: #fff;
 }
 * { 
     margin: 0px; 
@@ -9,12 +11,12 @@
 }
 body {
     font-size: 120%;
-    background: #F8F8FF;
+    background: var(--backgroud);
 } 
 .header {
     width: 40%;
     margin: 50px auto 0px;
-    color: white;
+    color: var(--light-text);
     background: var(--primary-color);
     text-align: center;
     border: 1px solid var(--primary-color);
@@ -22,24 +24,37 @@ body {
     border-radius: 10px 10px 10px 10px;
     padding: 20px;
 }
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: var(--light-text);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: -50px;
+    position: absolute;
+}
 /* Navigation */
 .nav-header{
-  width: 60%;
+    width: 60%;
     margin: 10px auto 0px;
-  color: white;
+    color: var(--light-text);
     background: var(--secondary-color);
     border: 1px solid var(--secondary-color);
     border-bottom: none;
     border-radius: 10px 10px 10px 10px;
     padding: 15px 5px 20px 5px;
-}
+  }
 #nav-list {
     margin-top:10px;
     margin-left: 35px;
 }
 #loginreg,#profilelogout {
-  float: right;
-  margin-top: -2.95%;
+    float: right;
+    margin-top: -2.95%;
 }
 .nav-list-item {
     list-style-type:none;
@@ -48,7 +63,7 @@ body {
 }
 .nav-list-link,#login,#logout,#profile,#register {
     cursor:pointer;
-    color:white;
+    color:var(--light-text);
     text-decoration:none;
 }
 /* Column KB Cards */
@@ -58,109 +73,119 @@ body {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+    padding: 8px;
 }
-
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
     width: 30%;
 }
-
 /* Clear floats after rows */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Content */
 .box {
-  background-color: #fff;
-  text-align: center;
-  height: 200px;
-  box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
+    background-color: #fff;
+    text-align: center;
+    height: 200px;
+    box-shadow: 4px 2px 2px rgba(170, 170, 170, 0.45);
 }
 .box:hover {
-  transition: transform .3s ease;
-  transform: scale(1.025);
+    transition: transform .3s ease;
+    transform: scale(1.025);
 }
 .top-bar {
     height: 20px;
     background-size: cover;
     background-position: 50%;
-    background-color: #002e5d;
-    /* border-radius: 10px 10px 0px 0px; */
+    background-color: var(--primary-color);
 }
 .content {
     padding: 10px;
 }
 .content p {
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 hr {
-  display: none;
+    display: none;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
     .header {
-    width: 350px;
-  }
-  .nav-header {
-    width: 350px;
-    height: 100px;
-  }
-  #nav-list {
-    margin-left: -2.5%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  #login, #register, #logout, #register {
-    text-decoration: none;
-    color: white;
-  }
-  #loginreg, #profilelogout {
-    float: none;
-    margin-top: 5px;
-    text-align: center;
-  }
-  .column {
-    width: 50%;
-  }
-  .steps {
-    clear: all;
-    margin-left: 5px !important;
-    margin-right: 5px !important;
-    width: 95% !important;
-    text-align: center !important;
-  }
-  .content-header {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-  }
-  .btn {
-    margin-left: 42.5%;
-    margin-top: -50px;
-    position: absolute;
-  }
-  hr {
-    display: block;
-    margin-left: 75px;
-  }
+        width: 350px;
+    }
+    .nav-header {
+        width: 350px;
+        height: 100px;
+    } 
+    #nav-list {
+        margin-left: -2.5%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    #login, #register, #logout, #register {
+        text-decoration: none;
+        color: white;
+    }
+    #loginreg, #profilelogout {
+        float: none;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .column {
+        width: 50%;
+    }
+    .steps {
+        clear: all;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        width: 95% !important;
+        text-align: center !important;
+    }
+    .content-header {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .btn {
+        margin-left: 42.5%;
+        margin-top: -50px;
+        position: absolute;
+    }
+    hr {
+        display: block;
+        margin-left: 75px;
+    }
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    margin-left: -15px;
-  }
+    .column {
+        width: 100%;
+        margin-left: -15px;
+    } 
 }
 
-.blog-post {
-    height:800px;
-    width:80%;
+
+
+/* DOCUMENT-1 */
+.steps {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+code{
+    color: red;
+}
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
