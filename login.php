@@ -10,6 +10,7 @@ if (isLoggedIN()) {
 <head>
 	<title>Login</title>
 	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
 	<div class="header">
