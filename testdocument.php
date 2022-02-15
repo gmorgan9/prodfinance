@@ -10,11 +10,6 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
-    <style>
-        
-
-
-    </style>
 </head>
 <body>
 
@@ -47,7 +42,7 @@
 
    here is the test document
 
-   <input type="text" style="height:300px;width:200px;">
+   <input type="text" style="height:80%;width:70%;">
 
     </div>
 </body>
