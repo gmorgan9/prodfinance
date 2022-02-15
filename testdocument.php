@@ -42,7 +42,7 @@
 
    here is the test document
 
-   <input type="text" style="height:80%;width:70%;">
+   <input type="text" class="blog-post">
 
     </div>
 </body>

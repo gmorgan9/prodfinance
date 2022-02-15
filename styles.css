@@ -159,3 +159,8 @@ hr {
     margin-left: -15px;
   }
 }
+
+.blog-post {
+    height:800px;
+    width:80%;
+}
