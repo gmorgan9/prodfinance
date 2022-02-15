@@ -13,7 +13,7 @@ if (!isAdmin()) {
 	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
-	<div class="header">
+	<div class="log-header">
 		<h2>Admin - create user</h2>
 	</div>
 	

@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
-    <div class="header">
+    <div class="log-header">
         <h2>Reset Password</h2>
         
     </div>

@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
 </head>
 <body>
-	<div class="header">
+	<div class="log-header">
 		<h2>Profile Information</h2>
 	</div>
 	<div class="content">
