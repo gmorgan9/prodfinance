@@ -10,9 +10,6 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <!-- <link rel="icon" type="image/x-icon" href="logo.png"> -->
-    <link rel="stylesheet" href="https://code.jquery.com/jquery-1.11.3.min.js">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/bootstrap-wysiwyg/bootstrap3-wysiwyg/master/dist/bootstrap3-wysihtml5.all.min.js">
 </head>
 <body>
 
@@ -45,7 +42,7 @@
 
    here is the test document
 
-   
+
       <form method="post" role="form">
         <div class="form-group">
           <input type="text" class="form-control" name="title" placeholder="Title"/>
