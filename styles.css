@@ -166,6 +166,7 @@ form, .message-content {
 #loginreg,#profilelogout {
     float: right;
     margin-top: -25px;
+    margin-right: 5%;
 }
 .nav-list-item {
     list-style-type:none;
