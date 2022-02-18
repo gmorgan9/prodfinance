@@ -99,6 +99,7 @@ form, .message-content {
     display: inline;
     position: absolute;
     width: 70%;
+    text-align: center;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
