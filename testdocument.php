@@ -59,8 +59,7 @@
 	</div>
 	<div class="input-group">
 		<label>KB Content</label>
-		<input type="text" name="kb_post">
-    <textarea name="content" id="" cols="30" rows="10"></textarea>
+    <textarea name="kb_post" id="" cols="30" rows="50"></textarea>
 	</div>
 	<div class="input-group">
 		<button type="submit" class="log-btn" name="register_btn">Publish</button>
