@@ -40,11 +40,8 @@
   </div>
   <br><br><br>
         <a href="javascript:history.back()" name="btn" class="btn" >Back</a>
-
-      <div class="manage-btn">
         <a href="create_post.php" name="btn" class="log-btn" >Create Post</a>
         <a href="#" name="btn" class="log-btn" >Manage Posts</a>
-      </div>
 
 
     <div class="main-content">
