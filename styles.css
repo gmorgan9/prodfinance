@@ -98,7 +98,7 @@ form, .message-content {
 .manage-btn-group {
     position: absolute;
     width: auto;
-    margin-left: 10em;
+    right: 25;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
