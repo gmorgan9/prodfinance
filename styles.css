@@ -93,7 +93,7 @@ form, .message-content {
     margin-left: 20%;
     margin-top: -50px;
     position: absolute;
-    display: inline;
+    display: flex;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
