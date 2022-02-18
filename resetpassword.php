@@ -6,6 +6,7 @@
     <title>Reset Password</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+	<link rel="icon" type="image/x-icon" href="fav.png">
 </head>
 <body>
     <div class="log-header">
