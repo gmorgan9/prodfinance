@@ -95,8 +95,6 @@ form, .message-content {
     position: absolute;
 }
 .manage-btn-group {
-    position: absolute;
-    width: auto;
     left: 85px;
 }
 .input-group {
