@@ -40,6 +40,9 @@
   </div>
         <br><br><br>
 
+        <a href="create_post.php" name="btn" class="btn" >Create Post</a>
+
+
     <div class="main-content">
       <div class="content-header">
         <h2 style="text-align:center;">Knowledge Based Documentation</h2>

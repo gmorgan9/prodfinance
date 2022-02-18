@@ -1,121 +1,90 @@
+<?php 
+	include('functions.php');
+    
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+	<title>Test - Documentation</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+  <link rel="icon" type="image/x-icon" href="fav.png">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous">
-
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Candal|Lora"
-            rel="stylesheet">
-
-        <!-- Custom Styling -->
-        <link rel="stylesheet" href="../../assets/css/style.css">
-
-        <!-- Admin Styling -->
-        <link rel="stylesheet" href="../../assets/css/admin.css">
-
-        <title>Admin Section - Add Post</title>
-    </head>
-
-    <body>
-        
-    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
-
-        <!-- Admin Page Wrapper -->
-        <div class="admin-wrapper">
-
-        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?>
+<script src="https://cdn.tiny.cloud/1/2sddc400jjfw2d2yznqcgv72n3r6b6dalq0dmscmz79t1ysl/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  
+</head>
+<body>
 
 
-            <!-- Admin Content -->
-            <div class="admin-content">
-                <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Post</a>
-                    <a href="index.php" class="btn btn-big">Manage Posts</a>
-                </div>
+	<div class="header">
+		<h2><span style="color:gray;">Test -</span> Documentation</h2>
+	</div>
 
-
-                <div class="content">
-
-                    <h2 class="page-title">Add Post</h2>
-
-                    <?php include(ROOT_PATH . '/app/helpers/formErrors.php'); ?>
-
-                    <form action="create.php" method="post" enctype="multipart/form-data">
-                        <div>
-                            <label>Title</label>
-                            <input type="text" name="title" value="<?php echo $title ?>" class="text-input">
-                        </div>
-                        <div>
-                            <label>Body</label>
-                            <textarea name="body" id="body"><?php echo $body ?></textarea>
-                        </div>
-                        <div>
-                            <label>Image</label>
-                            <input type="file" name="image" class="text-input">
-                        </div>
-                        <div>
-                            <label>Topic</label>
-                            <select name="topic_id" class="text-input">
-                                <option value=""></option>
-                                <?php foreach ($topics as $key => $topic): ?>
-                                    <?php if (!empty($topic_id) && $topic_id == $topic['id'] ): ?>
-                                        <option selected value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
-                                    <?php else: ?>
-                                        <option value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
-                                    <?php endif; ?>
-
-                                <?php endforeach; ?>
-
-                            </select>
-                        </div>
-                        <div>
-                            <?php if (empty($published)): ?>
-                                <label>
-                                    <input type="checkbox" name="published">
-                                    Publish
-                                </label>
-                            <?php else: ?>
-                                <label>
-                                    <input type="checkbox" name="published" checked>
-                                    Publish
-                                </label>
-                            <?php endif; ?>
-                           
-
-                        </div>
-                        <div>
-                            <button type="submit" name="add-post" class="btn btn-big">Add Post</button>
-                        </div>
-                    </form>
-
-                </div>
-
-            </div>
-            <!-- // Admin Content -->
-
+  <div class="nav-header">
+    <div id="nav-list">
+      <li class="nav-list-item"><a class="nav-list-link" href="/">Home</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="documentation.php">Documentation</a></li>
+      <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
+    </div>
+    <hr style="width:50%">
+    <div class="nav-list-log">
+      <?php if(isLoggedIn()){?>
+        <div id="profilelogout">
+          <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
+          <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
         </div>
-        <!-- // Page Wrapper -->
+		  <?php }else{ ?>
+        <div id="loginreg">
+          <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
+          <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
+        </div>
+		  <?php } ?>
+    </div>
+  </div>
+        <br><br><br>
+
+   here is the test document
+
+
+   <form class="createpostform" method="post" action="register.php">
+<?php echo display_error(); ?>
+	<div class="input-group">
+		<label>KB Title</label>
+		<input type="text" name="username" value="<?php echo $username; ?>">
+	</div>
+	<div class="input-group">
+		<label>Email</label>
+		<input type="email" name="email" value="<?php echo $email; ?>">
+	</div>
+	<div class="input-group">
+		<label>KB Content</label>
+    <textarea name="kb_post" id="" cols="30" rows="50"></textarea>
+	</div>
+	<div class="input-group">
+		<button type="submit" class="log-btn" name="register_btn">Publish</button>
+		<a href="javascript:history.back()" name="btn" class="log-btn">Back</a>
+	</div>
+</form>
+
+<br><br>
+   
 
 
 
-        <!-- JQuery -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Ckeditor -->
-        <script
-            src="https://cdn.ckeditor.com/ckeditor5/12.2.0/classic/ckeditor.js"></script>
-        <!-- Custom Script -->
-        <script src="../../assets/js/scripts.js"></script>
+    </div>
 
-    </body>
 
+    <script>
+    tinymce.init({ selector: 'textarea',
+     plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+     toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+     toolbar_mode: 'floating',
+     tinycomments_mode: 'embedded',
+     tinycomments_author: 'Author name',
+   });
+  </script>
+
+    
+</body>
 </html>
