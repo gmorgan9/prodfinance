@@ -98,6 +98,7 @@ form, .message-content {
 .manage-btn-group {
     display: inline;
     position: absolute;
+    width: 70%;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
