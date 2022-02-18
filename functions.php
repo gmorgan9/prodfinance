@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('localhost', 'gwm', 'gwmpass', 'multi_login');
+$db = mysqli_connect('localhost', 'gmorg', 'gmorgpass!', 'multi_login');
 
 // variable declaration
 $username = "";
