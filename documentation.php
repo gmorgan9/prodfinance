@@ -39,12 +39,18 @@
     </div>
   </div>
   <br>
+  <?php if(isAdmin())
+						{
+						?>
       <div class="manage-btn-group">
-        <a href="javascript:history.back()" name="btn" class="manage-btn" >Back</a>
         <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
         <a href="#" name="btn" class="manage-btn" >Manage Posts</a>
       </div>
+      
       <br><br>
+      <?php }else{ ?>
+it worked
+        <?php } ?>
 
 
     <div class="main-content">
