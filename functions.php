@@ -146,12 +146,12 @@ function login(){
 				
 				$_SESSION['user'] = $logged_in_user;
 				$_SESSION['success']  = "You are now logged in";
-				header('location: /');		  
+				header('location: /?loggedin='1'&id=<?php echo $post['users']['id'] ?>');		  
 			}else{
 				$_SESSION['user'] = $logged_in_user;
 				$_SESSION['success']  = "You are now logged in";
 
-				header('location: /');
+				header('location: /?loggedin='1'&id=<?php echo $post['users']['id'] ?>');
 			}
 		}else {
 			array_push($errors, "Wrong username/password combination");
