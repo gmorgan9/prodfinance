@@ -91,13 +91,12 @@ form, .message-content {
     cursor: pointer;
     text-decoration: none;
     /* margin-left: 20%; */
-    margin-top: -50px;
+    /* margin-top: -50px; */
     /* position: absolute; */
     /* width: 100%; */
 }
 .manage-btn-group {
     display: inline;
-    margin-left: 40%;
     position: absolute;
 }
 .input-group {
