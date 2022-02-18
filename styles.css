@@ -96,10 +96,9 @@ form, .message-content {
     /* width: 100%; */
 }
 .manage-btn-group {
-    display: inline;
     position: absolute;
-    width: 70%;
-    text-align: center;
+    width: auto;
+    margin-left: 10em;
 }
 .input-group {
     margin: 10px 0px 10px 0px;

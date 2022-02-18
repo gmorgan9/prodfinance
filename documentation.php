@@ -37,14 +37,12 @@
         </div>
 		  <?php } ?>
     </div>
-    
   </div>
-  <a href="javascript:history.back()" name="btn" class="manage-btn" >Back</a>
-        <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
-        <a href="#" name="btn" class="manage-btn" >Manage Posts</a>
   <br><br><br>
       <div class="manage-btn-group">
-        
+        <a href="javascript:history.back()" name="btn" class="manage-btn" >Back</a>
+        <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
+        <a href="#" name="btn" class="manage-btn" >Manage Posts</a>
       </div>
 
 
