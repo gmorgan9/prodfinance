@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
   <link rel="icon" type="image/x-icon" href="fav.png">
 
+<script src="https://cdn.tiny.cloud/1/2sddc400jjfw2d2yznqcgv72n3r6b6dalq0dmscmz79t1ysl/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
   
 </head>
 <body>
 
-<script src="http://tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 
 	<div class="header">
 		<h2><span style="color:gray;">Test -</span> Documentation</h2>
@@ -60,7 +60,7 @@
 	<div class="input-group">
 		<label>KB Content</label>
 		<input type="text" name="kb_post">
-    <textarea name="TypeHere" id="TypeHere" cols="30" rows="10"></textarea>
+    <textarea name="content" id="" cols="30" rows="10"></textarea>
 	</div>
 	<div class="input-group">
 		<button type="submit" class="log-btn" name="register_btn">Publish</button>
@@ -74,11 +74,15 @@
     </div>
 
 
-    <script type="application/x-javascript">
-
-tinymce.init({selector:'#TypeHere'});
-
-</script>
+    <script>
+    tinymce.init({ selector: 'textarea',
+     plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+     toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+     toolbar_mode: 'floating',
+     tinycomments_mode: 'embedded',
+     tinycomments_author: 'Author name',
+   });
+  </script>
 
     
 </body>
