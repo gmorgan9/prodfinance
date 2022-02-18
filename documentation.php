@@ -44,6 +44,7 @@
         <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
         <a href="#" name="btn" class="manage-btn" >Manage Posts</a>
       </div>
+      <br><br>
 
 
     <div class="main-content">
