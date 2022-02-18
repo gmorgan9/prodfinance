@@ -7,5 +7,5 @@ Feb 17th
 - created new databases in phpmyadmin
 
 ### Want to do
-[] Create a page that allows you to create a KB post
-[] allow only admins to delete and manage kb's
+[ ] Create a page that allows you to create a KB post
+[ ] allow only admins to delete and manage kb's
