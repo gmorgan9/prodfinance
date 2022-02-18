@@ -90,7 +90,7 @@ form, .message-content {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     display: inline;
     position: relative;
 }
