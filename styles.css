@@ -96,7 +96,7 @@ form, .message-content {
 }
 .manage-btn-group {
     display: inline;
-    width: 40%;
+    margin-left: 40%;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
