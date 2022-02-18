@@ -48,12 +48,12 @@
 						<?php if(isAdmin())
 						{
 						?>
-      						<a href="index.php?logout='1'"><button class="log-btn">Logout</button></a>
+      						<a href="/?logout='1'"><button class="log-btn">Logout</button></a>
 							<a href="javascript:history.back()"><button class="log-btn">Back</button></a>
 							<a href="create_user.php"><button class="log-btn">Add User</button></a>
 							<a href="resetpassword.php"><button class="log-btn">Reset Password</button></a>
 						<?php }else{ ?>
-							<a href="index.php?logout='1'"><button class="log-btn">Logout</button></a>
+							<a href="/?logout='1'"><button class="log-btn">Logout</button></a>
 							<a href="javascript:history.back()"><button class="log-btn">Back</button></a>
 							<a href="resetpassword.php"><button class="log-btn">Reset Password</button></a>
 						<?php } ?>

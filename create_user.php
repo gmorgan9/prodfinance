@@ -2,7 +2,7 @@
 
 <?php 
 if (!isAdmin()) {
-	header('location: index.php');
+	header('location: /');
 }
 ?>
 <!DOCTYPE html>

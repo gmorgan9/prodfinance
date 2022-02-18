@@ -28,7 +28,7 @@
       <?php if(isLoggedIn()){?>
         <div id="profilelogout">
           <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
-          <li class="nav-list-item"><a id="logout" href="index.php?logout='1'">Logout</a></li>
+          <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
         </div>
 		  <?php }else{ ?>
         <div id="loginreg">

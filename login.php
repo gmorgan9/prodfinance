@@ -2,7 +2,7 @@
 
 <?php
 if (isLoggedIN()) {
-	header('location: index.php');
+	header('location: /');
 }
 ?>
 <!DOCTYPE html>
