@@ -16,7 +16,7 @@
 </head>
 <body>
 
-  <div class="log-header">
+  <div class="createpost-header">
         <h2>Create Post</h2>
         
     </div>
