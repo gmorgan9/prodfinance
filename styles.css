@@ -92,8 +92,7 @@ form, .message-content {
     text-decoration: none;
     margin-left: 20%;
     margin-top: -50px;
-    position: absolute;
-    display: flex;
+    /* position: absolute; */
 }
 .manage-btn-group {
     display: inline;
