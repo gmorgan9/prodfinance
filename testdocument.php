@@ -79,7 +79,6 @@
      toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
      toolbar_mode: 'floating',
      tinycomments_mode: 'embedded',
-     tinycomments_author: 'Author name',
    });
   </script>
 
