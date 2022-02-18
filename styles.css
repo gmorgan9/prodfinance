@@ -92,7 +92,7 @@ form, .message-content {
     text-decoration: none;
     margin-left: 20%;
     margin-top: -50px;
-    display: inline-block;
+    display: inline;
     /* position: absolute; */
 }
 .manage-btn-group {
