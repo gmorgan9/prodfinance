@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-// connect to database
+// connect to database update
 $db = mysqli_connect('localhost', 'gmorg', 'gmorgpass', 'doc');
 
 // variable declaration
