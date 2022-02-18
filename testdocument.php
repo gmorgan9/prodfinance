@@ -11,16 +11,11 @@
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
   <link rel="icon" type="image/x-icon" href="fav.png">
 
-
-  <link rel="stylesheet" href="MarkItUp/markitup/skins/simple/style.css" />
-<link rel="stylesheet" href="MarkItUp/markitup/sets/default/style.css" />
   
 </head>
 <body>
 
-<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
-<script src="MarkItUp/markitup/jquery.markitup.js"></script>
-<script src="MarkItUp/markitup/sets/default/set.js"></script>
+<script src="http://tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 
 	<div class="header">
 		<h2><span style="color:gray;">Test -</span> Documentation</h2>
@@ -79,12 +74,12 @@
     </div>
 
 
+    <script type="application/x-javascript">
 
-    <script>
-$(document).ready(function() {
-$('#markItUp').markItUp(mySettings);
-});
+tinymce.init({selector:'#TypeHere'});
+
 </script>
+
     
 </body>
 </html>
