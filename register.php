@@ -9,23 +9,20 @@ if (isLoggedIN()) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
-	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
+	<title>Registration system PHP and MySQL</title>
 </head>
 <body>
-<div class="log-header">
+<div class="header">
 	<h2>Register</h2>
 </div>
 <form method="post" action="register.php">
-<?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Username</label>
-		<input type="text" name="username" value="<?php echo $username; ?>">
+		<input type="text" name="username" value="">
 	</div>
 	<div class="input-group">
 		<label>Email</label>
-		<input type="email" name="email" value="<?php echo $email; ?>">
+		<input type="email" name="email" value="">
 	</div>
 	<div class="input-group">
 		<label>Password</label>
@@ -36,8 +33,7 @@ if (isLoggedIN()) {
 		<input type="password" name="password_2">
 	</div>
 	<div class="input-group">
-		<button type="submit" class="log-btn" name="register_btn">Register</button>
-		<a href="javascript:history.back()" name="btn" class="log-btn">Back</a>
+		<button type="submit" class="btn" name="register_btn">Register</button>
 	</div>
 	<p>
 		Already a member? <a href="login.php">Sign in</a>
