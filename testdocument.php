@@ -54,8 +54,9 @@
 		<input type="email" name="email" value="<?php echo $email; ?>">
 	</div>
 	<div class="input-group">
-		<label>KB Conten</label>
+		<label>KB Content</label>
 		<input type="text" name="kb_post">
+    <textarea name="content" id="" cols="30" rows="10"></textarea>
 	</div>
 	<div class="input-group">
 		<button type="submit" class="log-btn" name="register_btn">Publish</button>
@@ -68,5 +69,11 @@
 
     </div>
 
+
+    <script type="text/javascript">
+tinymce.init({
+    selector: "textarea"
+});
+</script>
 </body>
 </html>
