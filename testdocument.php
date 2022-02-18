@@ -47,7 +47,7 @@
    here is the test document
 
 
-   <form method="post" action="register.php">
+   <form class="createpostform" method="post" action="register.php">
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>KB Title</label>
