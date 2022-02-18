@@ -53,6 +53,11 @@
 		<label>Email</label>
 		<input type="email" name="email" value="<?php echo $email; ?>">
 	</div>
+  <script type="text/javascript">
+tinymce.init({
+    selector: "textarea"
+});
+</script>
 	<div class="input-group">
 		<label>KB Content</label>
 		<input type="text" name="kb_post">
@@ -70,10 +75,6 @@
     </div>
 
 
-    <script type="text/javascript">
-tinymce.init({
-    selector: "textarea"
-});
-</script>
+    
 </body>
 </html>
