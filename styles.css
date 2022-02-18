@@ -90,11 +90,11 @@ form, .message-content {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    /* margin-top: -50px; */
     display: inline;
     position: relative;
 }
 .manage-btn-group {
+    top: 25%;
     margin-left: 20%;
 }
 .input-group {
