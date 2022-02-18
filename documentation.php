@@ -40,10 +40,10 @@
   </div>
         <br><br><br>
 
-      <!-- <div class="manage-btn"> -->
+      <div class="manage-btn">
         <a href="create_post.php" name="btn" class="log-btn" >Create Post</a>
         <a href="#" name="btn" class="log-btn" >Manage Posts</a>
-      <!-- </div> -->
+      </div>
 
 
     <div class="main-content">
