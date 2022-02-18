@@ -92,12 +92,13 @@ form, .message-content {
     text-decoration: none;
     /* margin-left: 20%; */
     margin-top: -50px;
-    position: absolute;
-    width: 100%;
+    /* position: absolute; */
+    /* width: 100%; */
 }
 .manage-btn-group {
     display: inline;
     margin-left: 40%;
+    position: absolute;
 }
 .input-group {
     margin: 10px 0px 10px 0px;
