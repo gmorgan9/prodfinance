@@ -48,14 +48,14 @@
 						<br>
 
                         <?php if(isAdmin()) { ?>
-                            <li class="nav-list-item"><a class="nav-list-link" href="/">Home</a></li>
+                            <a href="/"><button class="log-btn">Home</button></a>
                             <a href="create_post.php"><button class="log-btn">Create Post</button></a>
                             <a href="posts_view.php"><button class="log-btn">Manage Posts</button></a>
                             <a href="create_topic.php"><button class="log-btn">Create Topic</button></a>
                             <a href="topics_view.php"><button class="log-btn">Manage Topics</button></a>
                         <br><br>
                         <?php }else if(isSuperAdmin()){ ?>
-                            <li class="nav-list-item"><a class="nav-list-link" href="/">Home</a></li>
+                            <a href="/"><button class="log-btn">Home</button></a>
                             <a href="users_view.php"><button class="log-btn">Manage Users</button></a>
                             <a href="create_post.php"><button class="log-btn">Create Post</button></a>
                             <a href="posts_view.php"><button class="log-btn">Manage Posts</button></a>
