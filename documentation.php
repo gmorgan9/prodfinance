@@ -39,7 +39,7 @@
     </div>
   </div>
   <br>
-  <?php if(isAdmin()) { ?>
+  <?php if(isAdmin() || isSuperAdmin()) { ?>
   <div class="manage-btn-group">
     <a href="docdashboard.php" name="btn" class="manage-btn" >Documentation Dashboard</a>
   </div>
