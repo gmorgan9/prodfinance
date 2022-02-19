@@ -21,10 +21,6 @@ if (!isAdmin()) {
         <h2>Manage Topics</h2>
         
     </div>
-  <div class="manage-btn-group">
-    <a href="create_topic.php" name="btn" class="manage-btn" >Create Topic</a>
-  </div>
-  <br><br>
 
 
    <form class="createpostform" method="post" action="register.php">

@@ -34,6 +34,7 @@ if (!isAdmin()) {
 			<label>User type</label>
 			<select name="user_type" id="user_type" >
 				<option value=""></option>
+				<option value="admin">Super Admin</option>
 				<option value="admin">Admin</option>
 				<option value="user">User</option>
 			</select>

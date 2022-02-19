@@ -168,6 +168,15 @@ function isAdmin()
 	}
 }
 
+function isSuperAdmin()
+{
+	if (isset($_SESSION['user']) && $_SESSION['user']['user_type'] == 'superadmin' ) {
+		return true;
+	}else{
+		return false;
+	}
+}
+
 
 
 
