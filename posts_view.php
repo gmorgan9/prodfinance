@@ -21,14 +21,8 @@ if (!isAdmin() && !isSuperAdmin()) {
         <h2>Manage Posts</h2>
         
     </div>
-    <div class="manage-btn-group">
-    
-  </div>
-  <br><br>
-
 
    <form class="createpostform" method="post" action="register.php">
-   <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Topic</label>
