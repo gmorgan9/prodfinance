@@ -19,7 +19,7 @@ if (!isAdmin() && !isSuperAdmin()) {
 		<h2>Admin - create user</h2>
 	</div>
 	
-	<form method="post" action="create_user.php">
+	<form method="post" action="register.php">
 
 		<?php echo display_error(); ?>
 
