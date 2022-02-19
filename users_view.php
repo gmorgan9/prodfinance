@@ -1,7 +1,7 @@
 <?php include('functions.php'); ?>
 
 <?php 
-if (!isAdmin() && !isSuperAdmin()) {
+if (!isSuperAdmin()) {
 	header('location: /');
 }
 ?>
