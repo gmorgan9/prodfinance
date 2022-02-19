@@ -41,8 +41,8 @@
   <br>
   <?php if(isAdmin()) { ?>
   <div class="manage-btn-group">
-    <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
-    <a href="#" name="btn" class="manage-btn" >Manage Posts</a>
+    <a href="posts_view.php" name="btn" class="manage-btn" >Manage Posts</a>
+    <a href="topics_view.php" name="btn" class="manage-btn" >Manage Topics</a>
   </div>
   <br><br>
   <?php }else{ ?>

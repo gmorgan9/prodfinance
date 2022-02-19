@@ -9,7 +9,7 @@ if (!isAdmin()) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Create Topic - Documentation</title>
+	<title>Users - Documentation</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
   <link rel="icon" type="image/x-icon" href="fav.png">
@@ -18,8 +18,7 @@ if (!isAdmin()) {
 <body>
 
   <div class="createpost-header">
-        <h2>Create Topic</h2>
-        
+        <h2>Manage Users</h2>
     </div>
 
 

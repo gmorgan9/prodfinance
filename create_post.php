@@ -1,6 +1,9 @@
+<?php include('functions.php'); ?>
+
 <?php 
-	include('functions.php');
-    
+if (!isAdmin()) {
+	header('location: /');
+}
 ?>
 
 <!DOCTYPE html>

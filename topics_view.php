@@ -9,7 +9,7 @@ if (!isAdmin()) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Create Topic - Documentation</title>
+	<title>Topics - Documentation</title>
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
   <link rel="icon" type="image/x-icon" href="fav.png">
@@ -18,9 +18,13 @@ if (!isAdmin()) {
 <body>
 
   <div class="createpost-header">
-        <h2>Create Topic</h2>
+        <h2>Manage Topics</h2>
         
     </div>
+  <div class="manage-btn-group">
+    <a href="create_topic.php" name="btn" class="manage-btn" >Create Topic</a>
+  </div>
+  <br><br>
 
 
    <form class="createpostform" method="post" action="register.php">
