@@ -49,7 +49,6 @@
 
                         <?php if(isAdmin()) { ?>
                         <div class="manage-btn-group">
-                          <a href="docdashboard.php" name="btn" class="manage-btn" >Documentation Dashboard</a>
                           <a href="create_post.php" name="btn" class="manage-btn" >Create Post</a>
                           <a href="posts_view.php" name="btn" class="manage-btn" >Manage Posts</a>
                           <a href="create_topic.php" name="btn" class="manage-btn" >Create Topic</a>
