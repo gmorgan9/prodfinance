@@ -46,7 +46,7 @@
 					<small>
 						<i  class="profile-user">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<?php if(isAdmin() & isSuperAdmin())
+						<?php if(isAdmin() || isSuperAdmin())
 						{
 						?>
       						<a href="/?logout='1'"><button class="log-btn">Logout</button></a>
