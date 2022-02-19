@@ -48,7 +48,7 @@ if (!isAdmin() && !isSuperAdmin()) {
 			<input type="password" name="password_2">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="log-btn" name="btn">Create user</button>
+			<button type="submit" class="log-btn" name="register_btn">Create user</button>
 			<a href="javascript:history.back()" name="btn" class="log-btn">Back</a>
 		</div>
 	</form>
