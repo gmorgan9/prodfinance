@@ -53,7 +53,8 @@
                             <a href="create_topic.php"><button class="log-btn">Create Topic</button></a>
                             <a href="topics_view.php"><button class="log-btn">Manage Topics</button></a>
                         <br><br>
-                        <?php }else{ ?>
+                        <?php }else if(isSuperAdmin()){ ?>
+                            <a href="users_view.php"><button class="log-btn">Manage Users</button></a>
                         <?php } ?>
 					</small>
 				<?php endif ?>
