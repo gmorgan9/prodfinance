@@ -48,10 +48,10 @@
 						<br>
 
                         <?php if(isAdmin()) { ?>
-                          <a href="create_post.php" name="btn" class="log-btn" >Create Post</a>
-                          <a href="posts_view.php" name="btn" class="log-btn" >Manage Posts</a>
-                          <a href="create_topic.php" name="btn" class="log-btn" >Create Topic</a>
-                          <a href="topics_view.php" name="btn" class="log-btn" >Manage Topics</a>
+                            <a href="create_post.php"><button class="log-btn">Create Post</button></a>
+                            <a href="posts_view.php"><button class="log-btn">Manage Posts</button></a>
+                            <a href="create_topic.php"><button class="log-btn">Create Topic</button></a>
+                            <a href="topics_view.php"><button class="log-btn">Manage Topics</button></a>
                         <br><br>
                         <?php }else{ ?>
                         <?php } ?>
