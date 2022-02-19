@@ -1,4 +1,11 @@
 <?php include('functions.php'); ?>
+
+<?php 
+    if (!isLoggedIn()) {
+        $_SESSION['msg'] = "You must log in first";
+        header('location: login.php');
+    }
+?>
  
 <!DOCTYPE html>
 <html>
