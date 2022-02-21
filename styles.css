@@ -191,7 +191,7 @@ form, .message-content {
     padding: 12px 16px;
   }
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
   }
 /* Column KB Cards */
 .row {
