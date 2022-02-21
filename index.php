@@ -13,10 +13,9 @@
 </head>
 <body>
 	<div class="header">
+    <div class="logo">
 		<h2>Home Page</h2>
-	
-        
-        </div>
+</div>
 
         <div class="nav-header">
     <div id="nav-list">
@@ -42,6 +41,10 @@
         </div>
 		  <?php } ?>
     </div>
+  </div>
+
+	
+        
   </div>
         
 
