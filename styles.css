@@ -159,9 +159,6 @@ form, .message-content {
     margin-top:10px;
     margin-left: 35px;
 }
-#profile {
-    margin-left: 250px;
-}  
 .nav-list-item {
     list-style-type:none;
     margin-right:8px;
@@ -172,8 +169,6 @@ form, .message-content {
     text-decoration:none;
 }
 /* DROPDOWN */
-.dropdown {
-}
 .dropdown span {
     float: right;
 }
