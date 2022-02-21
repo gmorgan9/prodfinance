@@ -330,7 +330,7 @@ pre {
 
 
   /* ACCOUNT TABS */
-.log-header-sections {
+.tablinks {
     width: 27.6%;
     margin: 50px auto 0px;
     color: var(--light-text);
@@ -340,7 +340,7 @@ pre {
     border-radius: 10px 10px 0px 0px;
     padding: 20px;
 }
-.log-header-sections:hover {
+.tablinks:hover {
     background: var(--secondary-color);
 }
 .tab button.active {
