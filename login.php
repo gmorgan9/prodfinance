@@ -26,8 +26,8 @@ if (isLoggedIN()) {
 <div class="all_tabs">
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="accountTabs(event, 'Login')" id="defaultOpen">Login</button>
-  <button class="tablinks" onclick="accountTabs(event, 'Register')">Register</button>
+  <button class="log-header" onclick="accountTabs(event, 'Login')" id="defaultOpen">Login</button>
+  <button class="log-header" onclick="accountTabs(event, 'Register')">Register</button>
 </div>
 
 <!-- Tab content -->
