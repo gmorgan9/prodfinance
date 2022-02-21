@@ -44,7 +44,7 @@ if (isLoggedIN()) {
 <script src="assets/tabs.js"></script>
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="accoutTabs(event, 'Login')">Login</button>
+  <button class="tablinks" onclick="accountTabs(event, 'Login')">Login</button>
   <button class="tablinks" onclick="accountTabs(event, 'Register')">Register</button>
 </div>
 
