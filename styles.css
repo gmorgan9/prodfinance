@@ -173,21 +173,20 @@ form, .message-content {
 }
 /* DROPDOWN */
 .dropdown {
-    position: absolute;
 }
 .dropdown span {
     float: right;
 }
-  .dropdown-content {
-    position: absolute;
-    background-color: var(--primary-color);
-    display: none;
-    min-width: 160px;
-    padding: 12px 16px;
-  }
-  .dropdown:hover .dropdown-content {
-    display: inline-block;
-  }
+.dropdown-content {
+  position: absolute;
+  background-color: var(--primary-color);
+  display: none;
+  min-width: 160px;
+  padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
 /* Column KB Cards */
 .row {
     margin-left: 8%;
