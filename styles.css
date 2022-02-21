@@ -326,5 +326,5 @@ pre {
   }
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
   }
