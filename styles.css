@@ -155,7 +155,7 @@ form, .message-content {
 /* Navigation */
 .nav-header{
     color: var(--light-text);
-    float: right;
+    display: inline;
   }
 #nav-list {
     margin-top:10px;
