@@ -27,6 +27,9 @@ body {
     border-bottom: none;
     padding: 20px;
 }
+.logo {
+    float: left;
+}
 .log-header {
     width: 40%;
     margin: 50px auto 0px;
