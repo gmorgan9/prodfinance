@@ -25,6 +25,8 @@ body {
     border: 1px solid var(--primary-color);
     border-bottom: none;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .logo {
     float: left;
