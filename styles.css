@@ -160,7 +160,7 @@ form, .message-content {
     margin-left: 35px;
 }
 #profile {
-    float: right;
+    margin-left: 250px;
 }  
 .nav-list-item {
     list-style-type:none;
