@@ -41,11 +41,11 @@ if (isLoggedIN()) {
 
 
 <!-- test account -->
+<script src="assets/tabs.js"></script>
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="accoutTabs(event, 'Login')">Login</button>
+  <button class="tablinks" onclick="accountTabs(event, 'Register')">Register</button>
 </div>
 
 <!-- Tab content -->
@@ -58,16 +58,6 @@ if (isLoggedIN()) {
   <h3>Paris</h3>
   <p>Paris is the capital of France.</p>
 </div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
-
-
-
-
-
 
 
 </body>
