@@ -158,7 +158,10 @@ form, .message-content {
     display: flex;
     margin-top:10px;
     margin-left: 35px;
-  }
+}
+#profile {
+    display: flex;
+}  
 .nav-list-item {
     list-style-type:none;
     margin-right:8px;
