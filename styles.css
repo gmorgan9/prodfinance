@@ -176,7 +176,7 @@ form, .message-content {
   position: absolute;
   background-color: var(--primary-color);
   display: none;
-  min-width: 133px;
+  min-width: 125px;
   padding: 12px 16px;
 }
 .dropdown:hover .dropdown-content {
