@@ -345,6 +345,10 @@ pre {
     background: var(--secondary-color);
     border: 1px solid var(--secondary-color);
 }
+.log-header-sections:active {
+    background: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
 
 
   .all_tabs {
