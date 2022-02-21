@@ -179,6 +179,24 @@ form, .message-content {
     position: absolute;
     display: flex;
 }
+/* DROPDOWN */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  .dropdown-content {
+    background-color: var(--secondary-color);
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 /* Column KB Cards */
 .row {
     margin-left: 8%;
@@ -308,26 +326,6 @@ pre {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
-
-
-/* DROPDOWN */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    background-color: var(--secondary-color);
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    padding: 12px 16px;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
 
   /* ACCOUNT TABS */
