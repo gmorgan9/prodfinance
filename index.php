@@ -29,11 +29,11 @@
       <?php if(isLoggedIn()){?>
         <div id="profilelogout">
           <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-              <div class="dropdown-content">
-                <a class="nav-list-link" href="#">Dashboard</a>
-                <a class="nav-list-link" href="#">Logout</a>
-              </div>
+            <span>Profile</span>
+            <div class="dropdown-content">
+              <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
+              <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
+            </div>
           </div>
           <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
           <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
