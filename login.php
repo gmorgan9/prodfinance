@@ -49,12 +49,12 @@ if (isLoggedIN()) {
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
+<div id="Login" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
 </div>
 
-<div id="Paris" class="tabcontent">
+<div id="Register" class="tabcontent">
   <h3>Paris</h3>
   <p>Paris is the capital of France.</p>
 </div>
