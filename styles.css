@@ -331,7 +331,7 @@ pre {
 
   /* ACCOUNT TABS */
 .log-header-sections {
-    width: 27.5%;
+    width: 27.6%;
     margin: 50px auto 0px;
     color: var(--light-text);
     background: var(--primary-color);
@@ -343,16 +343,13 @@ pre {
 .log-header-sections:hover {
     background: var(--secondary-color);
 }
-.tab button.active {
-    background: var(--secondary-color);
-}
   .all_tabs {
     width: 65%;
     margin-left: 18%;
   }
   /* Style the tab */
 .tab {
-    margin-left: 31%;
+    margin-left: 30.5%;
     overflow: hidden;
   }
   
