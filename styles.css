@@ -343,6 +343,9 @@ pre {
 .log-header-sections:hover {
     background: var(--secondary-color);
 }
+.log-header-sections:active {
+    background: var(--secondary-color);
+}
   .all_tabs {
     width: 65%;
     margin-left: 18%;
@@ -369,7 +372,7 @@ pre {
     border-top: none;
   }
   .tabcontent {
-    animation: fadeEffect 2s; /* Fading effect takes 1 second */
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
   }
   
   /* Go from zero to full opacity */
