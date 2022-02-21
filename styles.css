@@ -314,6 +314,7 @@ pre {
 .dropbtn {
     color: white;
     padding: 16px;
+    background-color: var(--primary-color);
     /* font-size: 16px; */
     border: none;
   }
@@ -328,7 +329,7 @@ pre {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--primary-color);
+    
     min-width: 160px;
   }
   
