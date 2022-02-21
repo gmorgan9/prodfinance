@@ -20,7 +20,7 @@
     <hr style="width:50%">
     <?php if(isLoggedIn()){?>
     <div class="dropdown">
-      <img src="profile.png">
+      <img src="user.png">
       <li class="nav-list-item" id="profile">Profile</li>
       <div class="dropdown-content">
         <li class="nav-list-item"><a id="profile" href="profileinfo.php">Dashboard</a></li>
