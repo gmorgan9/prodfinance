@@ -181,7 +181,7 @@ form, .message-content {
 }
 /* DROPDOWN */
 .dropdown {
-    position: relative;
+    position: absolute;
     display: inline-block;
     float: right;
   }
