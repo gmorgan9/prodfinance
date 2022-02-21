@@ -20,23 +20,19 @@
       <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
     <hr style="width:50%">
     <?php if(isLoggedIn()){?>
-      <div class="dropdown">
+    <div class="dropdown">
       <li class="nav-list-item">Profile</li>
-        <div class="dropdown-content">
-          <li class="nav-list-item"><a id="profile" href="profileinfo.php">Dashboard</a></li>
-          <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
-        </div>
+      <div class="dropdown-content">
+        <li class="nav-list-item"><a id="profile" href="profileinfo.php">Dashboard</a></li>
+        <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
       </div>
+    </div>
 		<?php }else{ ?>
     <div id="loginreg">
       <li class="nav-list-item"><a id="login" href="account.php">My Account</a></li>
     </div>
 		<?php } ?>
-  </div>
-</div>
-
-	
-        
+  </div>     
   </div>
         
 
