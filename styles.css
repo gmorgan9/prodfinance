@@ -24,8 +24,9 @@ body {
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-bottom: none;
-    padding: 20px;
-    display: inline;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
 }
 .logo {
     float: left;
