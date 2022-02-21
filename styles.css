@@ -175,7 +175,7 @@ form, .message-content {
     color:var(--light-text);
     text-decoration:none;
 }
-.profilelogout {
+#profilelogout {
     float: right;
 }
 /* Column KB Cards */
