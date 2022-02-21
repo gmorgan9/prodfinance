@@ -342,6 +342,7 @@ pre {
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
+      text-align: center;
     background-color: inherit;
     /* float: left; */
     border: none;
