@@ -314,7 +314,7 @@ pre {
 .dropbtn {
     color: white;
     padding: 16px;
-    font-size: 16px;
+    /* font-size: 16px; */
     border: none;
   }
   
@@ -344,7 +344,7 @@ pre {
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-      background-color: #ddd;
+      
     }
   
   /* Show the dropdown menu on hover */
