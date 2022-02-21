@@ -23,6 +23,7 @@ if (isLoggedIN()) {
 
 <!-- test account -->
 <script src="assets/js/tabs.js"></script>
+<div class="all_tabs">
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="accountTabs(event, 'Login')">Login</button>
@@ -58,6 +59,7 @@ if (isLoggedIN()) {
   <p>Paris is the capital of France.</p>
 </div>
 
+</div>
 
 </body>
 </html>
