@@ -343,7 +343,7 @@ pre {
 .log-header-sections:hover {
     background: var(--secondary-color);
 }
-.log-header-sections:active {
+.tab button.active {
     background: var(--secondary-color);
 }
 
