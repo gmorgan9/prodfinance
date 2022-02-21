@@ -343,9 +343,9 @@ pre {
 .log-header-sections:hover {
     background: var(--secondary-color);
 }
-.log-header-sections:active {
+.tab button.active {
     background: var(--secondary-color);
-}
+  }
   .all_tabs {
     width: 65%;
     margin-left: 18%;
