@@ -332,6 +332,7 @@ pre {
   /* ACCOUNT TABS */
   /* Style the tab */
 .tab {
+    width: 70%;
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
