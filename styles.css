@@ -175,6 +175,9 @@ form, .message-content {
     color:var(--light-text);
     text-decoration:none;
 }
+.profilelogout {
+    position: absolute;
+}
 /* Column KB Cards */
 .row {
     margin-left: 8%;
