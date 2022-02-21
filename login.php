@@ -60,6 +60,10 @@ if (isLoggedIN()) {
 </div>
 
 </div>
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 
 </body>
 </html>
