@@ -350,11 +350,11 @@ pre {
 
   .all_tabs {
     width: 70%;
-    margin-left: 30%;
+    margin-left: 20%;
   }
   /* Style the tab */
 .tab {
-    margin-left: 20%;
+    margin-left: 30%;
     overflow: hidden;
     /* border: 1px solid #ccc; */
     /* background-color: #f1f1f1; */
