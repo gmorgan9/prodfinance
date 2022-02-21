@@ -32,8 +32,9 @@
       <li class="nav-list-item"><a id="login" href="account.php">My Account</a></li>
     </div>
 		<?php } ?>
-  </div>     
   </div>
+</div>     
+</div>
         
 
     <div class="main-content">
