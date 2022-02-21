@@ -347,8 +347,8 @@ pre {
     background: var(--secondary-color);
 }
   .all_tabs {
-    width: 70%;
-    margin-left: 20%;
+    width: 65%;
+    margin-left: 15%;
   }
   /* Style the tab */
 .tab {
