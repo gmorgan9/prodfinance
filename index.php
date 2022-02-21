@@ -28,16 +28,12 @@
     <div class="nav-list-log">
       <?php if(isLoggedIn()){?>
         <div id="profilelogout">
-          <div class="dropdown">
-            <button class="dropbtn">Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
+          <li class="nav-list-item"><a href="#">Profile</a>
+            <ul class="dropdown">
+              <li class="nav-list-item"><a class="nav-list-link" href="#">Dashboard</a></li>
+              <li class="nav-list-item"><a class="nav-list-link" href="#">Logout</a></li>
+            </ul>
+          </li>
           <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
           <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
         </div>
