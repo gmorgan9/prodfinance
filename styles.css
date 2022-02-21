@@ -151,7 +151,8 @@ form, .message-content {
 /* Navigation */
 .nav-header{
     width: 60%;
-    margin: 10px auto 0px;
+    /* margin: 10px auto 0px; */
+    margin-top: 0;
     color: var(--light-text);
     background: var(--secondary-color);
     border: 1px solid var(--secondary-color);
