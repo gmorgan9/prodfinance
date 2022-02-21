@@ -361,6 +361,7 @@ pre {
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
+      margin-left: 10%;
       text-align: center;
     /* background-color: inherit; */
     /* float: left; */
