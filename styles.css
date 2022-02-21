@@ -155,13 +155,13 @@ form, .message-content {
 
 /* Navigation */
 .nav-header{
-    margin: 10px auto 0px;
+    position: relative;
+    float: right;
     color: var(--light-text);
   }
 #nav-list {
     margin-top:10px;
     margin-left: 35px;
-    float: right;
 }
 #loginreg,#profilelogout {
     float: right;
