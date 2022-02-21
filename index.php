@@ -23,7 +23,6 @@
     <li class="nav-list-item"><a class="nav-list-link" href="about.php">About</a></li>
   </div>
   <hr style="width:50%">
-  <div class="nav-list-log">
     <?php if(isLoggedIn()){?>
       <div class="dropdown">
         <span>Profile</span>
@@ -37,7 +36,6 @@
       <li class="nav-list-item"><a id="login" href="account.php">My Account</a></li>
     </div>
 		<?php } ?>
-  </div>
 </div>
 
 	
