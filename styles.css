@@ -178,7 +178,9 @@ form, .message-content {
 /* DROPDOWN */
 .dropdown {
     position: absolute;
-    float: right;
+  }
+  .dropdown span {
+      float: right;
   }
   .dropdown-content {
     background-color: var(--secondary-color);
