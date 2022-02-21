@@ -161,7 +161,7 @@ form, .message-content {
 }
 .nav-list-item {
     list-style-type:none;
-    margin-right:8px;
+    margin: right 12px;
 }
 .nav-list-link,#login,#logout,#profile,#register {
     cursor:pointer;
