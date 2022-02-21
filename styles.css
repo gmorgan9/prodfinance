@@ -19,7 +19,8 @@ body {
 } 
 .header {
     width: 40%;
-    margin: 50px auto 0px;
+    /* margin: 50px auto 0px; */
+    margin-top: 0;
     color: var(--light-text);
     background: var(--primary-color);
     text-align: center;
@@ -151,8 +152,7 @@ form, .message-content {
 /* Navigation */
 .nav-header{
     width: 60%;
-    /* margin: 10px auto 0px; */
-    margin-top: 0;
+    margin: 10px auto 0px;
     color: var(--light-text);
     background: var(--secondary-color);
     border: 1px solid var(--secondary-color);
