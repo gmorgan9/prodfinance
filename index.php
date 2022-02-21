@@ -35,13 +35,10 @@
               <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
             </div>
           </div>
-          <li class="nav-list-item" style="display:none;"><a id="profile" href="profileinfo.php">Profile</a></li>
-          <li class="nav-list-item" style="display:none;"><a id="logout" href="/?logout='1'">Logout</a></li>
         </div>
 		  <?php }else{ ?>
         <div id="loginreg">
-          <li class="nav-list-item"><a id="login" href="login.php">Login</a></li>
-          <li class="nav-list-item"><a id="register" href="register.php">Register</a></li>
+          <li class="nav-list-item"><a id="login" href="account.php">My Account</a></li>
         </div>
 		  <?php } ?>
     </div>
