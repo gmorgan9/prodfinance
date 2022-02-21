@@ -31,8 +31,8 @@
           <div class="dropdown">
             <button class="dropbtn">Dropdown</button>
               <div class="dropdown-content">
-                <a href="#">Dashboard</a>
-                <a href="#">Logout</a>
+                <a class="nav-list-link" href="#">Dashboard</a>
+                <a class="nav-list-link" href="#">Logout</a>
               </div>
           </div>
           <li class="nav-list-item"><a id="profile" href="profileinfo.php">Profile</a></li>
