@@ -180,8 +180,7 @@ form, .message-content {
     position: absolute;
   }
   .dropdown span {
-      float: right;
-      color: black;
+      display: inline;
   }
   .dropdown-content {
     background-color: var(--secondary-color);
