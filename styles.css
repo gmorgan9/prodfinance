@@ -162,6 +162,7 @@ form, .message-content {
 #nav-list {
     margin-top:10px;
     margin-left: 35px;
+    float: right;
 }
 #loginreg,#profilelogout {
     float: right;
