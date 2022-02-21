@@ -157,8 +157,7 @@ form, .message-content {
     color: var(--light-text);
     display: flex;
     margin-top:10px;
-    margin-left: 35px;
-    float: right;
+    margin-left: 45%;
 }
 .nav-list-item {
     list-style-type:none;
