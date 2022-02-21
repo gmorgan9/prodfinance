@@ -181,6 +181,7 @@ form, .message-content {
   }
   .dropdown span {
       float: right;
+      color: black;
   }
   .dropdown-content {
     background-color: var(--secondary-color);
