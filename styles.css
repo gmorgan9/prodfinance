@@ -336,18 +336,15 @@ pre {
     color: var(--light-text);
     background: var(--primary-color);
     text-align: center;
-    border: 1px solid var(--primary-color);
     border-bottom: none;
     border-radius: 10px 10px 0px 0px;
     padding: 20px;
 }
 .log-header-sections:hover {
     background: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
 }
 .log-header-sections:active {
     background: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
 }
 
 
