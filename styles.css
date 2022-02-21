@@ -156,18 +156,11 @@ form, .message-content {
 .nav-header{
     color: var(--light-text);
     display: inline;
-  }
-#nav-list {
     margin-top:10px;
     margin-left: 35px;
-}
-/* #loginreg,#profilelogout {
-    margin-top: -25px;
-    margin-right: 2.5%;
-} */
+  }
 .nav-list-item {
     list-style-type:none;
-    display:inline-block;
     margin-right:8px;
 }
 .nav-list-link,#login,#logout,#profile,#register {
