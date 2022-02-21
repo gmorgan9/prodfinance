@@ -155,8 +155,6 @@ form, .message-content {
 
 /* Navigation */
 .nav-header{
-    position: absolute;
-    float: right;
     color: var(--light-text);
   }
 #nav-list {
@@ -164,7 +162,6 @@ form, .message-content {
     margin-left: 35px;
 }
 #loginreg,#profilelogout {
-    float: right;
     margin-top: -25px;
     margin-right: 2.5%;
 }
