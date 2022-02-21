@@ -180,7 +180,7 @@ form, .message-content {
     position: absolute;
   }
   .dropdown span {
-      display: inline;
+      display: flex;
   }
   .dropdown-content {
     background-color: var(--secondary-color);
