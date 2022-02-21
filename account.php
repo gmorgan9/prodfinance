@@ -26,7 +26,7 @@ if (isLoggedIN()) {
 
 <!-- Tab content -->
 <div id="Login" class="tabcontent">
-<form method="post" action="login.php">
+<form method="post" action="account.php">
 
 <?php echo display_error(); ?>
 
@@ -49,7 +49,7 @@ if (isLoggedIN()) {
 </div>
 
 <div id="Register" class="tabcontent">
-<form method="post" action="register.php">
+<form method="post" action="account.php">
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Username</label>
