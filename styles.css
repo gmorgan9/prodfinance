@@ -177,7 +177,7 @@ form, .message-content {
 }
 #profilelogout {
     position: absolute;
-    float: left;
+    display: flex;
 }
 /* Column KB Cards */
 .row {
