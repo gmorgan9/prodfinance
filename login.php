@@ -41,7 +41,7 @@ if (isLoggedIN()) {
 
 
 <!-- test account -->
-<script src="assets/tabs.js"></script>
+<script src="assets/js/tabs.js"></script>
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="accountTabs(event, 'Login')">Login</button>
