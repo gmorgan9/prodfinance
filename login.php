@@ -15,9 +15,9 @@ if (isLoggedIN()) {
 	<link rel="icon" type="image/x-icon" href="fav.png">
 </head>
 <body>
-	<div class="log-header">
+	<!-- <div class="log-header">
 		<h2>Login</h2>
-	</div>
+	</div> -->
 	
 
 
