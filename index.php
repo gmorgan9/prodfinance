@@ -22,7 +22,7 @@
     <div class="dropdown">
       <li class="nav-list-item" id="profile">Profile</li>
       <div class="dropdown-content">
-        <li class="nav-list-item"><a id="dash" href="profileinfo.php">Dashboard</a></li>
+        <li class="nav-list-item"><a id="profile" href="profileinfo.php">Dashboard</a></li>
         <li class="nav-list-item"><a id="logout" href="/?logout='1'">Logout</a></li>
       </div>
     </div>

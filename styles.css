@@ -174,14 +174,13 @@ form, .message-content {
 /* DROPDOWN */
 .dropdown {
     position: absolute;
-  }
-  .dropdown span {
-      float: right;
-      
-  }
+}
+.dropdown span {
+    float: right;
+}
   .dropdown-content {
     position: absolute;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     display: none;
     min-width: 160px;
     padding: 12px 16px;
