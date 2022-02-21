@@ -18,26 +18,7 @@ if (isLoggedIN()) {
 	<div class="log-header">
 		<h2>Login</h2>
 	</div>
-	<form method="post" action="login.php">
-
-		<?php echo display_error(); ?>
-
-		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" >
-		</div>
-		<div class="input-group">
-			<label>Password</label>
-			<input type="password" name="password">
-		</div>
-		<div class="input-group">
-			<button type="submit" class="log-btn" name="login_btn">Login</button>
-			<a href="javascript:history.back()" name="btn" class="log-btn" >Back</a>
-		</div>
-		<p>
-			Not yet a member? <a href="register.php">Sign up</a>
-		</p>
-	</form>
+	
 
 
 <!-- test account -->
@@ -50,8 +31,26 @@ if (isLoggedIN()) {
 
 <!-- Tab content -->
 <div id="Login" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<form method="post" action="login.php">
+
+<?php echo display_error(); ?>
+
+<div class="input-group">
+	<label>Username</label>
+	<input type="text" name="username" >
+</div>
+<div class="input-group">
+	<label>Password</label>
+	<input type="password" name="password">
+</div>
+<div class="input-group">
+	<button type="submit" class="log-btn" name="login_btn">Login</button>
+	<a href="javascript:history.back()" name="btn" class="log-btn" >Back</a>
+</div>
+<p>
+	Not yet a member? <a href="register.php">Sign up</a>
+</p>
+</form>
 </div>
 
 <div id="Register" class="tabcontent">
