@@ -180,9 +180,11 @@ form, .message-content {
     position: absolute;
   }
   .dropdown span {
-      display: flex;
+      float: right;
+      
   }
   .dropdown-content {
+    position: absolute;
     background-color: var(--secondary-color);
     display: none;
     min-width: 160px;
