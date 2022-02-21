@@ -317,12 +317,11 @@ pre {
   }
   
   .dropdown-content {
-      background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
     display: none;
     position: absolute;
     min-width: 160px;
     padding: 12px 16px;
-    /* z-index: 1; */
   }
   
   .dropdown:hover .dropdown-content {
