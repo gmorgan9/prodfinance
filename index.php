@@ -38,6 +38,13 @@ session_start();
 
         <div class="main-content">
             <p>
+
+            <?php if (is_page('index.php')) {
+echo 'Blog';
+}
+else {
+the_title();
+} ?>
                 This is some random content!
             </p>
         </div>
