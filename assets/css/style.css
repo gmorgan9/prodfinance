@@ -610,6 +610,9 @@ hr {
 .main-content {
   margin-left: 3em;
 }
+.serach-wrap {
+  width: 30%;
+}
 .search {
   width: 100%;
   position: relative;
