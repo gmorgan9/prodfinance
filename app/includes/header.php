@@ -19,12 +19,12 @@
             <?php if($_SESSION['admin']): ?>
               <li><a href="<?php echo BASE_URL . '/admin/dashboard.php' ?>">Dashboard</a></li>
             <?php endif; ?>
-            <li><a href="<?php echo BASE_URL . '/logout.php' ?>" class="logout">Logout</a></li>
+            <li><a href="/?logout='1'" class="logout">Logout</a></li>
           </ul>
         </li>
       <?php else: ?>
-        <li><a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></li>
-        <li><a href="<?php echo BASE_URL . '/login.php' ?>">Login</a></li>
+        <li><a href="register.php">Sign Up</a></li>
+        <li><a href="login.php">Login</a></li>
       <?php endif; ?>
     </ul>
 </header>
