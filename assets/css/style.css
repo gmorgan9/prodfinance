@@ -191,8 +191,10 @@
   }
 
   /* FORM */
+  .log-reg_form{
+    margin-top: 40px;
+  }
 .log-reg_form, .message-content {
-  margin-top: 40px;
   width: 40%;
   margin: 0px auto;
   padding: 20px;
