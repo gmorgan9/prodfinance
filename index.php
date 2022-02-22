@@ -25,9 +25,12 @@ session_start();
         
 
     <div class="main-content">
+        <div class="main-heading">
+            <h1>Knowledge Base</h1>
+            <h5>One place. Lots of Knowledge.</h5>
+        </div>
 
-    <h1>Knowledge Base</h1>
-    <h5>One place. Lots of Knowledge.</h5>
+    
         <p>
             This is some random content!
         </p>
