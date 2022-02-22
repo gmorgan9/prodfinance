@@ -1,5 +1,5 @@
 <header>
-    <a class="logo" href="<?php echo BASE_URL . '/index.php'; ?>">
+    <a class="logo" href="<?php echo BASE_URL . '/'; ?>">
         <h1 class="logo-text"><span>Garrett</span>Inspires</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
