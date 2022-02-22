@@ -9,7 +9,7 @@ if (isLoggedIN()) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Register</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
     <!-- <link rel="stylesheet" href="styles.css"> -->
@@ -23,7 +23,6 @@ if (isLoggedIN()) {
 <form method="post" action="register.php">
 <h2 class="form-title">Register</h2>
 <?php echo display_error(); ?>
-<?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
 	<div>
 		<label>Username</label>
