@@ -1,6 +1,7 @@
 :root {
     --primary-color: #002E5D;
     --secondary-color: #0087a8;
+    --hover-color: #002f5da6;
     --backgroud: #F8F8FF;
     --light-text: #fff;
     --red-background: #f2dede;
@@ -46,7 +47,7 @@
   
   .btn {
     padding: 0.5rem 1rem;
-    background: #006669;
+    background: var(--primary-color);
     color: white;
     border: 1px solid transparent;
     border-radius: 0.25rem;
@@ -61,7 +62,7 @@
   
   .btn:hover {
     color: white !important;
-    background: #005255;
+    background: var(--hover-color);
   }
   
   .text-input {
