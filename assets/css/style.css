@@ -620,7 +620,7 @@ hr {
   background: #f1f1f1;
 }
 .search-bar-text::placeholder {
-  margin-left: -10px;
+  left: -10px;
   font-size:small;
 }
 .search-bar button {
