@@ -586,6 +586,7 @@ hr {
 
 /* Main Content */
 .main h1,h5 {
+  color: white;
   text-align: center;
 }
 .main-heading {
