@@ -24,6 +24,7 @@ session_start();
 <body>
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
+<?php include(ROOT_PATH . "/app/includes/main-heading.php") ?>
         
 
     <div class="main">
