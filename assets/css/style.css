@@ -585,17 +585,12 @@ hr {
   }
 
   /* Main Content */
-
-  .main-content {
-    margin-left: 10px;
-  }
   .main-content h1,h5 {
     text-align: center;
   }
   .main-heading {
     margin-top: 8%;
     background:rgba(170, 170, 170, 0.45);
-    margin-left:unset;
   }
   
   /* MEDIA QUERIES */
