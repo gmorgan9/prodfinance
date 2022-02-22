@@ -24,6 +24,8 @@
 </head>
 <body>
 
+<?php echo $_SESSION['user']['username']; ?>
+
 <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
 
 <!-- Admin Page Wrapper -->
