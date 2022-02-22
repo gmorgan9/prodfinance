@@ -190,10 +190,10 @@
     color: #006669;
   }
 
-  /* FORM */
-  form {
-    
-  }
+/* FORM */
+/* form {
+
+}
 form, .message-content {
   width: 40%;
   margin: 0px auto;
@@ -275,7 +275,7 @@ form, .message-content {
   background: var(--green-background); 
   border: 1px solid var(--green-text);
   margin-bottom: 20px;
-}
+} */
   
   /* POST SLIDER */
   
