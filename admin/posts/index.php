@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include('functions.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,10 +19,10 @@
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
-        
+        <link rel="stylesheet" href="../../assets/css/style.css?v=<?php echo time(); ?>">
+
         <!-- Admin Styling -->
-        <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="../../assets/css/admin.css?v=<?php echo time(); ?>">
 
         <title>Admin Section - Manage Posts</title>
     </head>
