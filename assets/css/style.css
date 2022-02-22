@@ -616,7 +616,7 @@ hr {
   padding-left: unset;
   font-size: 17px;
   border: 1px solid var(--primary-color);
-  width: 80%;
+  width: 110%;
   border-left: none;
   background: #f1f1f1;
 }
