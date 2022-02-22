@@ -8,7 +8,7 @@
         <?php  if (isset($_SESSION['user'])) : ?>
             <li>
             <i class="fa-solid fa-globe"></i>
-            <li><a href="/">Public</a></li>
+            <a href="/">Public</a>
                 <a href="#">
                     <i class="fa fa-user"></i>
                     <?php echo $_SESSION['user']['username']; ?>
