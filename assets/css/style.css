@@ -189,6 +189,90 @@
   .page-wrapper a:hover {
     color: #006669;
   }
+
+  /* FORM */
+form, .message-content {
+  width: 40%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.createpostform {
+  width: 70%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.manage-btn {
+  padding: 10px;
+  font-size: 15px;
+  color: var(--light-text);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline;
+  position: relative;
+}
+.manage-btn-group {
+  margin-left: 20%;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.log-btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#user_type {
+  height: 40px;
+  width: 98%;
+  padding: 5px 10px;
+  background: white;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid var(--red-text); 
+  color: var(--red-text); 
+  background: var(--red-background); 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: var(--green-text); 
+  background: var(--green-background); 
+  border: 1px solid var(--green-text);
+  margin-bottom: 20px;
+}
   
   /* POST SLIDER */
   
