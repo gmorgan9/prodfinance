@@ -620,7 +620,7 @@ hr {
   background: #f1f1f1;
 }
 .search-bar button {
-  border-radius: 0px 10px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
   float: left;
   width: 20%;
   padding: 6px;
