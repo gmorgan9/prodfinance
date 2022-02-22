@@ -7,9 +7,10 @@ session_start();
 <head>
 	<title>Home</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="icon" type="image/x-icon" href="fav.png">
+
+    <!-- Custome Styles -->
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
     <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
