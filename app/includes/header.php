@@ -5,18 +5,18 @@
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
       <li><a href="/">Home</a></li>
+      <li><a href="#">Documentation</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
 
-      <?php if (isset($_SESSION['id'])): ?>
+      <?php  if (isset($_SESSION['user'])) : ?>
         <li>
           <a href="#">
             <i class="fa fa-user"></i>
-            <?php echo $_SESSION['username']; ?>
+            <?php echo $_SESSION['user']['username']; ?>
             <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
           </a>
           <ul>
-            <?php if($_SESSION['admin']): ?>
+            <?php if($_SESSION['user']['user_type'] == 'admin' || $_SESSION['user']['user_type'] == 'superadmin'): ?>
               <li><a href="admin/dashboard.php">Dashboard</a></li>
             <?php endif; ?>
             <li><a href="/?logout='1'" class="logout">Logout</a></li>
