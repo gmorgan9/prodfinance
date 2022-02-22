@@ -5,7 +5,7 @@
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
       <li><a href="/">Home</a></li>
-      <li><a href="#">Documentation</a></li>
+      <li><a href="<?php echo BASE_URL . '/documentation.php'; ?>">Documentation</a></li>
       <li><a href="#">About</a></li>
 
       <?php  if (isset($_SESSION['user'])) : ?>
