@@ -611,6 +611,7 @@ hr {
   margin-left: 3em;
 }
 .search-bar-text {
+  border-radius: 10px 0px 10px 0px;
   padding: 6px;
   font-size: 17px;
   border: 1px solid var(--primary-color);
@@ -619,6 +620,7 @@ hr {
   background: #f1f1f1;
 }
 .search-bar button {
+  border-radius: 0px 10px 0px 10px;
   float: left;
   width: 20%;
   padding: 6px;
@@ -627,9 +629,6 @@ hr {
   border: 1px solid var(--primary-color);
   border-right: none; /* Prevent double borders */
   cursor: pointer;
-}
-.search-bar {
-  border-radius: 10px;
 }
   
   /* MEDIA QUERIES */
