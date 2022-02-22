@@ -3,7 +3,7 @@
 
 <header>
     <a href="<?php echo BASE_URL . '/index.php' ?>" class="logo">
-      <h1 class="logo-text"><span>Awa</span>Inspires</h1>
+      <h1 class="logo-text"><span>Garrett</span>Inspires</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
