@@ -30,7 +30,7 @@ session_start();
             <h5>One place. Lots of Knowledge.</h5>
             <div class="search-bar">
                 <i class="icon fa fa-search"></i>
-                <input class="input-text" type="text" name="eingabe" placeholder="Suche">
+                <input class="input-text" type="text" name="eingabe" placeholder="Search the Knowledge Base...">
             </div>
         </div>
 
