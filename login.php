@@ -20,7 +20,7 @@ if (isLoggedIN()) {
 <?php include("app/includes/header.php") ?>
         
 
-<form method="post" action="account.php">
+<form method="post" action="login.php">
 
 <?php echo display_error(); ?>
 
