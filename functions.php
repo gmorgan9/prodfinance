@@ -46,13 +46,13 @@ function register(){
 
 		if (isset($_POST['user_type'])) {
 			$user_type = e($_POST['user_type']);
-			$query = "INSERT INTO users_test (username, email, user_type, password) 
+			$query = "INSERT INTO users (username, email, user_type, password) 
 					  VALUES('$username', '$email', '$user_type', '$password')";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "New user successfully created!!";
 			header('location: profileinfo.php');
 		}else{
-			$query = "INSERT INTO users_test (username, email, user_type, password) 
+			$query = "INSERT INTO users (username, email, user_type, password) 
 					  VALUES('$username', '$email', 'user', '$password')";
 			mysqli_query($db, $query);
 
@@ -103,13 +103,13 @@ function create_user(){
 
 		if (isset($_POST['user_type'])) {
 			$user_type = e($_POST['user_type']);
-			$query = "INSERT INTO users_test (username, email, user_type, password) 
+			$query = "INSERT INTO users (username, email, user_type, password) 
 					  VALUES('$username', '$email', '$user_type', '$password')";
 			mysqli_query($db, $query);
 			$_SESSION['success']  = "New user successfully created!!";
 			header('location: profileinfo.php');
 		}else{
-			$query = "INSERT INTO users_test (username, email, user_type, password) 
+			$query = "INSERT INTO users (username, email, user_type, password) 
 					  VALUES('$username', '$email', 'user', '$password')";
 			mysqli_query($db, $query);
 
@@ -126,7 +126,7 @@ function create_user(){
 // return user array from their id
 function getUserById($id){
 	global $db;
-	$query = "SELECT * FROM users_test WHERE id=" . $id;
+	$query = "SELECT * FROM users WHERE id=" . $id;
 	$result = mysqli_query($db, $query);
 
 	$user = mysqli_fetch_assoc($result);
@@ -192,7 +192,7 @@ function login(){
 	if (count($errors) == 0) {
 		$password = md5($password);
 
-		$query = "SELECT * FROM users_test WHERE username='$username' AND password='$password' LIMIT 1";
+		$query = "SELECT * FROM users WHERE username='$username' AND password='$password' LIMIT 1";
 		$results = mysqli_query($db, $query);
 
 		if (mysqli_num_rows($results) == 1) { // user found
@@ -263,7 +263,7 @@ function resetPass(){
 		$password = md5($password_1);//encrypt the password before saving in the database
 		$username = $_SESSION['user']['username'];
 
-			$sql = "UPDATE users_test SET password = '$password' WHERE username = '$username'";
+			$sql = "UPDATE users SET password = '$password' WHERE username = '$username'";
 			mysqli_query($db, $sql);
 			$_SESSION['success']  = "Password successfully updated";
 			header('location: profileinfo.php');		
