@@ -192,6 +192,7 @@
 
   /* FORM */
 form, .message-content {
+  margin-top: 15px;
   width: 40%;
   margin: 0px auto;
   padding: 20px;
