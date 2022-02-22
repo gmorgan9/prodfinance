@@ -1,6 +1,8 @@
 <?php include('functions.php'); ?>
 <?php include("../path.php"); ?>
-
+<?php include(ROOT_PATH . "/app/controllers/posts.php"); 
+adminOnly();
+?>
 <!DOCTYPE html>
 <html>
 <head>
