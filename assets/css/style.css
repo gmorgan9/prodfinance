@@ -615,20 +615,19 @@ hr {
   font-size: 17px;
   border: 1px solid var(--primary-color);
   width: 80%;
+  border-left: none;
   background: #f1f1f1;
 }
 .search-bar button {
   float: left;
   width: 20%;
   padding: 6px;
-  /* background: var(--primary-color); */
-  /* color: white; */
   font-size: 17px;
-  border-left: none; /* Prevent double borders */
+  border: 1px solid var(--primary-color);
+  border-right: none; /* Prevent double borders */
   cursor: pointer;
 }
 .search-bar {
-  border: 1px solid var(--primary-color);
   border-radius: 10px;
 }
   
