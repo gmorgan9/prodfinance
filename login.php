@@ -1,5 +1,6 @@
 <?php include("path.php"); ?>
 <?php include('functions.php'); ?>
+
 <?php
 if (isLoggedIN()) {
 	header('location: /');
@@ -17,7 +18,7 @@ if (isLoggedIN()) {
 </head>
 <body>
 
-<?php include("app/includes/header.php") ?>
+<?php include(ROOT_PATH . "/app/includes/header.php") ?>
         
 <div class="auth-content">
 <form method="post" action="login.php">
