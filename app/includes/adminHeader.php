@@ -4,6 +4,8 @@
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
+    <i class="fa-solid fa-globe"></i>
+    <li><a href="/">Public</a></li>
         <?php  if (isset($_SESSION['user'])) : ?>
             <li>
                 <a href="#">
