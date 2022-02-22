@@ -29,12 +29,12 @@
 
     <body>
         
-    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
+    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?><?php echo time(); ?>
 
         <!-- Admin Page Wrapper -->
         <div class="admin-wrapper">
 
-        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?>
+        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?><?php echo time(); ?>
 
 
             <!-- Admin Content -->
