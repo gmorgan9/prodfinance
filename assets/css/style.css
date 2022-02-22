@@ -591,6 +591,8 @@ hr {
   .main-heading {
     display: flex;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
     margin-top: 8%;
     background:rgba(170, 170, 170, 0.45);
     height: 20em;
