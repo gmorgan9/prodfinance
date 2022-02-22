@@ -4,6 +4,7 @@
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
+        test
         <?php  if (isset($_SESSION['user'])) : ?>
             <li>
                 <a href="#">
