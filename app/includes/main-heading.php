@@ -8,6 +8,5 @@
                 <button class="search-bar-btn"><i class="fa fa-search"></i></button>
             </div>
         <?php } else { ?>
-            <p>Thanks</p>
         <?php } ?>
         </div>
