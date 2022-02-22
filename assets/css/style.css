@@ -613,6 +613,7 @@ hr {
 .search-bar-text {
   border-radius: 0px 10px 10px 0px;
   padding: 6px;
+  padding-left: unset;
   font-size: 17px;
   border: 1px solid var(--primary-color);
   width: 80%;
