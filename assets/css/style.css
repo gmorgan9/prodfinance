@@ -92,9 +92,17 @@
   }
   
   .error {
-    color: #884b4b;
+    /* color: #884b4b;
     border: 1px solid #884b4b;
-    background: #f5bcbc;
+    background: #f5bcbc; */
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid var(--red-text); 
+    color: var(--red-text); 
+    background: var(--red-background); 
+    border-radius: 5px; 
+    text-align: left;
   }
   
   /* NAVBAR */
