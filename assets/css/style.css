@@ -589,6 +589,8 @@ hr {
     text-align: center;
   }
   .main-heading {
+    display: flex;
+    align-items: center;
     margin-top: 8%;
     background:rgba(170, 170, 170, 0.45);
     height: 20em;
