@@ -638,6 +638,7 @@ hr {
   cursor: pointer;
 }
 .search-bar{
+  margin-top: 1.5em;
   width: 20%;
 }
   
