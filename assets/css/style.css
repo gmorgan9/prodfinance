@@ -592,6 +592,9 @@ hr {
   .main-content h1,h5 {
     text-align: center;
   }
+  .main-heading {
+    margin-top: 15%;
+  }
   
   /* MEDIA QUERIES */
   
