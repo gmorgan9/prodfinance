@@ -1,5 +1,5 @@
-<?php include('functions.php'); ?>
-<?php include("../path.php"); 
+<?php include("../../path.php"); ?>
+<?php include('functions.php'); 
 session_start();
 ?>
 <!DOCTYPE html>
