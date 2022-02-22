@@ -28,7 +28,7 @@
     </div>
 		<?php }else{ ?>
     <div id="loginreg">
-      <li class="nav-list-item"><a id="login" href="account.php">My Account</a></li>
+      <li class="nav-list-item"><a id="login" href="account.php">Account</a></li>
     </div>
 		<?php } ?>
 </div>     
