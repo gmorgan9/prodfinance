@@ -28,8 +28,9 @@ session_start();
         <div class="main-heading">
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
-            <div >
-            <a href="documentation.php"><button class="main-heading-btn">View KB</button></a>
+            <div class="search-bar">
+                <i class="icon fa fa-search"></i>
+                <input class="input-text" type="text" name="eingabe" placeholder="Suche">
             </div>
         </div>
 
