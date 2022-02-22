@@ -619,6 +619,9 @@ hr {
   border-left: none;
   background: #f1f1f1;
 }
+.search-bar-text placeholder {
+  font-size:small;
+}
 .search-bar button {
   border-radius: 10px 0px 0px 10px;
   float: left;
