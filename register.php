@@ -20,7 +20,7 @@ if (isLoggedIN()) {
 <?php include("app/includes/header.php") ?>
         
 
-<form class="log-reg_form" method="post" action="register.php">
+<form method="post" action="register.php">
 <?php echo display_error(); ?>
 	<div class="input-group">
 		<label>Username</label>
