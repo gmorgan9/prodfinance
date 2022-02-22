@@ -1,5 +1,5 @@
+<?php include("../../path.php"); ?>
 <?php include('functions.php'); ?>
-<?php include("../path.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,12 +29,12 @@
 
     <body>
         
-    <?php include(ROOT_PATH . "../app/includes/adminHeader.php"); ?>
+    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
 
         <!-- Admin Page Wrapper -->
         <div class="admin-wrapper">
 
-        <?php include(ROOT_PATH . "../app/includes/adminSidebar.php"); ?>
+        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?>
 
 
             <!-- Admin Content -->
@@ -49,7 +49,7 @@
 
                     <h2 class="page-title">Manage Posts</h2>
 
-                    <?php include(ROOT_PATH . "../app/includes/messages.php"); ?>
+                    <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
                     <table>
                         <thead>
