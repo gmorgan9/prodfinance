@@ -191,10 +191,7 @@
   }
 
   /* FORM */
-  .log-reg_form{
-    margin-top: 40px;
-  }
-.log-reg_form, .message-content {
+form, .message-content {
   width: 40%;
   margin: 0px auto;
   padding: 20px;
@@ -227,6 +224,7 @@
 }
 .input-group {
   margin: 10px 0px 10px 0px;
+  margin-top: 40px;
 }
 .input-group label {
   display: block;
