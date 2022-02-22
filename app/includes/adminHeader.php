@@ -9,6 +9,8 @@
             <li>
             <i class="fa-solid fa-globe"></i>
             <a href="/">Public</a>
+            </li>
+            <li>
                 <a href="#">
                     <i class="fa fa-user"></i>
                     <?php echo $_SESSION['user']['username']; ?>
