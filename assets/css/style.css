@@ -611,6 +611,7 @@ hr {
   margin-left: 3em;
 }
 .search-bar-text {
+  float: left;
   width: 80%;
   border: 1px solid var(--primary-color);
 }
