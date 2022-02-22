@@ -24,12 +24,12 @@
 </head>
 <body>
 
-<?php include("app/includes/adminHeader.php") ?>
+<?php include("../app/includes/adminHeader.php") ?>
 
 <!-- Admin Page Wrapper -->
 <div class="admin-wrapper">
 
-<?php include("app/includes/adminSidebar.php") ?>
+<?php include("../app/includes/adminSidebar.php") ?>
         
 <!-- Admin Content -->
 <div class="admin-content">
