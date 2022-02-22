@@ -594,7 +594,7 @@ hr {
   text-align: center;
   flex-direction: column;
   justify-content:center;
-  background:rgba(170, 170, 170, 0.45);
+  background: var(--hover-color);
   height: 20em;
 }
 .main-heading-btn {
