@@ -7,6 +7,8 @@ session_start();
 <head>
 	<title>Home</title>
     <meta name="viewport" content="width=device-width">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
     <!-- Custome Styles -->

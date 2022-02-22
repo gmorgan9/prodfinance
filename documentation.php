@@ -8,7 +8,9 @@ session_start();
 <head>
 	<title>Documentation</title>
   <meta name="viewport" content="width=device-width">
-  <link rel="icon" type="image/x-icon" href="fav.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
   <!-- Custome Styles -->
   <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
