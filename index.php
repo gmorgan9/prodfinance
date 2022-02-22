@@ -29,7 +29,7 @@ session_start();
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
             <div >
-            <a href="documentation.php" class="main-heading-btn"><button>View KB</button></a>
+            <a href="documentation.php"><button class="main-heading-btn">View KB</button></a>
             </div>
         </div>
 
