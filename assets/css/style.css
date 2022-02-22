@@ -593,6 +593,7 @@ hr {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    justify-content:center;
     margin-top: 8%;
     background:rgba(170, 170, 170, 0.45);
     height: 20em;
