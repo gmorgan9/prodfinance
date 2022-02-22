@@ -22,7 +22,7 @@ header {
 .admin-wrapper .left-sidebar {
 	flex: 2;
 	height: 100%;
-	background: var(--secondary-color);
+	background: var(--hover-color);
 }
 
 .admin-wrapper .left-sidebar ul {
