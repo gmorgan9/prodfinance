@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+    <title>Admin Section - Dashboard</title>
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="fav.png">
 
