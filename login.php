@@ -24,7 +24,7 @@ if (isLoggedIN()) {
 
 <?php echo display_error(); ?>
 
-<div class="input-group">
+<div>
 	<label>Username</label>
 	<input class="text-input" type="text" name="username" >
 </div>
