@@ -1,3 +1,14 @@
+:root {
+    --primary-color: #002E5D;
+    --secondary-color: #0087a8;
+    --backgroud: #F8F8FF;
+    --light-text: #fff;
+    --red-background: #f2dede;
+	--red-text: #a94442;
+	--green-text: #3c763d;
+	--green-background: #dff0d8;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -89,7 +100,7 @@
   /* NAVBAR */
   
   header {
-    background: #008489;
+    background: var(--primary-color);
     height: 66px;
   }
   
@@ -109,7 +120,7 @@
   }
   
   header .logo-text span {
-    color: #05f7ff;
+    color: var(--secondary-color);
   }
   
   header ul {
@@ -163,7 +174,7 @@
   }
   
   header ul li a:hover {
-    background: #006669;
+    background: var(--secondary-color);
     transition: 0.5s;
   }
   
