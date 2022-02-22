@@ -7,8 +7,9 @@
         
         <?php  if (isset($_SESSION['user'])) : ?>
             <li>
+            <a href="/">
             <i class="fa fa-globe"></i>
-            <a href="/">Public</a>
+            Public</a>
             </li>
             <li>
                 <a href="#">
