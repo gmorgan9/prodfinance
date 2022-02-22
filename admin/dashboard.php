@@ -1,4 +1,5 @@
 <?php include('functions.php'); ?>
+<?php include("../path.php"); ?>
 
 <!DOCTYPE html>
 <html>
@@ -24,7 +25,7 @@
 </head>
 <body>
 
-<?php include("../app/includes/adminHeader.php") ?>
+<?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
 
 <!-- Admin Page Wrapper -->
 <div class="admin-wrapper">

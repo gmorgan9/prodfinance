@@ -1,4 +1,5 @@
 <?php include('functions.php'); ?>
+<?php include("../path.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
