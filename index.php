@@ -28,12 +28,6 @@ session_start();
 
         <div class="main-content">
             <p>
-
-            <?php if (strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false) {
-                echo 'Blog';
-            } else {
-                echo 'not';
-            } ?>
                 This is some random content!
             </p>
         </div>
