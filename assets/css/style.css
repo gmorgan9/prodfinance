@@ -612,8 +612,6 @@ hr {
 }
 .search-bar-text {
   border-radius: 0px 10px 10px 0px;
-  padding: 6px;
-  padding-left: unset;
   font-size: 17px;
   border: 1px solid var(--primary-color);
   width: 80%;
@@ -628,7 +626,7 @@ hr {
   border-radius: 10px 0px 0px 10px;
   float: left;
   width: 20%;
-  padding: 6px;
+  padding-left: 6px;
   font-size: 17px;
   color: lightgray;
   margin-right: 0;
