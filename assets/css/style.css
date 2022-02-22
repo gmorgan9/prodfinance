@@ -585,7 +585,7 @@ hr {
   }
 
   /* Main Content */
-  .main-content h1,h5 {
+  .main h1,h5 {
     text-align: center;
   }
   .main-heading {
@@ -606,6 +606,9 @@ hr {
     border-radius: 0.25rem;
     font-size: 1.08em;
     cursor: pointer;
+  }
+  .main-content {
+    margin-left: 8em;
   }
   
   /* MEDIA QUERIES */

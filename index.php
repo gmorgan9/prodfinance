@@ -24,7 +24,7 @@ session_start();
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
         
 
-    <div class="main-content">
+    <div class="main">
         <div class="main-heading">
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
@@ -33,10 +33,11 @@ session_start();
             </div>
         </div>
 
-    
-        <p>
-            This is some random content!
-        </p>
+        <div class="main-content">
+            <p>
+                This is some random content!
+            </p>
+        </div>
     </div>
 </body>
 </html>
