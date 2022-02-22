@@ -591,6 +591,7 @@ hr {
   .main-heading {
     margin-top: 8%;
     background:rgba(170, 170, 170, 0.45);
+    height: 5%;
   }
   
   /* MEDIA QUERIES */
