@@ -15,6 +15,7 @@ if (isLoggedIN()) {
 	<link rel="icon" type="image/x-icon" href="fav.png">
 </head>
 <body>
+<?php include("app/includes/header.php") ?>
 <!-- test account -->
 <script src="assets/js/tabs.js"></script>
 <div class="all_tabs">
