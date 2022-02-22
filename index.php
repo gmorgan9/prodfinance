@@ -32,7 +32,7 @@ session_start();
             <h5>One place. Lots of Knowledge.</h5>
             <div class="search-bar">
                 <input type="text" class="search-bar-text">
-                <i class="fa fa-search"></i>
+                <button><i class="fa fa-search"></i></button>
             </div>
         </div>
 
