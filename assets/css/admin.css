@@ -1,5 +1,17 @@
+:root {
+    --primary-color: #002E5D;
+    --secondary-color: #002f5dd2;
+    --hover-color: #002f5da6;
+    --backgroud: #F8F8FF;
+    --light-text: #fff;
+    --red-background: #f2dede;
+	--red-text: #a94442;
+	--green-text: #3c763d;
+	--green-background: #dff0d8;
+}
+
 header {
-	background: #01474a;
+	background: var(--primary-color);
 }
 
 .admin-wrapper {
@@ -10,7 +22,7 @@ header {
 .admin-wrapper .left-sidebar {
 	flex: 2;
 	height: 100%;
-	background: #234a57;
+	background: var(--secondary-color);
 }
 
 .admin-wrapper .left-sidebar ul {
@@ -23,11 +35,11 @@ header {
 .admin-wrapper .left-sidebar ul li a {
 	padding: 18px;
 	display: block;
-	border-bottom: 1px solid #004044;
+	border-bottom: 1px solid var(--secondary-color);
 }
 
 .admin-wrapper .left-sidebar ul li a:hover {
-	background: #004044;
+	background: var(--hover-color);
 }
 
 .admin-wrapper .admin-content {
