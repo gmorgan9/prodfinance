@@ -23,6 +23,7 @@ if (isLoggedIN()) {
 <form method="post" action="register.php">
 <h2 class="form-title">Register</h2>
 <?php echo display_error(); ?>
+<?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
 	<div>
 		<label>Username</label>
