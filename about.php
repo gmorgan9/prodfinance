@@ -23,6 +23,7 @@ session_start();
 </head>
 <body>
     <?php include(ROOT_PATH . "/app/includes/header.php") ?>
+    <?php include(ROOT_PATH . "/app/includes/main-heading.php") ?>
         
     <div class="main-content">
       <p>
