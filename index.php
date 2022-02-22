@@ -28,9 +28,11 @@ session_start();
         <div class="main-heading">
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
-            <div class="search-bar">
-                <input class="search-bar-text" type="text" placeholder="Search the Knowledge Base...">
-                <i class="fa fa-search"></i>
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
             </div>
         </div>
 
