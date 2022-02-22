@@ -5,10 +5,12 @@
 <head>
     <title>Admin Section - Dashboard</title>
     <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/x-icon" href="fav.png">
 
     <!-- Custom Styling -->
-    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">  
+    <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
 
     <!-- Admin Styling -->
     <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
