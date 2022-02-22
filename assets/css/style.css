@@ -589,6 +589,9 @@ hr {
   .main-content {
     margin-left: 10px;
   }
+  .main-content h1,h2 {
+    text-align: center;
+  }
   
   /* MEDIA QUERIES */
   
