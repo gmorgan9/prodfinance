@@ -1,4 +1,7 @@
-<?php include('functions.php'); ?>
+<?php include('path.php'); ?>
+<?php include(ROOT_PATH . "/app/controllers/users.php"); 
+guestsOnly();
+?>
 
 <?php
 if (isLoggedIN()) {
@@ -17,12 +20,12 @@ if (isLoggedIN()) {
 </head>
 <body>
 
-<?php include("app/includes/header.php") ?>
+<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
         
 <div class="auth-content">
 <form method="post" action="login.php">
 <h2 class="form-title">Login</h2>
-<?php echo display_error(); ?>
+<?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
 <div>
 	<label>Username</label>
