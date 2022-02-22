@@ -610,6 +610,9 @@ hr {
 .main-content {
   margin-left: 3em;
 }
+.search-bar {
+  width: 30%;
+}
   
   /* MEDIA QUERIES */
   
