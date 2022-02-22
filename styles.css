@@ -32,7 +32,7 @@ body {
     float: left;
 }
 .logo span {
-    color: var(--secondary-color);
+    color: rgb(31, 108, 172);
 }
 .log-header {
     /* width: 40%; */
