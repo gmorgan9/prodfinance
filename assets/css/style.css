@@ -174,7 +174,7 @@
   }
   
   header ul li a:hover {
-    background: #006669;
+    background: var(--secondary-color);
     transition: 0.5s;
   }
   
