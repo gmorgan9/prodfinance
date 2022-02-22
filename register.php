@@ -19,7 +19,7 @@ if (isLoggedIN()) {
 
 <?php include("app/includes/header.php") ?>
         
-
+<div class="auth-content">
 <form method="post" action="register.php">
 <h2 class="form-title">Register</h2>
 <?php echo display_error(); ?>
@@ -48,5 +48,6 @@ if (isLoggedIN()) {
 		Already a member? <a href="login.php">Sign in</a>
 	</p>
 </form>
+</div>
 </body>
 </html>
