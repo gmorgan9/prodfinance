@@ -28,6 +28,9 @@ session_start();
         <div class="main-heading">
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
+            <div class="main-heading-btn">
+                <button><a href="documentation.php">View KB</a></button>
+            </div>
         </div>
 
     
