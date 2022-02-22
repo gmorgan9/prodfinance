@@ -21,7 +21,9 @@ if (isLoggedIN()) {
         
 
 <form method="post" action="register.php">
+<h2 class="form-title">Register</h2>
 <?php echo display_error(); ?>
+
 	<div class="input-group">
 		<label>Username</label>
 		<input type="text" name="username" value="<?php echo $username; ?>">
