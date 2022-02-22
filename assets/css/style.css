@@ -614,7 +614,7 @@ hr {
   width: 80%;
   border: 1px solid var(--primary-color);
 }
-.search-bar-text button {
+.search-bar button {
   float: left;
 }
 .search-bar {
