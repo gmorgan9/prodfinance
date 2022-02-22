@@ -598,6 +598,7 @@ hr {
     height: 20em;
   }
   .main-heading-btn {
+    margin-top: 30px;
     padding: 0.5rem 1rem;
     background: var(--primary-color);
     color: white;
