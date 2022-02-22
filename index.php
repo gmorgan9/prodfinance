@@ -30,6 +30,10 @@ session_start();
         <div class="main-heading">
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
+            <div class="search-bar">
+                <input type="text" class="search-bar-text">
+                <i class="fa fa-search"></i>
+            </div>
         </div>
 
         <div class="main-content">
