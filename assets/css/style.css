@@ -596,7 +596,7 @@ hr {
   flex-direction: column;
   justify-content:center;
   background: var(--hover-color);
-  height: 20em;
+  height: 15em;
 }
 .main-heading-btn {
   margin-top: 30px;
