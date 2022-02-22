@@ -45,6 +45,8 @@
 </div>
 <!-- // Page Wrapper -->
 
+<!-- Custom Script -->
+<script src="../assets/js/scripts.js"></script>
 
 </body>
 </html>
