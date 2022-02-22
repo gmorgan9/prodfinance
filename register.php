@@ -14,6 +14,9 @@ if (isLoggedIN()) {
     <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
     <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="icon" type="image/x-icon" href="fav.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 </head>
 <body>
 
