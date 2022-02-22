@@ -19,10 +19,10 @@
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../../assets/css/style.css">
+        <link rel="stylesheet" href="../../assets/css/style.css?v=<?php echo time(); ?>">
 
         <!-- Admin Styling -->
-        <link rel="stylesheet" href="../../assets/css/admin.css">
+        <link rel="stylesheet" href="../../assets/css/admin.css?v=<?php echo time(); ?>">
 
         <title>Admin Section - Manage Topics</title>
     </head>
