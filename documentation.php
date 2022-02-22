@@ -27,12 +27,6 @@ session_start();
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
 <?php include(ROOT_PATH . "/app/includes/main-heading.php") ?>
 
-    <div class="main-content">
-      <div class="content-header">
-        <h2 style="text-align:center;">Knowledge Based Documentation</h2>
-        <h4 style="text-align:center;color:gray;">Check out these documents</h4>
-      </div>
-
 <div class="row">
       <div class="column">
       <a href="document-1.php" style="text-decoration:none;color:black;"><div class="box">
