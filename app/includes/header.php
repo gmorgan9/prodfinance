@@ -6,7 +6,7 @@
     <ul class="nav">
       <li><a href="/">Home</a></li>
       <li><a href="<?php echo BASE_URL . '/documentation.php'; ?>">Documentation</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="<?php echo BASE_URL . '/about.php'; ?>">About</a></li>
 
       <?php  if (isset($_SESSION['user'])) : ?>
         <li>
