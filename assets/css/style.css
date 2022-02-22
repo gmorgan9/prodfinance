@@ -611,7 +611,8 @@ hr {
   margin-left: 3em;
 }
 .serach-wrap {
-  width: 50%;
+  margin-top: 10px;
+  width: 30%;
   height: 36px;
 }
 .search {
