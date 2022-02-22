@@ -611,9 +611,12 @@ hr {
   margin-left: 3em;
 }
 .search-bar-text {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid var(--primary-color);
   float: left;
   width: 80%;
-  border: 1px solid var(--primary-color);
+  background: #f1f1f1;
 }
 .search-bar button {
   width: 20%;
