@@ -29,8 +29,8 @@ session_start();
             <h1>Knowledge Base</h1>
             <h5>One place. Lots of Knowledge.</h5>
             <div class="search-bar">
-                <i class="icon fa fa-search"></i>
-                <input class="input-text" type="text" name="eingabe" placeholder="Search the Knowledge Base...">
+                <input class="search-bar-text" type="text" placeholder="Search the Knowledge Base...">
+                <i class="fas fa-search"></i>
             </div>
         </div>
 
