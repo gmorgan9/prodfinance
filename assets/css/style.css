@@ -601,11 +601,11 @@ hr {
     margin-top: 30px;
     padding: 0.5rem 1rem;
     background: var(--primary-color);
-    color: rgba(170, 170, 170, 0.45);
+    color: white;
     border: 1px solid transparent;
     border-radius: 0.25rem;
     font-size: 1.08em;
-    font-family: "Lora", serif;
+    cursor: pointer;
   }
   
   /* MEDIA QUERIES */
