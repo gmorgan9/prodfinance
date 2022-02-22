@@ -28,11 +28,11 @@ if (isLoggedIN()) {
 	<label>Username</label>
 	<input class="text-input" type="text" name="username" >
 </div>
-<div class="input-group">
+<div>
 	<label>Password</label>
 	<input class="text-input" type="password" name="password">
 </div>
-<div class="input-group">
+<div>
 	<button type="submit" class="log-btn" name="login_btn">Login</button>
 	<a href="javascript:history.back()" name="btn" class="log-btn" >Back</a>
 </div>
