@@ -612,6 +612,7 @@ hr {
 }
 .serach-wrap {
   width: 30%;
+  height: 36px;
 }
 .search {
   width: 100%;
@@ -623,7 +624,6 @@ hr {
   border: 3px solid #00B4CC;
   border-right: none;
   padding: 5px;
-  height: 36px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
