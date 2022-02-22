@@ -624,7 +624,7 @@ hr {
   left: -10px;
   font-size:small;
 }
-.search-bar-text:focus {
+.search-bar:focus {
   outline: none;
 }
 .search-bar button {
