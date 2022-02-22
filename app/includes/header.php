@@ -1,6 +1,6 @@
 <div class="header">
   <div class="logo">
-		<h2>Home Page</h2>
+		<h2>GMor<span>Inspires<span></h2>
   </div>
   <div class="nav-header">
       <li class="nav-list-item"><a class="nav-list-link" href="/">Home</a></li>
