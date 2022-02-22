@@ -1,10 +1,10 @@
 <header>
-    <a href="<?php echo BASE_URL . '/index.php' ?>" class="logo">
+    <a href="/" class="logo">
       <h1 class="logo-text"><span>Garrett</span>Inspires</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
-      <li><a href="<?php echo BASE_URL . '/index.php' ?>">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Services</a></li>
 
@@ -17,7 +17,7 @@
           </a>
           <ul>
             <?php if($_SESSION['admin']): ?>
-              <li><a href="<?php echo BASE_URL . '/admin/dashboard.php' ?>">Dashboard</a></li>
+              <li><a href="admin/dashboard.php">Dashboard</a></li>
             <?php endif; ?>
             <li><a href="/?logout='1'" class="logout">Logout</a></li>
           </ul>
