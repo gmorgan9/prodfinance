@@ -1,11 +1,16 @@
+
 <header>
-    <a class="logo" href="<?php echo BASE_URL . '/index.php'; ?>">
-        <h1 class="logo-text"><span>Garrett</span>Inspires</h1>
+    <a href="/" class="logo">
+      <h1 class="logo-text"><span>Garrett</span>Inspires</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
-        <?php  if (isset($_SESSION['user'])) : ?>
-            <li>
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Documentation</a></li>
+      <li><a href="#">About</a></li>
+
+      <?php  if (isset($_SESSION['user'])) : ?>
+        <li>
                 <a href="#">
                     <i class="fa fa-user"></i>
                     <?php echo $_SESSION['user']['username']; ?>
@@ -15,6 +20,6 @@
                     <li><a href="<?php echo BASE_URL . '/logout.php'; ?>" class="logout">Logout</a></li>
                 </ul>
             </li>
-        <?php endif; ?>
+      <?php endif; ?>
     </ul>
 </header>
