@@ -4,6 +4,7 @@
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
+      edit
       <!-- <li><a href="<?php 
       // echo 
       // BASE_URL . '/' ?>">Home</a></li>
