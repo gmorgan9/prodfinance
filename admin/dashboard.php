@@ -1,74 +1,60 @@
 <?php include("../path.php"); ?>
-<?php include(ROOT_PATH . "/app/controllers/posts.php"); 
+<?php 
+include(ROOT_PATH . "/app/controllers/posts.php"); 
+session_start();
 adminOnly();
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+    <title>Admin Section - Dashboard</title>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="fav.png">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Custom Styling -->
+    <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous">
+    <!-- Admin Styling -->
+    <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Candal|Lora"
-            rel="stylesheet">
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-        <!-- Custom Styling -->
-        <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+</head>
+<body>
 
-        <!-- Admin Styling -->
-        <link rel="stylesheet" href="../assets/css/admin.css">
+<?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
 
-        <title>Admin Section - Dashboard</title>
-    </head>
+<!-- Admin Page Wrapper -->
+<div class="admin-wrapper">
 
-    <body>
+<?php include(ROOT_PATH . "/app/includes/adminSidebar.php") ?>
         
-    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
+<!-- Admin Content -->
+<div class="admin-content">
 
-        <!-- Admin Page Wrapper -->
-        <div class="admin-wrapper">
+<div class="content">
 
-        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?>
+    <h2 class="page-title">Dashboard</h2>
 
+    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
-            <!-- Admin Content -->
-            <div class="admin-content">
+</div>
 
-                <div class="content">
+</div>
+<!-- // Admin Content -->
 
-                    <h2 class="page-title">Dashboard</h2>
+</div>
+<!-- // Page Wrapper -->
 
-                    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
+<!-- Custom Script -->
+<script src="../assets/js/scripts.js"></script>
 
-                    
-
-                </div>
-
-            </div>
-            <!-- // Admin Content -->
-
-        </div>
-        <!-- // Page Wrapper -->
-
-
-
-        <!-- JQuery -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Ckeditor -->
-        <script
-            src="https://cdn.ckeditor.com/ckeditor5/12.2.0/classic/ckeditor.js"></script>
-        <!-- Custom Script -->
-        <script src="../assets/js/scripts.js"></script>
-
-    </body>
-
+</body>
 </html>

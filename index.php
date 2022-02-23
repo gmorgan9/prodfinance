@@ -1,5 +1,5 @@
 <?php include("path.php"); ?>
-<?php include('app/database/db.php');
+<?php include('app/database/functions.php');
 session_start();
 ?>
 <!DOCTYPE html>
