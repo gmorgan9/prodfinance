@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include('functions.php'); 
+<?php include('app/database/functions.php'); 
 include(ROOT_PATH . "/app/controllers/posts.php");
 session_start();
 ?>
