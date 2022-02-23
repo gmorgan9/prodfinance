@@ -52,7 +52,7 @@ if (isset($_GET['published']) && isset($_GET['p_id'])) {
 if (isset($_POST['add-post'])) {
     // adminOnly();
     $errors = validatePost($_POST);
-
+echo "hello";
     if (!empty($_FILES['image']['name'])) {
         // $destination = ROOT_PATH . "/assets/images/" . $_FILES['image']['name'];
         // $tmp_destination = $_FILES['image']['tmp_name'];
