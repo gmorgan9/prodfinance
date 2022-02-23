@@ -50,18 +50,17 @@ if (isset($_GET['published']) && isset($_GET['p_id'])) {
 
 
 if (isset($_POST['add-post'])) {
-    // adminOnly();
+    adminOnly();
     $errors = validatePost($_POST);
 
     if (!empty($_FILES['image']['name'])) {
-        // $destination = ROOT_PATH . "/assets/images/" . $_FILES['image']['name'];
-        // $tmp_destination = $_FILES['image']['tmp_name'];
+        $image_name = time() . '_' . $_FILES['image']['name'];
+        $destination = ROOT_PATH . "/assets/images/" . $image_name;
 
-        // $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
+        $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
 
-        if (move_uploaded_file($_FILES['image']['tmp_name'], ROOT_PATH . "/assets/images/" . $_FILES['image']['name'])) {
+        if ($result) {
            $_POST['image'] = $image_name;
-           echo "published";
         } else {
             array_push($errors, "Failed to upload image");
         }
