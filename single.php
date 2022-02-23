@@ -31,11 +31,6 @@ $posts = selectAll('posts', ['published' => 1]);
 </head>
 
 <body>
-  <!-- Facebook Page Plugin SDK -->
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous"
-    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=285071545181837&autoLogAppEvents=1">
-  </script>
 
   <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
