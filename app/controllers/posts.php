@@ -53,6 +53,7 @@ if (isset($_POST['add-post'])) {
     // adminOnly();
     $errors = validatePost($_POST);
 
+    clearstatcache();
     if(is_array($_FILES['images'])){
         if ($_FILES['images']['error'][0] !== UPLOAD_ERR_OK) {
            $error[] = "Upload failed with error code " . $_FILES['images']['error'][0];                                
