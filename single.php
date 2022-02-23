@@ -56,12 +56,6 @@ $posts = selectAll('posts', ['published' => 1]);
       <!-- Sidebar -->
       <div class="sidebar single">
 
-        <div class="fb-page" data-href="https://web.facebook.com/codingpoets/" data-small-header="false"
-          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-          <blockquote cite="https://web.facebook.com/codingpoets/" class="fb-xfbml-parse-ignore"><a
-              href="https://web.facebook.com/codingpoets/">Coding Poets</a></blockquote>
-        </div>
-
 
         <div class="section popular">
           <h2 class="section-title">Popular</h2>
@@ -96,7 +90,6 @@ $posts = selectAll('posts', ['published' => 1]);
   </div>
   <!-- // Page Wrapper -->
 
-  <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 
 
   <!-- JQuery -->
