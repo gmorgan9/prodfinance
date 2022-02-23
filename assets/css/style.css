@@ -413,6 +413,9 @@ hr {
     padding: 10px;
     float: right;
   }
+  .post {
+    margin-right: 15px;
+  }
   
   .content .main-content .recent-post-title {
     margin: 20px;
