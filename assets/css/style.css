@@ -378,6 +378,10 @@ hr {
     font-size: 0.8em;
   }
   
+  .post-preview {
+    margin-bottom: 25px;
+  }
+  
   .content .main-content .post .preview-text {
     line-height: 1.5em;
     font-size: 1.03em;
@@ -386,7 +390,6 @@ hr {
   
   .content .main-content .post .read-more {
     position: absolute;
-    margin-top: 15px;
     bottom: 10px;
     right: 10px;
     border: 1px solid var(--primary-color);
