@@ -49,27 +49,33 @@ if (isset($_GET['t_id'])) {
   <div class="page-wrapper">
 
     <!-- Post Slider -->
-    <div class="post-slider">
+    <!-- <div class="post-slider">
       <i class="fas fa-chevron-left prev"></i>
       <i class="fas fa-chevron-right next"></i>
 
       <div class="post-wrapper">
 
-        <?php foreach ($posts as $post): ?>
+        <?php 
+        // foreach ($posts as $post): ?>
           <div class="post">
             <div class="post-info">
-              <h4><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
-              <i class="far fa-user"> <?php echo $post['username']; ?></i>
+              <h4><a href="single.php?id=<?php 
+              // echo $post['id']; ?>"><?
+              // php echo $post['title']; ?></a></h4>
+              <i class="far fa-user"> <?
+              // php echo $post['username']; ?></i>
               &nbsp;
-              <i class="far fa-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+              <i class="far fa-calendar"> <?php 
+              // echo date('F j, Y', strtotime($post['created_at'])); ?></i>
             </div>
           </div>
-        <?php endforeach; ?>
+        <?php 
+      // endforeach; ?>
 
 
       </div>
 
-    </div>
+    </div> -->
     <!-- // Post Slider -->
 
     <!-- Content -->
