@@ -40,6 +40,7 @@ if (isset($_GET['t_id'])) {
 <body>
 
 <?php include(ROOT_PATH . "/app/includes/header.php") ?>
+<?php include(ROOT_PATH . "/app/includes/main-heading.php") ?>
 <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
 
