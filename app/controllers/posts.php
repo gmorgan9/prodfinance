@@ -56,9 +56,9 @@ if (isset($_POST['add-post'])) {
     if (!empty($_FILES['image']['name'])) {
         $image_name = time() . '_' . $_FILES['image']['name'];
         $destination = ROOT_PATH . "/assets/images/" . $image_name;
-        $tmp_name = $_FILES['image']['tmp_name'];
+        $tmp_destination = $_FILES['image']['tmp_name'];
 
-        $result = move_uploaded_file($tmp_name, $destination);
+        $result = move_uploaded_file($tmp_destination, $destination);
 
         if ($result) {
            $_POST['image'] = $image_name;
@@ -69,7 +69,6 @@ if (isset($_POST['add-post'])) {
             echo "<pre>";
             print_r($name);
             echo "</pre>";
-            echo $tmp_name;
             echo $result;
             echo $destination;
             echo "edit";
