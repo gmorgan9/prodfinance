@@ -1,9 +1,13 @@
-<?php include("path.php"); ?>
-<?php include('app/database/functions.php'); ?>
+<!-- <?php include("path.php"); ?> -->
+<!-- <?php include('app/database/functions.php'); ?> -->
 <?php
-if (isLoggedIN()) {
-	header('location: /');
-}
+// if (isLoggedIN()) {
+// 	header('location: /');
+// }
+?>
+<?php include("path.php"); ?>
+<?php include(ROOT_PATH . "/app/controllers/users.php");
+guestsOnly();
 ?>
 
 <!DOCTYPE html>
