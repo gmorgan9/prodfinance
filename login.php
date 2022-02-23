@@ -1,6 +1,7 @@
 <?php include('path.php'); ?>
 <?php include(ROOT_PATH . "/app/controllers/users.php"); 
 guestsOnly();
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
