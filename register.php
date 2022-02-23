@@ -1,16 +1,8 @@
 <?php include("path.php"); ?>
-<?php include('app/database/functions.php'); 
-session_start();
+<?php include('app/database/functions.php');
 ?>
-
-<?php
-// if (isLoggedIN()) {
-// 	header('location: /');
-// }
-?>
-<?php include("path.php"); ?>
 <?php include(ROOT_PATH . "/app/controllers/users.php");
-guestsOnly();
+//guestsOnly();
 ?>
 
 <!DOCTYPE html>
