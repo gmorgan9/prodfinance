@@ -271,6 +271,22 @@ function resetPass(){
 		}
 	}
 
+	function executeQuery($sql, $data)
+{
+    global $conn;
+    $stmt = $conn->prepare($sql);
+    $values = array_values($data);
+    $types = str_repeat('s', count($values));
+    $stmt->bind_param($types, ...$values);
+    $stmt->execute();
+    return $stmt;
+}
+
+function dd($value) // to be deleted
+{
+    echo "<pre>", print_r($value, true), "</pre>";
+    die();
+}
 
 // SELECT ALL
 	function selectAll($table, $conditions = [])
@@ -338,17 +354,6 @@ function create($table, $data)
     $stmt = executeQuery($sql, $data);
     $id = $stmt->insert_id;
     return $id;
-}
-
-function executeQuery($sql, $data)
-{
-    global $conn;
-    $stmt = $conn->prepare($sql);
-    $values = array_values($data);
-    $types = str_repeat('s', count($values));
-    $stmt->bind_param($types, ...$values);
-    $stmt->execute();
-    return $stmt;
 }
 
 function update($table, $id, $data)
