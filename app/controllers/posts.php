@@ -53,27 +53,26 @@ if (isset($_POST['add-post'])) {
     // adminOnly();
     $errors = validatePost($_POST);
 
-   
+    if (!empty($_FILES['image']['name'])) {
+        $image_name = time() . '_' . $_FILES['image']['name'];
+        $destination = ROOT_PATH . "/assets/images/" . $image_name;
 
+        $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
 
-    // if (!empty($_FILES['image']['name'])) {
-    //     $image_name = time() . '_' . $_FILES['image']['name'];
-    //     $destination = ROOT_PATH . "/assets/images/" . $image_name;
+        if ($result) {
+           $_POST['image'] = $image_name;
+           echo "publish";
+        } else {
+            array_push($errors, "Failed to upload image");
+            echo $result;
+            echo $destination;
+            echo "edit";
+        }
+    } else {
+       array_push($errors, "Post image required");
+    }
 
-    //     $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
-
-    //     if ($result) {
-    //        $_POST['image'] = $image_name;
-    //        echo "publish";
-    //     } else {
-    //         array_push($errors, "Failed to upload image");
-    //         echo $result;
-    //         echo $destination;
-    //         echo "edit";
-    //     }
-    // } else {
-    //    array_push($errors, "Post image required");
-    // }
+    
     if (count($errors) == 0) {
         unset($_POST['add-post']);
         $_POST['user_id'] = $_SESSION['id'];
