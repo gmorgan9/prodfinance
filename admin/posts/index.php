@@ -56,7 +56,8 @@ session_start();
                     <h2 class="page-title">Manage Posts</h2>
 
                     <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
-                    <?php echo "hi"; ?>
+                    <?php $authorname = get_the_author_meta('nickname'); ?>
+                    <?php echo $authorname; ?>
                     <table>
                         <thead>
                             <th>SN</th>
