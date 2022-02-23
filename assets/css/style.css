@@ -418,7 +418,8 @@ hr {
     margin: 20px;
   }
 
-  .recent-post-title {
+  .recent-post-title h1 {
+    color: unset;
     color: var(--primary-color);
   }
   
