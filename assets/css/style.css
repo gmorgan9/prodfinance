@@ -354,7 +354,7 @@ hr {
   .content .main-content .post {
     width: 95%;
     height: 270px;
-    margin: 20px 20px;
+    margin: 20px auto;
     border-radius: 5px;
     background: white;
     position: relative;
@@ -366,7 +366,7 @@ hr {
     padding-top: 10px;
   }
   
-  .content .popular .post {
+  .content .popular .post img {
     height: 60px;
     width: 75px;
     float: left;
