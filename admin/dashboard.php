@@ -2,6 +2,9 @@
 <?php include("../path.php"); 
 session_start();
 ?>
+<?php include(ROOT_PATH . "/app/controllers/posts.php"); 
+adminOnly();
+?>
 
 <!DOCTYPE html>
 <html>
@@ -41,7 +44,7 @@ session_start();
 
     <h2 class="page-title">Dashboard</h2>
 
-    
+    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
 </div>
 
