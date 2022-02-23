@@ -3,7 +3,7 @@
 <?php 
 include(ROOT_PATH . "/app/controllers/posts.php");
 session_start();
-adminOnly();
+//adminOnly();
 ?>
 
 <!DOCTYPE html>
