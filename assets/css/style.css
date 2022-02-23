@@ -739,7 +739,7 @@ hr {
     }
   
     header ul li ul li a:hover {
-      background: var(--hover-color);
+      background: gray;
     }
   
     header ul li ul li a.logout {
