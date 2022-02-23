@@ -25,9 +25,9 @@ $posts = selectAll('posts', ['published' => 1]);
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
-  <title><?php echo $post['title']; ?> | AwaInspires</title>
+  <title><?php echo $post['title']; ?> | GarrettInpires</title>
 </head>
 
 <body>
