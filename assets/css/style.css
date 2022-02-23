@@ -62,7 +62,7 @@
   
   .btn:hover {
     color: white !important;
-    background: var(--hover-color);
+    background: lightblue;
   }
   
   .text-input {
@@ -739,7 +739,7 @@ hr {
     }
   
     header ul li ul li a:hover {
-      background: gray;
+      background: var(--hover-color);
     }
   
     header ul li ul li a.logout {
