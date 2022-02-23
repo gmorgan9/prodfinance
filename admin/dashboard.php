@@ -1,4 +1,4 @@
-<?php include('functions.php'); ?>
+<?php include('app/database/functions.php'); ?>
 <?php include("../path.php"); 
 session_start();
 ?>

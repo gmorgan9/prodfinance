@@ -1,5 +1,5 @@
 <?php 
-	include('functions.php');
+	include('app/database/functions.php');
     
 ?>
 
