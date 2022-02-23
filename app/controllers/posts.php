@@ -59,12 +59,12 @@ if (isset($_POST['add-post'])) {
 
         $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
 
-        echo $result;
         if ($result) {
            $_POST['image'] = $image_name;
            echo "publish";
         } else {
             array_push($errors, "Failed to upload image");
+            echo $result;
         }
     } else {
        array_push($errors, "Post image required");
