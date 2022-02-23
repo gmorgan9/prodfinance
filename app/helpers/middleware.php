@@ -3,7 +3,7 @@
 
 function usersOnly($redirect = '/')
 {
-    if (empty($_SESSION['id'])) {
+    if (isset($_SESSION['id'])) {
         $_SESSION['message'] = 'You need to login first';
         $_SESSION['type'] = 'error';
         header('location: ' . BASE_URL . $redirect);
