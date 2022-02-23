@@ -19,7 +19,7 @@ if (isset($_GET['t_id'])) {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=.8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- Font Awesome -->
@@ -50,7 +50,6 @@ if (isset($_GET['t_id'])) {
 
     <!-- Post Slider -->
     <div class="post-slider">
-      <h1 class="slider-title">Trending Posts</h1>
       <i class="fas fa-chevron-left prev"></i>
       <i class="fas fa-chevron-right next"></i>
 
