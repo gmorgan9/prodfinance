@@ -176,7 +176,7 @@
   }
   
   header ul li ul li a:hover {
-    background: #d5d6d6;
+    background: var(--hover-color);
   }
   
   header ul li a {
@@ -200,7 +200,7 @@
   }
   
   .page-wrapper a:hover {
-    color: #006669;
+    color: var(--hover-color);
   }
 
 /* FORM */
@@ -395,7 +395,7 @@ hr {
   }
   
   .content .main-content .post .read-more:hover {
-    background: #006669;
+    background: var(--hover-color);
     color: white !important;
     transition: 0.25s;
   }
@@ -739,7 +739,7 @@ hr {
     }
   
     header ul li ul li a:hover {
-      background: #006669;
+      background: var(--hover-color);
     }
   
     header ul li ul li a.logout {
