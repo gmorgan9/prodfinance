@@ -50,7 +50,7 @@ if (isset($_GET['published']) && isset($_GET['p_id'])) {
 
 
 if (isset($_POST['add-post'])) {
-    adminOnly();
+    //adminOnly();
     $errors = validatePost($_POST);
 
     if (!empty($_FILES['image']['name'])) {
