@@ -354,7 +354,7 @@ hr {
   .content .main-content .post {
     width: 95%;
     height: 270px;
-    margin: 20px auto;
+    margin: 20px 20px;
     border-radius: 5px;
     background: white;
     position: relative;
