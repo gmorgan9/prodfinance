@@ -414,6 +414,7 @@ hr {
     float: right;
   }
   .post-preview {
+    float: left;
     margin-right: 20%;
   }
   
