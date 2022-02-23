@@ -13,7 +13,7 @@ function usersOnly($redirect = '/')
 
 function adminOnly($redirect = '/')
 {
-    if (!isAdmin()) {
+    if (empty($_SESSION['user']['user_type'] == 'admin')) {
         $_SESSION['message'] = 'You are not authorized';
         $_SESSION['type'] = 'error';
         header('location: ' . BASE_URL . $redirect);
