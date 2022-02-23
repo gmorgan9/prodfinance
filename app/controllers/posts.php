@@ -58,7 +58,7 @@ if (isset($_POST['add-post'])) {
         $destination = ROOT_PATH . "/assets/images/" . $image_name;
         $tmp_destination = $_FILES['image']['tmp_name'];
 
-        $result = move_uploaded_file($tmp_destination, $destination);
+        $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
 
         if (move_uploaded_file($tmp_destination, $destination)) {
            $_POST['image'] = $image_name;
@@ -71,6 +71,7 @@ if (isset($_POST['add-post'])) {
             echo "</pre>";
             echo $destination;
             echo "Received {$_FILES['image']['name']} - its size is {$_FILES['image']['size']}";
+            print_r($errors);
         }
     } else {
        array_push($errors, "Post image required");
