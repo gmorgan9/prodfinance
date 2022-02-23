@@ -1,63 +1,56 @@
-<?php include('path.php'); ?>
-<?php include(ROOT_PATH . "/app/controllers/users.php"); 
-guestsOnly();
-session_start();
+<?php include("path.php"); ?>
+<?php include('app/database/functions.php'); ?>
+
+<?php
+if (isLoggedIN()) {
+	header('location: /');
+}
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Login</title>
+    <meta name="viewport" content="width=device-width">
+    
+	<!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Custome Styles -->
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
-
-  <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <title>Login</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 </head>
-
 <body>
 
-<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+<?php include(ROOT_PATH . "/app/includes/header.php") ?>
+        
+<div class="auth-content">
+<form method="post" action="login.php">
+<h2 class="form-title">Login</h2>
+<?php echo display_error(); ?>
 
-  <div class="auth-content">
-
-    <form action="login.php" method="post">
-      <h2 class="form-title">Login</h2>
-
-      <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
-
-      <div>
-        <label>Username</label>
-        <input type="text" name="username" value="<?php echo $username; ?>" class="text-input">
-      </div>
-      <div>
-        <label>Password</label>
-        <input type="password" name="password" value="<?php echo $password; ?>" class="text-input">
-      </div>
-      <div>
-        <button type="submit" name="login-btn" class="btn btn-big">Login</button>
-      </div>
-      <p>Or <a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></p>
-    </form>
-
-  </div>
-
-
-  <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Custom Script -->
-  <script src="assets/js/scripts.js"></script>
+<div>
+	<label>Username</label>
+	<input class="text-input" type="text" name="username" >
+</div>
+<div>
+	<label>Password</label>
+	<input class="text-input" type="password" name="password">
+</div>
+<div>
+	<button type="submit" class="log-btn" name="login_btn">Login</button>
+</div>
+<p>
+	Not yet a member? <a href="register.php">Sign up</a>
+</p>
+</form>
+</div>
 
 </body>
-
 </html>
