@@ -60,7 +60,7 @@ if (isset($_POST['add-post'])) {
 
         $result = move_uploaded_file($tmp_destination, $destination);
 
-        if ($result) {
+        if (move_uploaded_file($tmp_destination, $destination)) {
            $_POST['image'] = $image_name;
            echo "published";
         } else {
