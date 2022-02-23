@@ -354,7 +354,7 @@ hr {
   .content .main-content .post {
     width: 95%;
     height: 270px;
-    margin: 20px auto;
+    margin: 20px;
     border-radius: 5px;
     background: white;
     position: relative;
@@ -370,7 +370,7 @@ hr {
     height: 60px;
     width: 75px;
     float: left;
-    margin-right: 50px;
+    margin-right: 10px;
   }
   
   .content .main-content .post .post-preview i {
