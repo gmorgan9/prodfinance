@@ -56,8 +56,6 @@ session_start();
                     <h2 class="page-title">Manage Posts</h2>
 
                     <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
-                    <?php $authorname = get_the_author_meta('username'); ?>
-                    <?php echo $authorname; ?>
                     <table>
                         <thead>
                             <th>SN</th>
@@ -95,7 +93,7 @@ session_start();
         </div>
         <!-- // Page Wrapper -->
 
-
+        <?php the_author() ?>
 
         <!-- JQuery -->
         <script
