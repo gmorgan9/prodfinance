@@ -1,60 +1,74 @@
 <?php include("../path.php"); ?>
-<?php 
-include(ROOT_PATH . "/app/controllers/posts.php"); 
-session_start();
+<?php include(ROOT_PATH . "/app/controllers/posts.php"); 
 adminOnly();
 ?>
-
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Admin Section - Dashboard</title>
-    <meta name="viewport" content="width=device-width">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="fav.png">
+<html lang="en">
 
-    <!-- Custom Styling -->
-    <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Admin Styling -->
-    <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Candal|Lora"
+            rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
-</head>
-<body>
+        <!-- Custom Styling -->
+        <link rel="stylesheet" href="../assets/css/style.css">
 
-<?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
+        <!-- Admin Styling -->
+        <link rel="stylesheet" href="../assets/css/admin.css">
 
-<!-- Admin Page Wrapper -->
-<div class="admin-wrapper">
+        <title>Admin Section - Dashboard</title>
+    </head>
 
-<?php include(ROOT_PATH . "/app/includes/adminSidebar.php") ?>
+    <body>
         
-<!-- Admin Content -->
-<div class="admin-content">
+    <?php include(ROOT_PATH . "/app/includes/adminHeader.php"); ?>
 
-<div class="content">
+        <!-- Admin Page Wrapper -->
+        <div class="admin-wrapper">
 
-    <h2 class="page-title">Dashboard</h2>
+        <?php include(ROOT_PATH . "/app/includes/adminSidebar.php"); ?>
 
-    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
-</div>
+            <!-- Admin Content -->
+            <div class="admin-content">
 
-</div>
-<!-- // Admin Content -->
+                <div class="content">
 
-</div>
-<!-- // Page Wrapper -->
+                    <h2 class="page-title">Dashboard</h2>
 
-<!-- Custom Script -->
-<script src="../assets/js/scripts.js"></script>
+                    <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
-</body>
+                    
+
+                </div>
+
+            </div>
+            <!-- // Admin Content -->
+
+        </div>
+        <!-- // Page Wrapper -->
+
+
+
+        <!-- JQuery -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Ckeditor -->
+        <script
+            src="https://cdn.ckeditor.com/ckeditor5/12.2.0/classic/ckeditor.js"></script>
+        <!-- Custom Script -->
+        <script src="../assets/js/scripts.js"></script>
+
+    </body>
+
 </html>
