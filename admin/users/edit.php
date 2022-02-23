@@ -72,7 +72,7 @@ adminOnly();
                             <input type="password" name="passwordConf" value="<?php echo $passwordConf; ?>" class="text-input">
                         </div>
                         <div>
-                            <?php if (isSuperAdmin() && isAdmin()): ?>
+                            <?php if (isset($admin) && $admin == 1): ?>
                                 <label>
                                     <input type="checkbox" name="admin" checked>
                                     Admin
