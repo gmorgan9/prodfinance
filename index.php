@@ -1,5 +1,9 @@
-<?php include("path.php"); ?>
+<?php include("path.php"); 
+include(ROOT_PATH . "/app/helpers/middleware.php");
+?>
+
 <?php include('app/database/functions.php'); 
+adminOnly();
 session_start();
 ?>
 <!DOCTYPE html>
