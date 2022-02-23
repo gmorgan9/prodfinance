@@ -417,6 +417,10 @@ hr {
   .content .main-content .recent-post-title {
     margin: 20px;
   }
+
+  .recent-post-title {
+    color: var(--primary-color);
+  }
   
   .content .sidebar {
     width: 25%;
