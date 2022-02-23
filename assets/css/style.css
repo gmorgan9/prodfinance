@@ -400,7 +400,7 @@ hr {
     transition: 0.25s;
   }
   
-  .content .main-content .post .post-image {
+  .content .main-content .post {
     width: 40%;
     height: 100%;
     float: left;
