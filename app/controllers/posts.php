@@ -64,6 +64,7 @@ if (isset($_POST['add-post'])) {
            echo "publish";
         } else {
             array_push($errors, "Failed to upload image");
+            print_r($image_name);
             echo $result;
             echo $destination;
             echo "edit";
@@ -72,7 +73,7 @@ if (isset($_POST['add-post'])) {
        array_push($errors, "Post image required");
     }
 
-    
+
     if (count($errors) == 0) {
         unset($_POST['add-post']);
         $_POST['user_id'] = $_SESSION['id'];
