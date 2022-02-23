@@ -1,7 +1,7 @@
 <?php
 
 
-function validatePost($post)
+function validatePost($posts)
 {
     $errors = array();
 
