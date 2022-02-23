@@ -53,25 +53,7 @@ if (isset($_POST['add-post'])) {
     // adminOnly();
     $errors = validatePost($_POST);
 
-    clearstatcache();
-    if(is_array($_FILES['images'])){
-        if ($_FILES['images']['error'][0] !== $errors {
-           $error[] = "Upload failed with error code " . $_FILES['images']['error'][0];                                
-        }
-        else {
-            $info = getimagesize($_FILES['images']['tmp_name'][0]);
-            if ($info === FALSE) {
-                $error[] = "Unable to determine image type of uploaded file";
-            }
-    
-            if (($info[2] !== IMAGETYPE_GIF) && ($info[2] !== IMAGETYPE_JPEG) && ($info[2] !== IMAGETYPE_PNG)) {
-                $error[] = "Not a gif/jpeg/png";
-            }
-            if ($_FILES["images"]["size"][0] > 100000) {//1mb limit
-                $error[] = "Sorry, your file is too large.";
-            }
-        }
-    }
+   
 
 
     // if (!empty($_FILES['image']['name'])) {
