@@ -611,6 +611,9 @@ hr {
 .main-content {
   margin-left: 3em;
 }
+.main-content h1 {
+  color: #5c5b5b;
+}
 .search-bar-text {
   border-radius: 0px 10px 10px 0px;
   padding: 6px;
