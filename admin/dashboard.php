@@ -1,9 +1,8 @@
+<?php include('app/database/functions.php'); ?>
+<?php include("../path.php"); ?>
 <?php 
-// include('app/database/functions.php'); ?>
-<?php include("../path.php"); 
+include(ROOT_PATH . "/app/controllers/posts.php");
 session_start();
-?>
-<?php include(ROOT_PATH . "/app/controllers/posts.php"); 
 adminOnly();
 ?>
 
