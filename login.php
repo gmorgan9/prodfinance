@@ -18,7 +18,7 @@ guestsOnly();
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
 
   <!-- Custom Styling -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
   <title>Login</title>
 </head>
