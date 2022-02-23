@@ -53,24 +53,44 @@ if (isset($_POST['add-post'])) {
     // adminOnly();
     $errors = validatePost($_POST);
 
-    if (!empty($_FILES['image']['name'])) {
-        $image_name = time() . '_' . $_FILES['image']['name'];
-        $destination = ROOT_PATH . "/assets/images/";
-
-        $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
-
-        if ($result) {
-           $_POST['image'] = $image_name;
-           echo "publish";
-        } else {
-            array_push($errors, "Failed to upload image");
-            echo $result;
-            echo $destination;
-            echo "edit";
+    if(is_array($_FILES['images'])){
+        if ($_FILES['images']['error'][0] !== UPLOAD_ERR_OK) {
+           $error[] = "Upload failed with error code " . $_FILES['images']['error'][0];                                
         }
-    } else {
-       array_push($errors, "Post image required");
+        else {
+            $info = getimagesize($_FILES['images']['tmp_name'][0]);
+            if ($info === FALSE) {
+                $error[] = "Unable to determine image type of uploaded file";
+            }
+    
+            if (($info[2] !== IMAGETYPE_GIF) && ($info[2] !== IMAGETYPE_JPEG) && ($info[2] !== IMAGETYPE_PNG)) {
+                $error[] = "Not a gif/jpeg/png";
+            }
+            if ($_FILES["images"]["size"][0] > 100000) {//1mb limit
+                $error[] = "Sorry, your file is too large.";
+            }
+        }
     }
+
+
+    // if (!empty($_FILES['image']['name'])) {
+    //     $image_name = time() . '_' . $_FILES['image']['name'];
+    //     $destination = ROOT_PATH . "/assets/images/" . $image_name;
+
+    //     $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
+
+    //     if ($result) {
+    //        $_POST['image'] = $image_name;
+    //        echo "publish";
+    //     } else {
+    //         array_push($errors, "Failed to upload image");
+    //         echo $result;
+    //         echo $destination;
+    //         echo "edit";
+    //     }
+    // } else {
+    //    array_push($errors, "Post image required");
+    // }
     if (count($errors) == 0) {
         unset($_POST['add-post']);
         $_POST['user_id'] = $_SESSION['id'];
