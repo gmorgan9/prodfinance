@@ -59,7 +59,7 @@ if (isset($_POST['add-post'])) {
 
         // $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
 
-        if (move_uploaded_file($tmp_destination, ROOT_PATH . "/assets/images/" . $_FILES['image']['name'])) {
+        if (move_uploaded_file($_FILES['image']['tmp_name'], ROOT_PATH . "/assets/images/" . $_FILES['image']['name'])) {
            $_POST['image'] = $image_name;
            echo "published";
         } else {
