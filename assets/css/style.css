@@ -393,8 +393,8 @@ hr {
     border-radius: 0px;
     color: var(--primary-color) !important;
   }
-  .read-more{
-    margin-top: 15px;
+  .read-more {
+    top: 15px;
   }
   .content .main-content .post .read-more:hover {
     background: var(--hover-color);
