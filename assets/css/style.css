@@ -402,6 +402,10 @@ hr {
     color: white !important;
     transition: 0.25s;
   }
+
+  .read-more {
+    padding: 20px;
+  }
   
   .content .main-content .post {
     width: 40%;
