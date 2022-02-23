@@ -366,11 +366,11 @@ hr {
     padding-top: 10px;
   }
   
-  .content .popular .post img {
+  .content .popular .post {
     height: 60px;
     width: 75px;
     float: left;
-    margin-right: 10px;
+    margin-right: 50px;
   }
   
   .content .main-content .post .post-preview i {
@@ -387,11 +387,11 @@ hr {
   .content .main-content .post .read-more {
     position: absolute;
     bottom: 10px;
-    right: -10px;
-    border: 1px solid #006669;
+    right: 10px;
+    border: 1px solid var(--primary-color);
     background: transparent;
     border-radius: 0px;
-    color: #006669 !important;
+    color: var(--primary-color) !important;
   }
   
   .content .main-content .post .read-more:hover {
