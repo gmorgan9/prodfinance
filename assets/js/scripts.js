@@ -4,7 +4,7 @@ $(document).ready(function () {
       $(".nav ul").toggleClass("showing");
   });
 
-  $(".post-wrapper").click({
+  $(".post-wrapper").slick({
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
