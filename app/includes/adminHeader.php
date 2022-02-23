@@ -6,6 +6,11 @@
     <ul class="nav">
         <?php if (isset($_SESSION['username'])): ?>
             <li>
+            <a href="/">
+            <i class="fa fa-globe"></i>
+            Public</a>
+            </li>
+            <li>
                 <a href="#">
                     <i class="fa fa-user"></i>
                     <?php echo $_SESSION['username']; ?>
