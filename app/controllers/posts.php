@@ -55,23 +55,22 @@ if (isset($_POST['add-post'])) {
 
     if (!empty($_FILES['image']['name'])) {
         $image_name = time() . '_' . $_FILES['image']['name'];
-        $destination = "../assets/images/" . $image_name;
+        $destination = ROOT_PATH . "/assets/images/" . $image_name;
         $tmp_destination = $_FILES['image']['tmp_name'];
 
         $result = move_uploaded_file($tmp_destination, $destination);
 
         if ($result) {
            $_POST['image'] = $image_name;
-           echo "publish";
+           echo "published";
         } else {
             array_push($errors, "Failed to upload image");
             $name = $_FILES['image'];
             echo "<pre>";
             print_r($name);
             echo "</pre>";
-            echo $result;
             echo $destination;
-            echo "edit";
+            echo "Received {$_FILES['userfile']['name']} - its size is {$_FILES['userfile']['size']}";
         }
     } else {
        array_push($errors, "Post image required");
