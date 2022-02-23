@@ -1,5 +1,5 @@
 <?php include("path.php"); ?>
-<?php include('app/database/functions.php'); ?>
+<?php include('app/database/db.php'); ?>
 
 <?php
 if (isLoggedIN()) {
