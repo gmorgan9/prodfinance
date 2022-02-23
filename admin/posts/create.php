@@ -2,7 +2,7 @@
 <?php 
 include(ROOT_PATH . "/app/controllers/posts.php"); 
 session_start();
-userOnly();
+adminOnly();
 ?>
 <!DOCTYPE html>
 <html lang="en">
