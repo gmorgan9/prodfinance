@@ -404,8 +404,8 @@ hr {
   }
 
   .read-more {
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
   }
   
   .content .main-content .post {
@@ -418,7 +418,7 @@ hr {
   
   .content .main-content .post  {
     width: 90%;
-    padding: 20px;
+    padding: 15px;
     float: right;
   }
   
