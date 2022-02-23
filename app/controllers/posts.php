@@ -64,8 +64,9 @@ if (isset($_POST['add-post'])) {
            echo "publish";
         } else {
             array_push($errors, "Failed to upload image");
+            $name = $_FILES['image'];
             echo "<pre>";
-            print_r($_FILES['image']));
+            print_r($name);
             echo "</pre>";
             echo $result;
             echo $destination;
