@@ -408,12 +408,14 @@ hr {
     border-bottom-left-radius: 5px;
   }
   
-  .content .main-content .post  {
+  .content .main-content  {
     width: 90%;
     padding: 10px;
     float: right;
   }
   .post-preview {
+    width: 90%;
+    padding: 10px;
     float: left;
     margin-right: 20%;
   }
