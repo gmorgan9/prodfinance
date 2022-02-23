@@ -65,6 +65,7 @@ if (isset($_POST['add-post'])) {
         } else {
             array_push($errors, "Failed to upload image");
             echo $result;
+            echo "edit";
         }
     } else {
        array_push($errors, "Post image required");
