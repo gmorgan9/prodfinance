@@ -1,7 +1,7 @@
 <?php
 
 
-function usersOnly($redirect = '/index.php')
+function usersOnly($redirect = '/')
 {
     if (empty($_SESSION['id'])) {
         $_SESSION['message'] = 'You need to login first';
@@ -11,7 +11,7 @@ function usersOnly($redirect = '/index.php')
     }
 }
 
-function adminOnly($redirect = '/index.php')
+function adminOnly($redirect = '/')
 {
     if (!isAdmin()) {
         $_SESSION['message'] = 'You are not authorized';
@@ -21,7 +21,7 @@ function adminOnly($redirect = '/index.php')
     }
 }
 
-function guestsOnly($redirect = '/index.php')
+function guestsOnly($redirect = '/')
 {
     if (isset($_SESSION['id'])) {
         header('location: ' . BASE_URL . $redirect);
