@@ -387,7 +387,7 @@ hr {
   .content .main-content .post .read-more {
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    right: -10px;
     border: 1px solid #006669;
     background: transparent;
     border-radius: 0px;
