@@ -65,6 +65,7 @@ session_start();
                             <th colspan="3">Action</th>
                         </thead>
                         <tbody>
+                            <?php echo the_author_meta('user_nicename',123); ?>
                             <?php foreach ($posts as $key => $post): ?>
                                 <tr>
                                     <td><?php echo $key + 1; ?></td>
