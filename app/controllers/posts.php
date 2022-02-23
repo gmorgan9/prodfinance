@@ -69,6 +69,7 @@ if (isset($_POST['add-post'])) {
             echo "<pre>";
             print_r($name);
             echo "</pre>";
+            echo $tmp_name;
             echo $result;
             echo $destination;
             echo "edit";
