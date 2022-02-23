@@ -61,6 +61,7 @@ if (isset($_POST['add-post'])) {
 
         if ($result) {
            $_POST['image'] = $image_name;
+           echo "publish";
         } else {
             array_push($errors, "Failed to upload image");
         }
