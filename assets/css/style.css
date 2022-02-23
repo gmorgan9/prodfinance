@@ -419,12 +419,12 @@ hr {
   }
   
   .content .sidebar {
-    width: 30%;
+    width: 25%;
     float: left;
   }
   
   .content .sidebar.single {
-    padding: 0px 5px;
+    padding: 0px 10px;
   }
   
   .content .sidebar .section {
@@ -435,7 +435,7 @@ hr {
   }
   
   .content .sidebar .section .section-title {
-    margin: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
   }
   
   .content .sidebar .section.search {
