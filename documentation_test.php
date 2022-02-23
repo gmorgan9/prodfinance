@@ -58,7 +58,6 @@ if (isset($_GET['t_id'])) {
 
         <?php foreach ($posts as $post): ?>
           <div class="post">
-            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="slider-image">
             <div class="post-info">
               <h4><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
               <i class="far fa-user"> <?php echo $post['username']; ?></i>
@@ -83,7 +82,6 @@ if (isset($_GET['t_id'])) {
 
         <?php foreach ($posts as $post): ?>
           <div class="post clearfix">
-            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="post-image">
             <div class="post-preview">
               <h2><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h2>
               <i class="far fa-user"> <?php echo $post['username']; ?></i>
