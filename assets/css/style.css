@@ -417,11 +417,6 @@ hr {
   .content .main-content .recent-post-title {
     margin: 20px;
   }
-
-  .recent-post-title h1 {
-    color: unset;
-    color: var(--primary-color);
-  }
   
   .content .sidebar {
     width: 25%;
@@ -591,7 +586,7 @@ hr {
 
 /* Main Content */
 .main h1,h5 {
-  color: white;
+  color: #5c5b5b;
   text-align: center;
 }
 .main-heading {
