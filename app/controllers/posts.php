@@ -55,7 +55,7 @@ if (isset($_POST['add-post'])) {
 
     clearstatcache();
     if(is_array($_FILES['images'])){
-        if ($_FILES['images']['error'][0] !== UPLOAD_ERR_OK) {
+        if ($_FILES['images']['error'][0] !== $errors {
            $error[] = "Upload failed with error code " . $_FILES['images']['error'][0];                                
         }
         else {
