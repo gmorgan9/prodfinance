@@ -386,15 +386,13 @@ hr {
   
   .content .main-content .post .read-more {
     position: absolute;
+    margin-top: 15px;
     bottom: 10px;
     right: 10px;
     border: 1px solid var(--primary-color);
     background: transparent;
     border-radius: 0px;
     color: var(--primary-color) !important;
-  }
-  .read-more {
-    top: 15px;
   }
   .content .main-content .post .read-more:hover {
     background: var(--hover-color);
