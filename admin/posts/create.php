@@ -2,7 +2,7 @@
 <?php 
 // include(ROOT_PATH . "/app/controllers/posts.php"); 
 // adminOnly();
-// session_start();
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +23,10 @@
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
+        <link rel="stylesheet" href="../../assets/css/style.css?v=<?php echo time(); ?>">
 
         <!-- Admin Styling -->
-        <link rel="stylesheet" href="../assets/css/admin.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="../../assets/css/admin.css?v=<?php echo time(); ?>">
 
         <title>Admin Section - Add Post</title>
     </head>
