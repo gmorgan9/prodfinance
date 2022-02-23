@@ -408,16 +408,10 @@ hr {
     border-bottom-left-radius: 5px;
   }
   
-  .content .main-content  {
+  .content .main-content .post  {
     width: 90%;
     padding: 10px;
     float: right;
-  }
-  .post {
-    width: 90%;
-    padding: 10px;
-    float: right;
-    margin-right: -20px;
   }
   
   .content .main-content .recent-post-title {
