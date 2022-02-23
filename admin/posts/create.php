@@ -67,10 +67,6 @@ adminOnly();
                             <label>Body</label>
                             <textarea name="body" id="body"><?php echo $body ?></textarea>
                         </div>
-                        <!-- <div>
-                            <label>Image</label>
-                            <input type="file" name="image" class="text-input">
-                        </div> -->
                         <div>
                             <label>Topic</label>
                             <select name="topic_id" class="text-input">
