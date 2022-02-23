@@ -1,6 +1,6 @@
-<?php include("path.php"); ?>
-<?php include('app/database/functions.php');
-session_start();
+<?php 
+include("path.php");
+include(ROOT_PATH . "/app/controllers/topics.php");
 ?>
 <!DOCTYPE html>
 <html>
