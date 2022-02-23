@@ -174,7 +174,7 @@
   header ul li ul li a.logout {
     color: red;
   }
-  
+  /* header dropdown */
   header ul li ul li a:hover {
     background: lightgray;
   }
@@ -185,9 +185,9 @@
     font-size: 1.1em;
     text-decoration: none;
   }
-  
+  /* header buttons */
   header ul li a:hover {
-    background: lightblue;
+    background: var(--secondary-color);
     transition: 0.5s;
   }
   
