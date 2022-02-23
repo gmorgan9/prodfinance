@@ -55,7 +55,7 @@ if (isset($_POST['add-post'])) {
 
     if (!empty($_FILES['image']['name'])) {
         $image_name = time() . '_' . $_FILES['image']['name'];
-        $destination = ROOT_PATH . "/assets/images/" . $image_name;
+        $destination = ROOT_PATH . "/assets/images/";
         $tmp_destination = $_FILES['image']['tmp_name'];
 
         $result = move_uploaded_file($tmp_destination, $destination);
