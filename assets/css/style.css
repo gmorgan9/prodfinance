@@ -62,7 +62,7 @@
   
   .btn:hover {
     color: white !important;
-    background: lightgray;
+    background: var(--hover-color);
   }
   
   .text-input {
@@ -176,7 +176,7 @@
   }
   
   header ul li ul li a:hover {
-    background: var(--hover-color);
+    background: lightgray;
   }
   
   header ul li a {
@@ -187,7 +187,7 @@
   }
   
   header ul li a:hover {
-    background: var(--secondary-color);
+    background: lightgray;
     transition: 0.5s;
   }
   
