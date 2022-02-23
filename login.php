@@ -1,6 +1,5 @@
-<?php include("path.php"); ?>
-<?php 
-include('app/database/db.php'); 
+<?php include('path.php'); ?>
+<?php include(ROOT_PATH . "/app/controllers/users.php"); 
 guestsOnly();
 ?>
 
