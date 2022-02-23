@@ -53,7 +53,10 @@ adminOnly();
 
                     <h2 class="page-title">Add Post</h2>
 
-                    <?php include(ROOT_PATH . '/app/helpers/formErrors.php'); ?>
+                    <?php include(ROOT_PATH . '/app/helpers/formErrors.php'); 
+                    echo $error;
+                    ?>
+
 
                     <form action="create.php" method="post" enctype="multipart/form-data">
                         <div>
