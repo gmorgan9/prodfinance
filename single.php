@@ -73,6 +73,7 @@ $posts = selectAll('posts', ['published' => 1]);
 
         </div>
 
+        <!-- WORK ON -->
         <div class="section topics">
           <h2 class="section-title">Topics</h2>
           <ul>
