@@ -70,7 +70,7 @@ if (isset($_POST['add-post'])) {
             print_r($name);
             echo "</pre>";
             echo $destination;
-            echo "Received {$_FILES['userfile']['name']} - its size is {$_FILES['userfile']['size']}";
+            echo "Received {$_FILES['image']['name']} - its size is {$_FILES['image']['size']}";
         }
     } else {
        array_push($errors, "Post image required");
