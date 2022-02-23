@@ -2,9 +2,9 @@
 <?php include('app/database/db.php'); ?>
 
 <?php
-if (isLoggedIN()) {
-	header('location: /');
-}
+// if (isLoggedIN()) {
+// 	header('location: /');
+// }
 ?>
 
 <!DOCTYPE html>
