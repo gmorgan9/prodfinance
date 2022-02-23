@@ -2,7 +2,7 @@
 
 include(ROOT_PATH . "/app/database/functions.php");
 // include(ROOT_PATH . "/app/helpers/middleware.php");
-// include(ROOT_PATH . "/app/helpers/validatePost.php");
+include(ROOT_PATH . "/app/helpers/validatePost.php");
 
 $table = 'posts';
 
