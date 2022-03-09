@@ -3,7 +3,7 @@
 $host = 'localhost';
 $user = 'gmorg';
 $pass = 'gmorgpass';
-$db_name = 'finances';
+$db_name = 'doc';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
