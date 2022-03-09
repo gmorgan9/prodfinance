@@ -1,7 +1,6 @@
-<?php 
-include("../../path.php");
-include(ROOT_PATH . "/app/controllers/posts.php");
-session_start();
+<?php include("../../path.php"); ?>
+<?php include(ROOT_PATH . "/app/controllers/topics.php"); 
+adminOnly();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +9,6 @@ session_start();
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
         <!-- Font Awesome -->
         <link rel="stylesheet"
@@ -25,12 +21,12 @@ session_start();
             rel="stylesheet">
 
         <!-- Custom Styling -->
-        <link rel="stylesheet" href="../../assets/css/style.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="../../assets/css/style.css">
 
         <!-- Admin Styling -->
-        <link rel="stylesheet" href="../../assets/css/admin.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="../../assets/css/admin.css">
 
-        <title>Admin Section - Manage Posts</title>
+        <title>Admin Section - Manage Expenses</title>
     </head>
 
     <body>
@@ -46,42 +42,32 @@ session_start();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Post</a>
-                    <a href="index.php" class="btn btn-big">Manage Posts</a>
+                    <a href="create.php" class="btn btn-big">Add Expenses</a>
+                    <a href="index.php" class="btn btn-big">Manage Expenses</a>
                 </div>
 
 
                 <div class="content">
 
-                    <h2 class="page-title">Manage Posts</h2>
+                    <h2 class="page-title">Manage Expenses</h2>
 
                     <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
+
                     <table>
                         <thead>
                             <th>SN</th>
-                            <th>Title</th>
-                            <th>Author</th>
-                            <th colspan="3">Action</th>
+                            <th>Name</th>
+                            <th colspan="2">Action</th>
                         </thead>
                         <tbody>
-                            
-                            <?php foreach ($posts as $key => $post): ?>
-                                <tr>
+                            <?php foreach ($topics as $key => $topic): ?>
+                               <tr>
                                     <td><?php echo $key + 1; ?></td>
-                                    <td><?php echo $post['title'] ?></td>
-                                    <td><?php echo $post['username'] ?></td>
-                                    <td><a href="edit.php?id=<?php echo $post['id']; ?>" class="edit">edit</a></td>
-                                    <td><a href="edit.php?delete_id=<?php echo $post['id']; ?>" class="delete">delete</a></td>
-
-                                    <?php if ($post['published']): ?>
-                                        <td><a href="edit.php?published=0&p_id=<?php echo $post['id'] ?>" class="unpublish">unpublish</a></td>
-                                    <?php else: ?>
-                                        <td><a href="edit.php?published=1&p_id=<?php echo $post['id'] ?>" class="publish">publish</a></td>
-                                    <?php endif; ?>
-                                    
-                                </tr>
+                                    <td><?php echo $topic['name']; ?></td>
+                                    <td><a href="edit.php?id=<?php echo $topic['id']; ?>" class="edit">edit</a></td>
+                                    <td><a href="index.php?del_id=<?php echo $topic['id']; ?>" class="delete">delete</a></td>
+                                </tr> 
                             <?php endforeach; ?>
-
                         </tbody>
                     </table>
 
@@ -92,6 +78,8 @@ session_start();
 
         </div>
         <!-- // Page Wrapper -->
+
+
 
         <!-- JQuery -->
         <script

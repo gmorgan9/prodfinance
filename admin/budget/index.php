@@ -26,7 +26,7 @@ adminOnly();
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/admin.css">
 
-        <title>Admin Section - Manage Topics</title>
+        <title>Admin Section - Manage Budget</title>
     </head>
 
     <body>
@@ -42,14 +42,14 @@ adminOnly();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Topic</a>
-                    <a href="index.php" class="btn btn-big">Manage Topics</a>
+                    <a href="create.php" class="btn btn-big">Add Budget</a>
+                    <a href="index.php" class="btn btn-big">Manage Budget</a>
                 </div>
 
 
                 <div class="content">
 
-                    <h2 class="page-title">Manage Topics</h2>
+                    <h2 class="page-title">Manage Budget</h2>
 
                     <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
