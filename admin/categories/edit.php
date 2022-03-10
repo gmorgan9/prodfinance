@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include(ROOT_PATH . "/app/controllers/topics.php");
+<?php include(ROOT_PATH . "/app/controllers/categories.php");
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ adminOnly();
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/admin.css">
 
-        <title>Admin Section - Edit Topic</title>
+        <title>Admin Section - Edit Categories</title>
     </head>
 
     <body>
@@ -42,14 +42,14 @@ adminOnly();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Topic</a>
-                    <a href="index.php" class="btn btn-big">Manage Topics</a>
+                    <a href="create.php" class="btn btn-big">Add Category</a>
+                    <a href="index.php" class="btn btn-big">Manage Categories</a>
                 </div>
 
 
                 <div class="content">
 
-                    <h2 class="page-title">Edit Topic</h2>
+                    <h2 class="page-title">Edit Category</h2>
                     <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
                     <form action="edit.php" method="post">
@@ -64,7 +64,7 @@ adminOnly();
                         </div>
 
                         <div>
-                            <button type="submit" name="update-topic" class="btn btn-big">Update Topic</button>
+                            <button type="submit" name="update-category" class="btn btn-big">Update Topic</button>
                         </div>
                     </form>
 
