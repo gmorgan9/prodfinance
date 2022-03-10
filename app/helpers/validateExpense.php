@@ -1,6 +1,6 @@
 <?php
 
-function validateExpense($topic)
+function validateExpense($expense)
 {
     $errors = array();
 
