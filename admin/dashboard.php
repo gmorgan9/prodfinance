@@ -92,7 +92,10 @@ adminOnly();
   padding: 0 5px;
 }
 
-.row1 {margin: 0 -5px;}
+.row1 {
+  margin: 0 -5px;
+  margin-top: 15%;
+}
 
 /* Clear floats after the columns */
 .row1:after {
