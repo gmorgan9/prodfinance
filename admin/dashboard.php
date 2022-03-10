@@ -65,7 +65,7 @@ adminOnly();
 
   <div class="column1">
     <div class="card1">
-      <p><i id="img" class="fa fa-money"></i></p>
+      <p><i id="img" class="fa fa-money-bill"></i></p>
       <h3>100+</h3>
       <p>Your Total Expenses for <?php echo date('Y'); ?></p>
     </div>
