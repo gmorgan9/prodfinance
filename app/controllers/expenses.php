@@ -4,7 +4,7 @@ include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
 include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
-$table = 'expenses';
+$table = 'topics';
 
 $errors = array();
 $id = '';
