@@ -51,7 +51,7 @@ adminOnly();
     <div class="card1">
       <p><i id="img" class="fa fa-user"></i></p>
       <h3>11+</h3>
-      <p>Partners</p>
+      <p>Current Expenses for the Month</p>
     </div>
   </div>
 
