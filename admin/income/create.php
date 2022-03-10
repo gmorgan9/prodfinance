@@ -85,7 +85,7 @@ adminOnly();
     // if ($conn->connect_error) {
     //     die("Connection failed: " . $conn->connect_error);
     // } 
-    require '../app/database/connect.php';
+    require_once '../app/database/connect.php';
 
     $sql = "SELECT * FROM categories";
     $result = $conn->query($sql);
