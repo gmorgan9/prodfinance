@@ -70,6 +70,7 @@ adminOnly();
                                     <td><a href="index.php?del_id=<?php echo $income['id']; ?>" class="delete">delete</a></td>
                                 </tr> 
                             <?php endforeach; ?>
+                            <tr><td><?php echo $sumIncome ?></td></tr>
                         </tbody>
                     </table>
 

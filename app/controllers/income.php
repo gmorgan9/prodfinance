@@ -36,6 +36,8 @@ if (isset($_POST['add-income'])) {
     }
 }
 
+$sumIncome = "SELECT SUM(amount) As 'Total Income' FROM income;"
+
 
 // if (isset($_GET['id'])) {
 //     $id = $_GET['id'];
