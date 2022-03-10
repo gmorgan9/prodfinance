@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include(ROOT_PATH . "/app/controllers/topics.php");
+<?php include(ROOT_PATH . "/app/controllers/income.php");
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ adminOnly();
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/admin.css">
 
-        <title>Admin Section - Add Topic</title>
+        <title>Admin Section - Add Expense</title>
     </head>
 
     <body>
@@ -45,14 +45,14 @@ adminOnly();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Topic</a>
-                    <a href="index.php" class="btn btn-big">Manage Topics</a>
+                    <a href="create.php" class="btn btn-big">Add Expense</a>
+                    <a href="index.php" class="btn btn-big">Manage Expenses</a>
                 </div>
 
 
                 <div class="content">
 
-                    <h2 class="page-title">Add Topic</h2>
+                    <h2 class="page-title">Add Expense</h2>
                     <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
                     <form action="create.php" method="post">
@@ -61,12 +61,24 @@ adminOnly();
                             <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
                         </div>
                         <div>
+                            <label>Amount</label>
+                            <input type="number" name="amount" value="<?php echo $amount ?>" class="text-input">
+                        </div>
+                        <div>
+                            <label>Category</label>
+                            <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
+                        </div>
+                        <div>
+                            <label>Date</label>
+                            <input type="date" name="date" value="<?php echo $date ?>" class="text-input">
+                        </div>
+                        <div>
                             <label>Description</label>
                             <textarea name="description" id="body"><?php echo $description ?></textarea>
                         </div>
 
                         <div>
-                            <button type="submit" name="add-topic" class="btn btn-big">Add Topic</button>
+                            <button type="submit" name="add-income" class="btn btn-big">Add Expense</button>
                         </div>
                     </form>
 
