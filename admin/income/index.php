@@ -70,7 +70,7 @@ adminOnly();
                                     <td><a href="index.php?del_id=<?php echo $income['id']; ?>" class="delete">delete</a></td>
                                 </tr> 
                             <?php endforeach; ?>
-                            <?php 'SELECT SUM(amount) FROM income'; ?>
+                            <?php echo SUM($income['amount']); ?>
                         </tbody>
                     </table>
 
