@@ -62,7 +62,7 @@ adminOnly();
                         </div>
                         <div>
                             <label>Amount</label>
-                            <input type="text" name="amount" value="<?php echo $amount ?>" class="text-input">
+                            <input type="number" name="amount" value="<?php echo $amount ?>" class="text-input">
                         </div>
                         <div>
                             <label>Category</label>
