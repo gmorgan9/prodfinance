@@ -10,6 +10,7 @@ $errors = array();
 $id = '';
 $name = '';
 $amount = '';
+$category = '';
 $description = '';
 
 $topics = selectAll($table);
@@ -29,6 +30,7 @@ if (isset($_POST['add-topic'])) {
     } else {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
+        $category = $_POST['category'];
         $description = $_POST['description'];
     }
 }

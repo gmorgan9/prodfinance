@@ -60,9 +60,13 @@ adminOnly();
                             <label>Name</label>
                             <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
                         </div>
-                            <div>
+                        <div>
                             <label>Amount</label>
                             <input type="number" name="amount" value="<?php echo $amount ?>" class="text-input">
+                        </div>
+                        <div>
+                            <label>Category</label>
+                            <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
                         </div>
                         <div>
                             <label>Description</label>
