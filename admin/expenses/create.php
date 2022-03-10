@@ -103,7 +103,7 @@ adminOnly();
         <script
             src="https://cdn.ckeditor.com/ckeditor5/12.2.0/classic/ckeditor.js"></script>
         <!-- Custom Script -->
-        <!-- <script src="../../assets/js/scripts.js"></script> -->
+        <script src="../../assets/js/scripts.js"></script>
 
     </body>
 
