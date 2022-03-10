@@ -14,12 +14,12 @@ $description = '';
 $topics = selectAll($table);
 
 
-if (isset($_POST['add-expense'])) {
+if (isset($_POST['add-topic'])) {
     adminOnly();
     $errors = validateTopic($_POST);
 
     if (count($errors) === 0) {
-        unset($_POST['add-expense']);
+        unset($_POST['add-topic']);
         $topic_id = create($table, $_POST);
         $_SESSION['message'] = 'Topic created successfully';
         $_SESSION['type'] = 'success';
