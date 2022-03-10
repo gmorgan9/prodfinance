@@ -1,7 +1,7 @@
 <?php 
 include("path.php");
-include("app/database/functions.php")
-include("app/helpers/middleware.php")
+include("/app/database/functions.php")
+include("/app/helpers/middleware.php")
 usersOnly();
 ?>
 <!DOCTYPE html>
