@@ -49,7 +49,7 @@ adminOnly();
     <div class="row1">
   <div class="column1">
     <div class="card1">
-      <p><i id="img" class="fa fa-scale-unbalanced"></i></p>
+      <p><i id="img" class="fa fa-calendar"></i></p>
       <h3 style="color:white;">11+</h3>
       <p>Current Expenses for <?php echo date('F'); ?></p>
     </div>
@@ -73,7 +73,7 @@ adminOnly();
 
   <div class="column1">
     <div class="card1">
-      <p><i id="img" class="fas fa-arrows-alt-v"></i></p>
+      <p><i id="img" class="fas fa-compress-alt"></i></p>
       <h3>100+</h3>
       <p>Your Total Income for <?php echo date('Y'); ?></p>
     </div>
