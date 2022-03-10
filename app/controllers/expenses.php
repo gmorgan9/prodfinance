@@ -2,7 +2,7 @@
 
 include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
-include(ROOT_PATH . "/app/helpers/validateTopic.php");
+include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
 $table = 'expenses';
 
@@ -19,13 +19,13 @@ $topics = selectAll($table);
 
 
 if (isset($_POST['add-expense'])) {
-    adminOnly();
+    // adminOnly();
     $errors = validateExpense($_POST);
 
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
         $expenses_id = create($table, $_POST);
-        $_SESSION['message'] = 'Topic created successfully';
+        $_SESSION['message'] = 'Expense created successfully';
         $_SESSION['type'] = 'success';
         header('location: ' . BASE_URL . '/admin/expenses/index.php');
         exit(); 
@@ -43,9 +43,13 @@ if (isset($_POST['add-expense'])) {
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     $topic = selectOne($table, ['id' => $id]);
-    $id = $topic['id'];
-    $name = $topic['name'];
-    $description = $topic['description'];
+    $id = $expense['id'];
+    $name = $expense['name'];
+    $amount = $expense['amount'];
+    $category = $expense['category'];
+    $account = $expense['account'];
+    $date = $expense['date'];
+    $description = $expense['description'];
 }
 
 if (isset($_GET['del_id'])) {
