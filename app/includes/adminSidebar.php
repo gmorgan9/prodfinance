@@ -36,7 +36,7 @@
   padding-left: 8px;
 }
 .dropdown-container:hover {
-    display: unset;
+    display: block;
 }
 
 /* Optional: Style the caret down icon */
