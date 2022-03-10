@@ -66,7 +66,12 @@ adminOnly();
                         </div>
                         <div>
                             <label>Category</label>
-                            <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
+                            <select class="text-input" name="category">
+                              <option value="<?php echo $category ?>">Food</option>
+                              <option value="<?php echo $category ?>">Groceries</option>
+                              <option value="<?php echo $category ?>">Bills</option>
+                              <option value="<?php echo $category ?>">Entertainment</option>
+                            </select>
                         </div>
                         <div>
                             <label>Account</label>
