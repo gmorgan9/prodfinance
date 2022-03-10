@@ -1,20 +1,20 @@
 <?php
 
-function validateExpense($expense)
+function validateTopic($topic)
 {
     $errors = array();
 
-    if (empty($expense['name'])) {
+    if (empty($topic['name'])) {
         array_push($errors, 'Name is required');
     }
 
-    $existingExpense = selectOne('expense', ['name' => $post['name']]);
-    if ($existingExpense) {
-        if (isset($post['update-expense']) && $existingExpense['id'] != $post['id']) {
+    $existingTopic = selectOne('topics', ['name' => $post['name']]);
+    if ($existingTopic) {
+        if (isset($post['update-topic']) && $existingTopic['id'] != $post['id']) {
             array_push($errors, 'Name already exists');
         }
 
-        if (isset($post['add-expense'])) {
+        if (isset($post['add-topic'])) {
             array_push($errors, 'Name already exists');
         }
     }
