@@ -6,7 +6,7 @@
     <ul class="nav">
         <?php if (isset($_SESSION['username'])): ?>
             <li>
-            <a href="admin/dashboard.php">
+            <a href="dashboard.php">
             <i class="fa fa-globe"></i>
             Public</a>
             </li>
