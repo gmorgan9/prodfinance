@@ -67,7 +67,7 @@ adminOnly();
                         <div>
                             <label>Category</label>
                             <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
-                        </div>
+                        
 
 
                         <?php
@@ -100,7 +100,7 @@ adminOnly();
     } 
     $conn->close();
     ?>
-
+</div>
 
 
 
