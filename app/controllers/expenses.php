@@ -19,8 +19,8 @@ $expenses = selectAll($table);
 
 
 if (isset($_POST['add-expense'])) {
-    adminOnly();
-    $errors = validateExpense($_POST);
+    // adminOnly();
+    // $errors = validateExpense($_POST);
 
     // if (count($errors) === 0) {
     //     unset($_POST['add-expense']);
