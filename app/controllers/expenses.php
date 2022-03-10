@@ -13,7 +13,7 @@ $category = '';
 $date = '';
 $description = '';
 
-$topics = selectAll($table);
+$expenses = selectAll($table);
 
 
 if (isset($_POST['add-expense'])) {
@@ -22,8 +22,8 @@ if (isset($_POST['add-expense'])) {
 
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
-        $topic_id = create($table, $_POST);
-        $_SESSION['message'] = 'Topic created successfully';
+        $expense_id = create($table, $_POST);
+        $_SESSION['message'] = 'Expense created successfully';
         $_SESSION['type'] = 'success';
         header('location: ' . BASE_URL . '/admin/expenses/index.php');
         exit(); 
