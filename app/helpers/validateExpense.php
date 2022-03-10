@@ -14,9 +14,9 @@ function validateExpense($expense)
             array_push($errors, 'Name already exists');
         }
 
-        // if (isset($post['add-topic'])) {
-        //     array_push($errors, 'Name already exists');
-        // }
+        if (isset($post['add-expense'])) {
+            array_push($errors, 'Name already exists');
+        }
     }
 
     return $errors;
