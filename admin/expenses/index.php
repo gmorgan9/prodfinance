@@ -73,6 +73,7 @@ adminOnly();
                         </tbody>
                     </table>
 
+                    <?php echo . sum($expense['amount']) . "amount"; ?>
                 </div>
 
             </div>
