@@ -14,7 +14,7 @@ $description = '';
 $topics = selectAll($table);
 
 
-if (isset($_POST['add-topic'])) {
+if (isset($_POST['add-expense'])) {
     adminOnly();
     $errors = validateTopic($_POST);
 
