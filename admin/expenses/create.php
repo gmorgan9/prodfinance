@@ -45,8 +45,8 @@ adminOnly();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Topic</a>
-                    <a href="index.php" class="btn btn-big">Manage Topics</a>
+                    <a href="create.php" class="btn btn-big">Add Expense</a>
+                    <a href="index.php" class="btn btn-big">Manage Expenses</a>
                 </div>
 
 
