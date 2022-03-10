@@ -5,9 +5,9 @@
         <li><a href="/admin/income/index.php">Manage Income</a></li>
         <li><a href="/admin/budget/index.php">Manage Budget</a></li>
         
-        <a class="dropdown-btn">Settings
+        <li><a class="dropdown-btn">Settings
             <i class="fa fa-caret-down"></i>
-</a>
+</a></li>
             <div class="dropdown-container">
             <li><a href="#">Manage Categories</a></li>
             <li><a href="#">Manage Accounts</a></li>
