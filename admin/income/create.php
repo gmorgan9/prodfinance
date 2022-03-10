@@ -70,17 +70,19 @@ adminOnly();
                         </div>
 
 
-                        <?php mysql_connect('localhost', 'gmorg', 'morgpass');
-                            mysql_select_db('finance');
-                            $sql = "SELECT name FROM cateogries";
-                            $result = mysql_query($sql);
-
-                            echo "<select name='username'>";
-                        while ($row = mysql_fetch_array($result)) {
-                            echo "<option value='" . $row['name'] ."'>" . $row['name'] ."</option>";
-                            }
-                            echo "</select>";
-                            ?>
+                        <?php
+                                    include '../app/database/connect.php';
+                                    $sql = "SELECT name FROM categories";
+                                    $result = $conn->query($sql);
+                                    if ($result->num_rows > 0) {
+                                        echo "<select name='vehicle_make'>";
+                                        // output data of each row
+                                        while($row = $result->fetch_assoc()) {
+                                          echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
+                                        }
+                                        echo "</select>";
+                                    } 
+                                    ?>
 
 
 
