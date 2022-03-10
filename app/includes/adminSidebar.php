@@ -4,11 +4,8 @@
         <li><a href="/admin/expenses/index.php">Manage Expenses</a></li>
         <li><a href="/admin/income/index.php">Manage Income</a></li>
         <li><a href="/admin/budget/index.php">Manage Budget</a></li>
-        <li><a class="dropdown-btn">Settings</a></li>
-            <div class="dropdown-container">
-            <li><a href="#">Manage Categories</a></li>
-            <li><a href="#">Manage Accounts</a></li>
-            </div>
+        <li><a href="/admin/budget/index.php">Manage Categories</a></li>
+        <li><a href="/admin/budget/index.php">Manage Accounts</a></li>
 
         
     </ul>
@@ -17,26 +14,6 @@
 
 <style>
 
-
-.dropdown-btn {
-  text-decoration: none;
-  display: block;
-  border: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-.dropdown-container {
-  display: none;
-  padding-left: 8px;
-}
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
 
 
 </style>
