@@ -59,7 +59,7 @@ adminOnly();
     <div class="card1">
       <p><i id="img" class="fa fa-check"></i></p>
       <h3>55+</h3>
-      <p>Projects</p>
+      <p>Current Income for <?php echo date('F'); ?></p>
     </div>
   </div>
 
@@ -67,7 +67,7 @@ adminOnly();
     <div class="card1">
       <p><i id="img" class="fa fa-smile"></i></p>
       <h3>100+</h3>
-      <p>Happy Clients</p>
+      <p>Your Total Expenses for <?php echo date('Y'); ?></p>
     </div>
   </div>
 
