@@ -18,57 +18,48 @@ $description = "";
 $expenses = selectAll($table);
 
 
-$servername = "localhost";
-$username = "gmorg";
-$password = "gmorgpass";
-$dbname = "finance";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "INSERT INTO expenses (name, amount, category, account, date, description)
-VALUES ($name, $amount, $category, $account, $date, $description)";
-
-if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
-
-
-
-
-
-
-
-
-
 if (isset($_POST['add-expense'])) {
     adminOnly();
     $errors = validateExpense($_POST);
 
-    if (count($errors) === 0) {
-        unset($_POST['add-expense']);
-        $expense_id = create($table, $_POST);
-        $_SESSION['message'] = "Expense created successfully";
-        $_SESSION['type'] = "success";
-        header("location: " . BASE_URL . "/admin/expenses/index.php");
-        exit(); 
-    } else {
-        $name = $_POST['name'];
-        $amount = $_POST['amount'];
-        $category = $_POST['category'];
-        $account = $_POST['account'];
-        $date = $_POST['date'];
-        $description = $_POST['description'];
-    }
+    // if (count($errors) === 0) {
+    //     unset($_POST['add-expense']);
+    //     $expense_id = create($table, $_POST);
+    //     $_SESSION['message'] = "Expense created successfully";
+    //     $_SESSION['type'] = "success";
+    //     header("location: " . BASE_URL . "/admin/expenses/index.php");
+    //     exit(); 
+    // } else {
+    //     $name = $_POST['name'];
+    //     $amount = $_POST['amount'];
+    //     $category = $_POST['category'];
+    //     $account = $_POST['account'];
+    //     $date = $_POST['date'];
+    //     $description = $_POST['description'];
+    // }
+
+
+     $name = $_POST['name'];
+     $amount = $_POST['amount'];
+     $category = $_POST['category'];
+     $account = $_POST['account'];
+     $date = $_POST['date'];
+     $description = $_POST['description'];
+     $sql = "INSERT INTO expenses (name,amount, category, account, date ,description)
+     VALUES ('$name','$amount','$category', '$account','$date','$description')";
+     if (mysqli_query($db, $sql)) {
+        echo "New record has been added successfully !";
+     } else {
+        echo "Error: " . $sql . ":-" . mysqli_error($conn);
+     }
+     mysqli_close($conn);
 }
+
+
+
+
+}
+
 
 
 if (isset($_GET['id'])) {
