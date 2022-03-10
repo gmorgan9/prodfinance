@@ -21,7 +21,7 @@ $errors   = array();
 }
 
 
-$sumIncome = "SELECT SUM(amount) FROM income;"
+$sumIncome = "SELECT SUM(amount) FROM income";
 
 
 
