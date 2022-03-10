@@ -23,7 +23,7 @@ if (isset($_POST['add-expense'])) {
     $errors = validateExpense($_POST);
 
     if (count($errors) === 0) {
-        unset($_POST['add-topic']);
+        unset($_POST['add-expense']);
         $expenses_id = create($table, $_POST);
         $_SESSION['message'] = 'Topic created successfully';
         $_SESSION['type'] = 'success';
