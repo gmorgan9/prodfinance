@@ -70,6 +70,8 @@ adminOnly();
                                     <td><a href="index.php?del_id=<?php echo $expense['id']; ?>" class="delete">delete</a></td>
                                 </tr> 
                             <?php endforeach; ?>
+                            <tr><td>Total:</td> <td id="sum"></td></tr>
+                            <button onclick="sum()">Sum</button>
                         </tbody>
                     </table>
 
