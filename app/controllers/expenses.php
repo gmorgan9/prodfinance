@@ -4,7 +4,7 @@ include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
 include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
-$table = 'expenses';
+$table = "expenses";
 
 $errors = array();
 $id = '';
@@ -25,9 +25,9 @@ if (isset($_POST['add-expense'])) {
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
         $expense_id = create($table, $_POST);
-        $_SESSION['message'] = 'Expense created successfully';
-        $_SESSION['type'] = 'success';
-        header('location: ' . BASE_URL . '/admin/expenses/index.php');
+        $_SESSION['message'] = "Expense created successfully";
+        $_SESSION['type'] = "success";
+        header("location: " . BASE_URL . "/admin/expenses/index.php");
         exit(); 
     } else {
         $name = $_POST['name'];
