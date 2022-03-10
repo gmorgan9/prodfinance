@@ -72,19 +72,20 @@ adminOnly();
 
                         <?php
     // start of dbcon
-    $servername = "localhost";
-    $username = "gmorg";
-    $password = "gmorgpass";
-    $dbname = "finance";
+    // $servername = "localhost";
+    // $username = "gmorg";
+    // $password = "gmorgpass";
+    // $dbname = "finance";
 
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    //end of dbcon
+    // $conn = new mysqli($servername, $username, $password, $dbname);
+    // //end of dbcon
 
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
+    // // Check connection
+    // if ($conn->connect_error) {
+    //     die("Connection failed: " . $conn->connect_error);
+    // } 
+    include_once "connect.php"
 
     $sql = "SELECT * FROM categories";
     $result = $conn->query($sql);
