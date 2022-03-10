@@ -58,7 +58,7 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-calendar"></i></p>
-      <h3>55+</h3>
+      <h3 style="color:white;">55+</h3>
       <p>Current Income for <?php echo date('F'); ?></p>
     </div>
   </div>
@@ -66,7 +66,7 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fas fa-exchange-alt"></i></p>
-      <h3>100+</h3>
+      <h3 style="color:white;">100+</h3>
       <p>Your Total Expenses for <?php echo date('Y'); ?></p>
     </div>
   </div>
@@ -74,7 +74,7 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-money-bill"></i></p>
-      <h3>100+</h3>
+      <h3 style="color:white;">100+</h3>
       <p>Your Total Income for <?php echo date('Y'); ?></p>
     </div>
   </div>
