@@ -60,7 +60,7 @@ adminOnly();
                             <th colspan="2">Action</th>
                         </thead>
                         <tbody>
-                            <?php foreach ($incomes as $key => $income): ?>
+                            <?php foreach ($income as $key => $income): ?>
                                <tr>
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $income['name']; ?></td>

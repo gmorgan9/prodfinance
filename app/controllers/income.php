@@ -13,7 +13,7 @@ $category = '';
 $date = '';
 $description = '';
 
-$incomes = selectAll($table);
+$income = selectAll($table);
 
 
 if (isset($_POST['add-income'])) {
