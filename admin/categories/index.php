@@ -60,7 +60,7 @@ adminOnly();
                             <th colspan="2">Action</th>
                         </thead>
                         <tbody>
-                            <?php foreach ($categories as $key => $category): ?>
+                            <?php foreach ($category as $key => $category): ?>
                                <tr>
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $category['name']; ?></td>
