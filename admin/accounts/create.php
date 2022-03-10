@@ -29,7 +29,7 @@ adminOnly();
         <!-- Admin Styling -->
         <link rel="stylesheet" href="../../assets/css/admin.css">
 
-        <title>Admin Section - Add Topic</title>
+        <title>Admin Section - Add Account</title>
     </head>
 
     <body>
@@ -45,14 +45,14 @@ adminOnly();
             <!-- Admin Content -->
             <div class="admin-content">
                 <div class="button-group">
-                    <a href="create.php" class="btn btn-big">Add Topic</a>
-                    <a href="index.php" class="btn btn-big">Manage Topics</a>
+                    <a href="create.php" class="btn btn-big">Add Account</a>
+                    <a href="index.php" class="btn btn-big">Manage Accounts</a>
                 </div>
 
 
                 <div class="content">
 
-                    <h2 class="page-title">Add Topic</h2>
+                    <h2 class="page-title">Add Account</h2>
                     <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
                     <form action="create.php" method="post">
@@ -66,7 +66,7 @@ adminOnly();
                         </div>
 
                         <div>
-                            <button type="submit" name="add-topic" class="btn btn-big">Add Topic</button>
+                            <button type="submit" name="add-account" class="btn btn-big">Add Topic</button>
                         </div>
                     </form>
 
