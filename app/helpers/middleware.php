@@ -11,7 +11,7 @@ function usersOnly($redirect = '/login.php')
     }
 }
 
-function adminOnly($redirect = '/')
+function adminOnly($redirect = '/dashboard.php')
 {
     if (empty($_SESSION['id']) || empty($_SESSION['admin'])) {
         $_SESSION['message'] = 'You are not authorized';
@@ -21,7 +21,7 @@ function adminOnly($redirect = '/')
     }
 }
 
-function guestsOnly($redirect = '/')
+function guestsOnly($redirect = '/login.php')
 {
     if (isset($_SESSION['id'])) {
         header('location: ' . BASE_URL . $redirect);
