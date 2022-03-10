@@ -60,7 +60,7 @@ adminOnly();
                             <label>Name</label>
                             <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
                         </div>
-                        <div>
+                            <div>
                             <label>Amount</label>
                             <input type="number" name="amount" value="<?php echo $amount ?>" class="text-input">
                         </div>
