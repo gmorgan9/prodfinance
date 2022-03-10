@@ -2,31 +2,39 @@
 
 include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
-include(ROOT_PATH . "/app/helpers/validateTopic.php");
+include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
-$table = 'topics';
+$table = 'expenses';
 
 $errors = array();
 $id = '';
 $name = '';
+$amount = '';
+$category = '';
+$account = '';
+$date = '';
 $description = '';
 
-$topics = selectAll($table);
+$expenses = selectAll($table);
 
 
-if (isset($_POST['add-topic'])) {
+if (isset($_POST['add-expense'])) {
     adminOnly();
-    $errors = validateTopic($_POST);
+    $errors = validateExpense($_POST);
 
     if (count($errors) === 0) {
-        unset($_POST['add-topic']);
-        $topic_id = create($table, $_POST);
-        $_SESSION['message'] = 'Topic created successfully';
+        unset($_POST['add-expense']);
+        $expense_id = create($table, $_POST);
+        $_SESSION['message'] = 'Expense created successfully';
         $_SESSION['type'] = 'success';
-        header('location: ' . BASE_URL . '/admin/topics/index.php');
+        header('location: ' . BASE_URL . '/admin/expenses/index.php');
         exit(); 
     } else {
         $name = $_POST['name'];
+        $amount = $_POST['amount'];
+        $category = $_POST['category'];
+        $account = $_POST['account'];
+        $date = $_POST['date'];
         $description = $_POST['description'];
     }
 }
