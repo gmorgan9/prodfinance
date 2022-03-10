@@ -66,7 +66,6 @@ adminOnly();
                         </div>
                         <div>
                             <label>Category</label>
-                            <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
                         
 
 
@@ -96,7 +95,7 @@ adminOnly();
         while($row = $result->fetch_assoc()) {
           echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
         }
-        echo "</select>";
+        echo "</select class='text-input'>";
     } 
     $conn->close();
     ?>
