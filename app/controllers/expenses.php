@@ -39,6 +39,9 @@ if (isset($_POST['add-expense'])) {
     // }
 
 
+
+    include_once 'app/database/connect.php';
+
      $name = $_POST['name'];
      $amount = $_POST['amount'];
      $category = $_POST['category'];
