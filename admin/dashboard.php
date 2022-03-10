@@ -65,7 +65,7 @@ adminOnly();
 
   <div class="column1">
     <div class="card1">
-      <p><i id="img" class="fa fa-smile-o"></i></p>
+      <p><i id="img" class="fa fa-smile"></i></p>
       <h3>100+</h3>
       <p>Happy Clients</p>
     </div>
@@ -98,7 +98,6 @@ adminOnly();
 
 .row1 {
   margin: 0 -5px;
-  margin-top: 15%;
 }
 
 /* Clear floats after the columns */
