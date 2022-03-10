@@ -10,6 +10,7 @@ $id = '';
 $name = '';
 $amount = '';
 $category = '';
+$account = '';
 $date = '';
 $description = '';
 
@@ -31,6 +32,7 @@ if (isset($_POST['add-income'])) {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
         $category = $_POST['category'];
+        $account = $_POST['account'];
         $date = $_POST['date'];
         $description = $_POST['description'];
     }
@@ -46,6 +48,7 @@ if (isset($_GET['id'])) {
     $name = $income['name'];
     $amount = $income['amount'];
     $category = $income['category'];
+    $account = $income['account'];
     $date = $income['date'];
     $description = $income['description'];
 }
@@ -78,6 +81,7 @@ if (isset($_POST['update-income'])) {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
         $category = $_POST['category'];
+        $account = $_POST['account'];
         $date = $_POST['date'];
         $description = $_POST['description'];
     }
