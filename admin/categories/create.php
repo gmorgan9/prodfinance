@@ -66,7 +66,7 @@ adminOnly();
                         </div>
 
                         <div>
-                            <button type="submit" name="add-topic" class="btn btn-big">Add Topic</button>
+                            <button type="submit" name="add-category" class="btn btn-big">Add Topic</button>
                         </div>
                     </form>
 
