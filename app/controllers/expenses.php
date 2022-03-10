@@ -7,13 +7,13 @@ include(ROOT_PATH . "/app/helpers/validateExpense.php");
 $table = "expenses";
 
 $errors = array();
-$id = '';
-$name = '';
-$amount = '';
-$category = '';
-$account = '';
-$date = '';
-$description = '';
+$id = "";
+$name = "";
+$amount = "";
+$category = "";
+$account = "";
+$date = "";
+$description = "";
 
 $expenses = selectAll($table);
 
