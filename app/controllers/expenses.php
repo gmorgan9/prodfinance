@@ -46,7 +46,7 @@ if (isset($_POST['add-expense'])) {
      $date = $_POST['date'];
      $description = $_POST['description'];
      $sql = "INSERT INTO expenses (name,amount, category, account, date ,description)
-     VALUES ('$name','$amount','$category', '$account','$date','$description')";
+     VALUES ($name,$amount,$category, $account, $date, $description)";
      if (mysqli_query($db, $sql)) {
         echo "New record has been added successfully !";
      } else {
