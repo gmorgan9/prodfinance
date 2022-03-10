@@ -78,7 +78,7 @@ adminOnly();
                         </div>
 
                         <div>
-                            <button type="submit" name="add-income" class="btn btn-big">Add Income</button>
+                            <button type="submit" name="add-expense" class="btn btn-big">Add Income</button>
                         </div>
                     </form>
 

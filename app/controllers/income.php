@@ -13,19 +13,19 @@ $category = '';
 $date = '';
 $description = '';
 
-$incomes = selectAll($table);
+$expenses = selectAll($table);
 
 
-if (isset($_POST['add-income'])) {
+if (isset($_POST['add-expense'])) {
     adminOnly();
     $errors;
 
     if (count($errors) === 0) {
-        unset($_POST['add-income']);
-        $income_id = create($table, $_POST);
-        $_SESSION['message'] = 'Income created successfully';
+        unset($_POST['add-expense']);
+        $expense_id = create($table, $_POST);
+        $_SESSION['message'] = 'Expense created successfully';
         $_SESSION['type'] = 'success';
-        header('location: ' . BASE_URL . '/admin/income/index.php');
+        header('location: ' . BASE_URL . '/admin/expenses/index.php');
         exit(); 
     } else {
         $name = $_POST['name'];
