@@ -49,7 +49,7 @@ adminOnly();
     <div class="row1">
   <div class="column1">
     <div class="card1">
-      <p><i id="img" class="fa fa-user"></i></p>
+      <p><i id="img" class="fa fa-calendar"></i></p>
       <h3>11+</h3>
       <p>Current Expenses for <?php echo date('F'); ?></p>
     </div>
