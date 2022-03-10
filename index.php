@@ -1,7 +1,6 @@
 <?php 
 include("path.php");
-include("/app/database/functions.php")
-include("/app/helpers/middleware.php")
+include(ROOT_PATH . "/app/controllers/users.php");
 usersOnly();
 ?>
 <!DOCTYPE html>
