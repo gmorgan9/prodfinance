@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include(ROOT_PATH . "/app/controllers/topics.php"); 
+<?php include(ROOT_PATH . "/app/controllers/categories.php"); 
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ adminOnly();
                             <th colspan="2">Action</th>
                         </thead>
                         <tbody>
-                            <?php foreach ($category as $key => $category): ?>
+                            <?php foreach ($categories as $key => $category): ?>
                                <tr>
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $category['name']; ?></td>
