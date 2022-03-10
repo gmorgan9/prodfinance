@@ -61,6 +61,10 @@ adminOnly();
                             <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
                         </div>
                         <div>
+                            <label>Amount</label>
+                            <input type="number" name="amount" value="<?php echo $amount ?>" class="text-input">
+                        </div>
+                        <div>
                             <label>Description</label>
                             <textarea name="description" id="body"><?php echo $description ?></textarea>
                         </div>
