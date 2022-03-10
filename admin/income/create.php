@@ -66,7 +66,7 @@ adminOnly();
                         </div>
                         <div>
                             <label>Category</label>
-                        ` <?php
+                         <?php
     // start of dbcon
     $servername = "localhost";
     $username = "gmorg";
@@ -87,12 +87,12 @@ adminOnly();
 
     if ($result->num_rows > 0) {
 
-        echo "<select name='name'>";
+        echo "<select name='name' class='text-input'>";
         // output data of each row
         while($row = $result->fetch_assoc()) {
           echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
         }
-        echo "</select class='text-input'>";
+        echo "</select>";
     } 
     $conn->close();
     ?>
