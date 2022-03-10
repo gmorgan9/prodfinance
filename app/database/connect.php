@@ -1,12 +1,10 @@
 <?php
-
-$host = 'localhost';
-$user = 'gmorg';
-$pass = 'gmorgpass';
-$db_name = 'finance';
-
-$conn = new MySQLi($host, $user, $pass, $db_name);
-
-if ($conn->connect_error) {
-    die('Database connection error: ' . $conn->connect_error);
-}
+    $servername='localhost';
+    $username='gmorg';
+    $password='gmorgpass';
+    $dbname = "finance";
+    $conn=mysqli_connect($servername,$username,$password,"$dbname");
+      if(!$conn){
+          die('Could not Connect MySql Server:' .mysql_error());
+        }
+?>
