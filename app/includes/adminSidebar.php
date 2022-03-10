@@ -35,6 +35,9 @@
   display: none;
   padding-left: 8px;
 }
+.dropdown-container:hover {
+    display: unset;
+}
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
