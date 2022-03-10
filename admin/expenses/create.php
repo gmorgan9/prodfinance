@@ -73,9 +73,13 @@ adminOnly();
                               <option value="Entertainment">Entertainment</option>
                             </select>
                         </div>
-                        <div>
+                        div>
                             <label>Account</label>
-                            <input type="text" name="account" value="<?php echo $account ?>" class="text-input">
+                            <select class="text-input" name="account" value="<?php echo $account ?>">
+                              <option value="Cash">Cash</option>
+                              <option value="Credit Card">Credit Card</option>
+                              <option value="Debit Card">Debit Card</option>
+                            </select>
                         </div>
                         <div>
                             <label>Date</label>
