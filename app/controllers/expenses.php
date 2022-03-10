@@ -2,7 +2,6 @@
 
 include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
-include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
 $table = 'expenses';
 
@@ -19,7 +18,7 @@ $topics = selectAll($table);
 
 if (isset($_POST['add-expense'])) {
     adminOnly();
-    $errors = validateTopic($_POST);
+    $errors;
 
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
