@@ -66,10 +66,7 @@ adminOnly();
                         </div>
                         <div>
                             <label>Category</label>
-                        
-
-
-                        <?php
+                        ` <?php
     // start of dbcon
     $servername = "localhost";
     $username = "gmorg";
