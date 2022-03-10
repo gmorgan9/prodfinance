@@ -31,6 +31,7 @@ if (isset($_POST['add-expense'])) {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
         $category = $_POST['category'];
+        $account = $_POST['account'];
         $date = $_POST['date'];
         $description = $_POST['description'];
     }
@@ -44,6 +45,7 @@ if (isset($_GET['id'])) {
     $name = $expense['name'];
     $amount = $expense['amount'];
     $category = $expense['category'];
+    $account = $expense['account'];
     $date = $expense['date'];
     $description = $expense['description'];
 }
@@ -76,6 +78,7 @@ if (isset($_POST['update-expense'])) {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
         $category = $_POST['category'];
+        $account = $_POST['account'];
         $date = $_POST['date'];
         $description = $_POST['description'];
     }
