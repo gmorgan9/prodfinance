@@ -58,27 +58,27 @@ adminOnly();
                     <form action="create.php" method="post">
                         <div>
                             <label>Name</label>
-                            <input type="text" name="name" value="" class="text-input">
+                            <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
                         </div>
                         <div>
                             <label>Amount</label>
-                            <input type="number" name="amount" value="" class="text-input">
+                            <input type="text" name="amount" value="<?php echo $amount ?>" class="text-input">
                         </div>
                         <div>
                             <label>Category</label>
-                            <input type="text" name="cateogry" value="" class="text-input">
+                            <input type="text" name="cateogry" value="<?php echo $category ?>" class="text-input">
                         </div>
                         <div>
                             <label>Account</label>
-                            <input type="text" name="account" value="" class="text-input">
+                            <input type="text" name="account" value="<?php echo $account ?>" class="text-input">
                         </div>
                         <div>
                             <label>Date</label>
-                            <input type="date" name="date" value="" class="text-input">
+                            <input type="date" name="date" value="<?php echo $date ?>" class="text-input">
                         </div>
                         <div>
                             <label>Description</label>
-                            <textarea name="description" id="body"></textarea>
+                            <textarea name="description" id="body"><?php echo $description ?></textarea>
                         </div>
 
                         <div>
