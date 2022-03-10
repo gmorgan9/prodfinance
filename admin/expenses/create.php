@@ -69,6 +69,10 @@ adminOnly();
                             <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
                         </div>
                         <div>
+                            <label>Date</label>
+                            <input type="date" name="date" value="<?php echo $date ?>" class="text-input">
+                        </div>
+                        <div>
                             <label>Description</label>
                             <textarea name="description" id="body"><?php echo $description ?></textarea>
                         </div>

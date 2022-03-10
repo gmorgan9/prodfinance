@@ -11,6 +11,7 @@ $id = '';
 $name = '';
 $amount = '';
 $category = '';
+$date = '';
 $description = '';
 
 $topics = selectAll($table);
@@ -31,6 +32,7 @@ if (isset($_POST['add-topic'])) {
         $name = $_POST['name'];
         $amount = $_POST['amount'];
         $category = $_POST['category'];
+        $date = $_POST['date'];
         $description = $_POST['description'];
     }
 }
