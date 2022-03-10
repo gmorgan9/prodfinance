@@ -20,6 +20,12 @@ $errors   = array();
     return $stmt;
 }
 
+
+$sumIncome = "SELECT SUM(amount) FROM income;"
+
+
+
+
 function dd($value) // to be deleted
 {
     echo "<pre>", print_r($value, true), "</pre>";
