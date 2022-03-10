@@ -68,6 +68,29 @@ adminOnly();
                             <label>Category</label>
                             <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
                         </div>
+
+
+                        <?php mysql_connect('localhost', 'gmorg', 'morgpass');
+                            mysql_select_db('finance');
+                            $sql = "SELECT name FROM cateogries";
+                            $result = mysql_query($sql);
+
+                            echo "<select name='username'>";
+                        while ($row = mysql_fetch_array($result)) {
+                            echo "<option value='" . $row['name'] ."'>" . $row['name'] ."</option>";
+                            }
+                            echo "</select>";
+                            ?>
+
+
+
+
+
+
+                        <div>
+                            <label>Account</label>
+                            <input type="text" name="account" value="<?php echo $account ?>" class="text-input">
+                        </div>
                         <div>
                             <label>Date</label>
                             <input type="date" name="date" value="<?php echo $date ?>" class="text-input">
