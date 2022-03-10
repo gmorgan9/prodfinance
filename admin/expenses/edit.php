@@ -108,7 +108,7 @@ adminOnly();
                                 echo "<select name='name' class='text-input'>";
                                 // output data of each row
                             while($row = $result->fetch_assoc()) {
-                                echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
+                                echo "<option value='" . $account . "'>" . $row['name'] . "</option>";
                             }
                                 echo "</select>";
                             } 
