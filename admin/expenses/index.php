@@ -66,6 +66,7 @@ adminOnly();
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $expense['name']; ?></td>
                                     <td><?php echo $expense['amount']; ?></td>
+                                    <tr><td>Total:</td> <td id="sum"></td></tr>
                                     <td><a href="edit.php?id=<?php echo $expense['id']; ?>" class="edit">edit</a></td>
                                     <td><a href="index.php?del_id=<?php echo $expense['id']; ?>" class="delete">delete</a></td>
                                 </tr> 
