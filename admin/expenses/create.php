@@ -73,7 +73,7 @@ adminOnly();
                               <option value="Entertainment">Entertainment</option>
                             </select>
                         </div>
-                        div>
+                        <div>
                             <label>Account</label>
                             <select class="text-input" name="account" value="<?php echo $account ?>">
                               <option value="Cash">Cash</option>
