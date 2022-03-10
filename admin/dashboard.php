@@ -75,7 +75,7 @@ adminOnly();
     <div class="card1">
       <p><i id="img" class="fa fa-coffee"></i></p>
       <h3>100+</h3>
-      <p>Meetings</p>
+      <p>Your Total Income for <?php echo date('Y'); ?></p>
     </div>
   </div>
 </div>
