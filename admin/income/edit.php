@@ -67,6 +67,10 @@ adminOnly();
                             <input type="text" name="category" value="<?php echo $category ?>" class="text-input">
                         </div>
                         <div>
+                            <label>Account</label>
+                            <input type="text" name="account" value="<?php echo $account ?>" class="text-input">
+                        </div>
+                        <div>
                             <label>Date</label>
                             <input type="date" name="date" value="<?php echo $date ?>" class="text-input">
                         </div>
