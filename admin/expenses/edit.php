@@ -65,7 +65,7 @@ adminOnly();
                         <div>
                             <label>Category</label>
                             <select class="text-input" name="category" value="<?php echo $category ?>">
-                              <option style="color: gray" value=""><?php echo $category ?></option>
+                              <option style="color: white" value=""><?php echo $category ?></option>
                               <option value="Food">Food</option>
                               <option value="Groceries">Groceries</option>
                               <option value="Bills">Bills</option>
@@ -75,7 +75,7 @@ adminOnly();
                         <div>
                             <label>Account</label>
                             <select class="text-input" name="account" value="<?php echo $account ?>">
-                              <option style="color: gray" value=""><?php echo $account ?></option>
+                              <option style="color: white" value=""><?php echo $account ?></option>
                               <option value="Cash">Cash</option>
                               <option value="Credit Card">Credit Card</option>
                               <option value="Debit Card">Debit Card</option>
