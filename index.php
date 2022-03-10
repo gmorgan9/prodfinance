@@ -1,6 +1,8 @@
 <?php 
 include("path.php");
-include(ROOT_PATH . "/app/controllers/topics.php");
+include("app/database/functions.php")
+include("app/helpers/middleware.php")
+usersOnly();
 ?>
 <!DOCTYPE html>
 <html lang="en">
