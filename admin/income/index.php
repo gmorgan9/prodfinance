@@ -1,5 +1,5 @@
 <?php include("../../path.php"); ?>
-<?php include(ROOT_PATH . "/app/controllers/topics.php"); 
+<?php include(ROOT_PATH . "/app/controllers/income.php"); 
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ adminOnly();
                             <th colspan="2">Action</th>
                         </thead>
                         <tbody>
-                            <?php foreach ($income as $key => $income): ?>
+                            <?php foreach ($incomes as $key => $income): ?>
                                <tr>
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $income['name']; ?></td>
