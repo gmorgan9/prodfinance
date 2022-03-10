@@ -13,15 +13,15 @@ $category = '';
 $date = '';
 $description = '';
 
-$expenses = selectAll($table);
+$incomes = selectAll($table);
 
 
-if (isset($_POST['add-expense'])) {
+if (isset($_POST['add-income'])) {
     adminOnly();
     $errors;
 
     if (count($errors) === 0) {
-        unset($_POST['add-expense']);
+        unset($_POST['add-income']);
         $expense_id = create($table, $_POST);
         $_SESSION['message'] = 'Income created successfully';
         $_SESSION['type'] = 'success';
