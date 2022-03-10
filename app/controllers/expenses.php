@@ -19,47 +19,30 @@ $expenses = selectAll($table);
 
 
 if (isset($_POST['add-expense'])) {
-    // adminOnly();
-    // $errors = validateExpense($_POST);
+    adminOnly();
+    $errors = validateExpense($_POST);
 
-    // if (count($errors) === 0) {
-    //     unset($_POST['add-expense']);
-    //     $expense_id = create($table, $_POST);
-    //     $_SESSION['message'] = "Expense created successfully";
-    //     $_SESSION['type'] = "success";
-    //     header("location: " . BASE_URL . "/admin/expenses/index.php");
-    //     exit(); 
-    // } else {
-    //     $name = $_POST['name'];
-    //     $amount = $_POST['amount'];
-    //     $category = $_POST['category'];
-    //     $account = $_POST['account'];
-    //     $date = $_POST['date'];
-    //     $description = $_POST['description'];
-    // }
-
-
-
-    include_once "/app/database/connect.php";
-
-     $name = $_POST['name'];
-     $amount = $_POST['amount'];
-     $category = $_POST['category'];
-     $account = $_POST['account'];
-     $date = $_POST['date'];
-     $description = $_POST['description'];
-     $sql = "INSERT INTO expenses (name,amount, category, account, date ,description)
-     VALUES ($name,$amount,$category, $account, $date, $description)";
-     if (mysqli_query($db, $sql)) {
-        echo "New record has been added successfully !";
-     } else {
-        echo "Error: " . $sql . ":-" . mysqli_error($conn);
-     }
-     mysqli_close($conn);
-}
-
-
-
+    if (count($errors) === 0) {
+        unset($_POST['add-expense']);
+        $name = $_POST['name'];
+        $amount = $_POST['amount'];
+        $category = $_POST['category'];
+        $account = $_POST['account'];
+        $date = $_POST['date'];
+        $description = $_POST['description'];
+        $expense_id = create($table, $_POST);
+        $_SESSION['message'] = "Expense created successfully";
+        $_SESSION['type'] = "success";
+        header("location: " . BASE_URL . "/admin/expenses/index.php");
+        exit(); 
+    } else {
+        $name = $_POST['name'];
+        $amount = $_POST['amount'];
+        $category = $_POST['category'];
+        $account = $_POST['account'];
+        $date = $_POST['date'];
+        $description = $_POST['description'];
+    }
 
 }
 
