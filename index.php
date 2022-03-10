@@ -23,7 +23,7 @@ usersOnly();
   <!-- Custome Styles -->
   <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>">
 
-  <title>Documentation</title>
+  <title>MorganFinances</title>
 </head>
 <body>
 
