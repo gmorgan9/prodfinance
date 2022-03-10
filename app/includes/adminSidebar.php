@@ -32,10 +32,6 @@
   display: none;
   padding-left: 8px;
 }
-.dropdown-btn:hover {
-    display: block;
-}
-
 /* Optional: Style the caret down icon */
 .fa-caret-down {
   float: right;
