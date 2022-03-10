@@ -1,16 +1,16 @@
 <?php
 
-function validateExpense($expenses)
+function validateExpense($expense)
 {
     $errors = array();
 
-    if (empty($expenses['name'])) {
+    if (empty($expense['name'])) {
         array_push($errors, 'Name is required');
     }
 
-    $existingExpenses = selectOne('expenses', ['name' => $post['name']]);
-    if ($existingExpenses) {
-        if (isset($post['update-expense']) && $existingExpenses['id'] != $post['id']) {
+    $existingExpense = selectOne('expense', ['name' => $post['name']]);
+    if ($existingExpense) {
+        if (isset($post['update-expense']) && $existingExpense['id'] != $post['id']) {
             array_push($errors, 'Name already exists');
         }
 

@@ -2,7 +2,7 @@
 
 include(ROOT_PATH . "/app/database/functions.php");
 include(ROOT_PATH . "/app/helpers/middleware.php");
-include(ROOT_PATH . "/app/helpers/validateTopic.php");
+include(ROOT_PATH . "/app/helpers/validateExpense.php");
 
 $table = 'expenses';
 
@@ -17,12 +17,12 @@ $description = '';
 $topics = selectAll($table);
 
 
-if (isset($_POST['add-topic'])) {
+if (isset($_POST['add-expense'])) {
     adminOnly();
     $errors = validateTopic($_POST);
 
     if (count($errors) === 0) {
-        unset($_POST['add-topic']);
+        unset($_POST['add-expense']);
         $topic_id = create($table, $_POST);
         $_SESSION['message'] = 'Topic created successfully';
         $_SESSION['type'] = 'success';
