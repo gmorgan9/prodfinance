@@ -4,8 +4,7 @@
         <li><a href="/admin/expenses/index.php">Manage Expenses</a></li>
         <li><a href="/admin/income/index.php">Manage Income</a></li>
         <li><a href="/admin/budget/index.php">Manage Budget</a></li>
-        
-        <li><a>Settings</a></li>
+        <li><a class="dropdown-btn">Settings</a></li>
             <div class="dropdown-container">
             <li><a href="#">Manage Categories</a></li>
             <li><a href="#">Manage Accounts</a></li>
@@ -20,9 +19,7 @@
 
 
 .dropdown-btn {
-  padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
   display: block;
   border: none;
   width:100%;
@@ -35,7 +32,7 @@
   display: none;
   padding-left: 8px;
 }
-.dropdown-container:hover {
+.dropdown-btn:hover {
     display: block;
 }
 
