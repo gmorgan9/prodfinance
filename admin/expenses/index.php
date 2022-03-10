@@ -57,6 +57,7 @@ adminOnly();
                         <thead>
                             <th>SN</th>
                             <th>Name</th>
+                            <th>Amount</th>
                             <th colspan="2">Action</th>
                         </thead>
                         <tbody>
@@ -64,6 +65,7 @@ adminOnly();
                                <tr>
                                     <td><?php echo $key + 1; ?></td>
                                     <td><?php echo $expense['name']; ?></td>
+                                    <td><?php echo $expense['amount']; ?></td>
                                     <td><a href="edit.php?id=<?php echo $expense['id']; ?>" class="edit">edit</a></td>
                                     <td><a href="index.php?del_id=<?php echo $expense['id']; ?>" class="delete">delete</a></td>
                                 </tr> 
