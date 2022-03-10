@@ -22,6 +22,9 @@ if (isset($_POST['add-expense'])) {
     // adminOnly();
     $errors = validateExpense($_POST);
 
+    ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
         $expense_id = create($table, $_POST);
