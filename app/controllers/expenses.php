@@ -42,7 +42,7 @@ if (isset($_POST['add-expense'])) {
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $topic = selectOne($table, ['id' => $id]);
+    $expense = selectOne($table, ['id' => $id]);
     $id = $expense['id'];
     $name = $expense['name'];
     $amount = $expense['amount'];
