@@ -23,7 +23,7 @@ if (isset($_POST['add-topic'])) {
         $topic_id = create($table, $_POST);
         $_SESSION['message'] = 'Topic created successfully';
         $_SESSION['type'] = 'success';
-        header('location: ' . BASE_URL . '/admin/topics/index.php');
+        header('location: ' . BASE_URL . '/admin/expenses/index.php');
         exit(); 
     } else {
         $name = $_POST['name'];
