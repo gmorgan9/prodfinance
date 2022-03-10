@@ -45,13 +45,8 @@ adminOnly();
 
     <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
-</div>
 
-</div>
-<!-- // Admin Content -->
-
-
-<div class="row1">
+    <div class="row1">
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-user"></i></p>
@@ -84,6 +79,15 @@ adminOnly();
     </div>
   </div>
 </div>
+
+
+</div>
+
+</div>
+<!-- // Admin Content -->
+
+
+
 
 <style>
   .column1 {
