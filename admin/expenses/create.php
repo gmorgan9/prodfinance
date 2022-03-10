@@ -55,7 +55,7 @@ adminOnly();
                     <h2 class="page-title">Add Expense</h2>
                     <?php include(ROOT_PATH . "/app/helpers/formErrors.php"); ?>
 
-                    <form action="create.php" method="POST">
+                    <form action="create.php" method="post">
                         <div>
                             <label>Name</label>
                             <input type="text" name="name" value="<?php echo $name ?>" class="text-input">
