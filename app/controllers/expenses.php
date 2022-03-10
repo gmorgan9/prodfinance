@@ -24,7 +24,7 @@ if (isset($_POST['add-expense'])) {
 
     if (count($errors) === 0) {
         unset($_POST['add-expense']);
-        $expense_id = create($table, $_POST);
+        $id = create($table, $_POST);
         $_SESSION['message'] = 'Expense created successfully';
         $_SESSION['type'] = 'success';
         header('location: ' . BASE_URL . '/admin/expenses/index.php');
