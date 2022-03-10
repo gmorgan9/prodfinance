@@ -9,6 +9,7 @@ $table = 'expenses';
 $errors = array();
 $id = '';
 $name = '';
+$amount = '';
 $description = '';
 
 $topics = selectAll($table);
@@ -27,6 +28,7 @@ if (isset($_POST['add-topic'])) {
         exit(); 
     } else {
         $name = $_POST['name'];
+        $amount = $_POST['amount'];
         $description = $_POST['description'];
     }
 }
