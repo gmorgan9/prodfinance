@@ -1,6 +1,5 @@
 <?php include("../../path.php"); ?>
 <?php include(ROOT_PATH . "/app/controllers/income.php");
-include(ROOT_PATH . "/app/database/connect.php")
 adminOnly();
 ?>
 <!DOCTYPE html>
@@ -72,6 +71,21 @@ adminOnly();
 
 
                         <?php
+    // start of dbcon
+    $servername = "localhost";
+    $username = "gmorg";
+    $password = "gmorgpass";
+    $dbname = "finance";
+
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    //end of dbcon
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } 
+
     $sql = "SELECT * FROM categories";
     $result = $conn->query($sql);
 
