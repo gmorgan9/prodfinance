@@ -91,7 +91,7 @@ adminOnly();
                             $conn->close(); ?>
                         </div>
                         <div>
-                            <label>Category</label>
+                            <label>Account</label>
                          <?php
                             // start of dbcon
                             $servername = "localhost";
