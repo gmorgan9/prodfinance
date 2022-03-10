@@ -74,7 +74,7 @@ adminOnly();
                         <div>
                             <label>Account</label>
                             <select class="text-input" name="account" value="<?php echo $account ?>">
-                              <p value=""><?php echo $account ?></p>
+                              <p><?php echo $account ?></p>
                               <option value="Cash">Cash</option>
                               <option value="Credit Card">Credit Card</option>
                               <option value="Debit Card">Debit Card</option>
