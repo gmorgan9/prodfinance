@@ -22,7 +22,7 @@ if (isset($_POST['add-category'])) {
         $category_id = create($table, $_POST);
         $_SESSION['message'] = 'Category created successfully';
         $_SESSION['type'] = 'success';
-        header('location: ' . BASE_URL . '/admin/category/index.php');
+        header('location: ' . BASE_URL . '/admin/categories/index.php');
         exit(); 
     } else {
         $name = $_POST['name'];
