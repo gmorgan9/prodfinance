@@ -74,7 +74,7 @@ adminOnly();
             $sql = "SELECT  SUM(amount) from income";
             $result = $conn->query($sql);
             while($row = mysqli_fetch_array($result)){
-              echo "Total Income: ". $row['SUM(amount)'];
+              echo $row['SUM(amount)'];
             }
         ?>
     
