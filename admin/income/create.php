@@ -79,7 +79,7 @@ adminOnly();
                                 $sql = "SELECT name FROM categories";
                                 $result = $conn->query($sql);
                                 if ($result->num_rows > 0) {
-                                    echo "<select class='text-input' name='categories' value='$category'>";
+                                    echo "<select class='text-input' name='category' value='$category'>";
                                 while($row = $result->fetch_assoc()) {
                                     echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
                                 }
@@ -103,7 +103,7 @@ adminOnly();
                                 $sql = "SELECT name FROM accounts";
                                 $result = $conn->query($sql);
                                 if ($result->num_rows > 0) {
-                                    echo "<select class='text-input' name='accounts' value='$account'>";
+                                    echo "<select class='text-input' name='account' value='$account'>";
                                 while($row = $result->fetch_assoc()) {
                                     echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
                                 }
