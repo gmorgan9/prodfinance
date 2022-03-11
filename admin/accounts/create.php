@@ -20,9 +20,6 @@ adminOnly();
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Candal|Lora"
             rel="stylesheet">
-        
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="/assets/images/fav.png">
 
         <!-- Custom Styling -->
         <link rel="stylesheet" href="../../assets/css/style.css">
