@@ -12,7 +12,7 @@ adminOnly();
     <meta name="viewport" content="width=device-width">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="fav.png">
+    <link rel="icon" type="image/x-icon" href="fav.png?v=<?php echo time(); ?>">
 
     <!-- Custom Styling -->
     <link rel="stylesheet" href="../assets/css/style.css?v=<?php echo time(); ?>">  
