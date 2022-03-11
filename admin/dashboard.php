@@ -46,6 +46,10 @@ adminOnly();
     <?php include(ROOT_PATH . '/app/includes/messages.php'); ?>
 
 
+
+
+
+
     <div class="row1">
   <div class="column1">
     <div class="card1">
@@ -58,7 +62,29 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-calendar"></i></p>
-      <h3 style="color:white;">55+</h3>
+      <h3 style="color:white;">
+    
+    
+      <?php $servername = "localhost";
+            $username = "gmorg";
+            $password = "gmorgpass";
+            $dbname = "finance";
+            $conn = new mysqli($servername, $username, $password, $dbname);
+
+            $sql = "SELECT  SUM(amount) from income";
+            $result = $conn->query($sql);
+            while($row = mysqli_fetch_array($result)){
+              echo "Total Income: ". $row['SUM(amount)'];
+            }
+        ?>
+    
+    
+    
+    
+    
+    
+    
+    </h3>
       <p>Current Income for <?php echo date('F'); ?></p>
     </div>
   </div>
@@ -89,29 +115,6 @@ adminOnly();
 
 </div>
 <!-- // Admin Content -->
-
-<?php  
-
-$servername = "localhost";
-//username
-$username = "gmorg";
-//empty password
-$password = "gmorgpass";
-//geek is the database name
-$dbname = "finance";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-
-$sql = "SELECT  SUM(amount) from income";
-$result = $conn->query($sql);
-//display data on web page
-while($row = mysqli_fetch_array($result)){
-    echo "Total Income: ". $row['SUM(amount)'];
-    echo "<br>";
-}
-
-?>
 
 
 <style>
