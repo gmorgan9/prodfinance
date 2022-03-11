@@ -61,7 +61,7 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses WHERE MONTH(date) = MONTH(now())";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
             echo "$" . $row['ROUND(SUM(amount), 2)'];
@@ -96,7 +96,20 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fas fa-exchange-alt"></i></p>
-      <h3 style="color:white;">100+</h3>
+      <h3 style="color:white;">
+        <?php 
+          $servername = "localhost";
+          $username = "gmorg";
+          $password = "gmorgpass";
+          $dbname = "finance";
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses";
+          $result = $conn->query($sql);
+          while($row = mysqli_fetch_array($result)){
+            echo "$" . $row['ROUND(SUM(amount), 2)'];
+          }
+        ?>
+      </h3>
       <p>Your Total Expenses for <?php echo date('Y'); ?></p>
     </div>
   </div>
@@ -104,7 +117,20 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-money-bill"></i></p>
-      <h3 style="color:white;">100+</h3>
+      <h3 style="color:white;">
+        <?php 
+          $servername = "localhost";
+          $username = "gmorg";
+          $password = "gmorgpass";
+          $dbname = "finance";
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          $sql = "SELECT  ROUND(SUM(amount), 2) from income";
+          $result = $conn->query($sql);
+          while($row = mysqli_fetch_array($result)){
+            echo "$" . $row['ROUND(SUM(amount), 2)'];
+          }
+        ?>
+      </h3>
       <p>Your Total Income for <?php echo date('Y'); ?></p>
     </div>
   </div>
