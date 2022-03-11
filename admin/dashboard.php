@@ -82,7 +82,7 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  ROUND(SUM(amount), 2) from income WHERE date = MONTH()";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from income WHERE date = MONTH(now())";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
             echo "$" . $row['ROUND(SUM(amount), 2)'];
