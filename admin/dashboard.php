@@ -81,6 +81,16 @@ adminOnly();
 </div>
 
 
+<?php   
+$sql = "select sum(amount) FROM income";
+$q = mysql_query($sql);
+$row = mysql_fetch_array($q);
+
+echo 'Sum: ' . $row[0];
+
+?>
+
+
 </div>
 
 </div>
