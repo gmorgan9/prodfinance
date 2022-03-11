@@ -66,20 +66,51 @@ adminOnly();
                         </div>
                         <div>
                             <label>Category</label>
-                            <select class="text-input" name="category" value="<?php echo $category ?>">
-                              <option value="Food">Food</option>
-                              <option value="Groceries">Groceries</option>
-                              <option value="Bills">Bills</option>
-                              <option value="Entertainment">Entertainment</option>
-                            </select>
+                            <?php
+                                // start of dbcon
+                                $servername = "localhost";
+                                $username = "gmorg";
+                                $password = "gmorgpass";
+                                $dbname = "finance";
+                                $conn = new mysqli($servername, $username, $password, $dbname);
+                                if ($conn->connect_error) {
+                                    die("Connection failed: " . $conn->connect_error);
+                                } 
+                                $sql = "SELECT name FROM categories";
+                                $result = $conn->query($sql);
+                                if ($result->num_rows > 0) {
+                                    echo "<select class='text-input' name='category' value='$category'>";
+                                while($row = $result->fetch_assoc()) {
+                                    echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
+                                }
+                                echo "</select>";
+                                } 
+                                $conn->close();
+                            ?>
                         </div>
                         <div>
                             <label>Account</label>
-                            <select class="text-input" name="account" value="<?php echo $account ?>">
-                              <option value="Cash">Cash</option>
-                              <option value="Credit Card">Credit Card</option>
-                              <option value="Debit Card">Debit Card</option>
-                            </select>
+                            <?php
+                                // start of dbcon
+                                $servername = "localhost";
+                                $username = "gmorg";
+                                $password = "gmorgpass";
+                                $dbname = "finance";
+                                $conn = new mysqli($servername, $username, $password, $dbname);
+                                if ($conn->connect_error) {
+                                    die("Connection failed: " . $conn->connect_error);
+                                } 
+                                $sql = "SELECT name FROM accounts";
+                                $result = $conn->query($sql);
+                                if ($result->num_rows > 0) {
+                                    echo "<select class='text-input' name='account' value='$account'>";
+                                while($row = $result->fetch_assoc()) {
+                                    echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
+                                }
+                                echo "</select>";
+                                } 
+                                $conn->close();
+                            ?>
                         </div>
                         <div>
                             <label>Date</label>
