@@ -90,12 +90,26 @@ adminOnly();
 </div>
 <!-- // Admin Content -->
 
-<?php   
-$sql = "select sum(amount) FROM income";
-$q = mysql_query($sql);
-$row = mysql_fetch_array($q);
+<?php  
 
-echo 'Sum: ' . $row[0];
+$servername = "localhost";
+//username
+$username = "gmorg";
+//empty password
+$password = "gmorgpass";
+//geek is the database name
+$dbname = "finance";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+
+$sql = "SELECT  SUM(amount) from income";
+$result = $conn->query($sql);
+//display data on web page
+while($row = mysqli_fetch_array($result)){
+    echo "Total Income: ". $row['SUM(amount)'];
+    echo "<br>";
+}
 
 ?>
 
