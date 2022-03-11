@@ -61,10 +61,10 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses WHERE amount IS NOT NULL";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
-            echo "$" . $row['SUM(amount)'];
+            echo "$" . $row['ROUND(SUM(amount), 2)'];
           }
         ?>
       </h3>
@@ -82,10 +82,10 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  ROUND(SUM(amount), 2) from income WHERE amount IS NOT NULL";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from income";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
-            echo "$" . $row['SUM(amount)'];
+            echo "$" . $row['ROUND(SUM(amount), 2)'];
           }
         ?>
       </h3>
