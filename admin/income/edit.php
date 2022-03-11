@@ -81,10 +81,10 @@ adminOnly();
                                 if ($conn->connect_error) {
                                     die("Connection failed: " . $conn->connect_error);
                                 } 
-                                $sql = "SELECT name FROM cateogories";
+                                $sql = "SELECT name FROM categories";
                                 $result = $conn->query($sql);
                                 if ($result->num_rows > 0) {
-                                    echo "<select class='text-input' name='cateogories'>";
+                                    echo "<select class='text-input' name='categories'>";
                                 while($row = $result->fetch_assoc()) {
                                     echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
                                 }
