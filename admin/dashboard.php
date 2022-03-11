@@ -54,7 +54,20 @@ adminOnly();
   <div class="column1">
     <div class="card1">
       <p><i id="img" class="fa fa-calendar"></i></p>
-      <h3 style="color:white;">11+</h3>
+      <h3 style="color:white;">
+        <?php 
+          $servername = "localhost";
+          $username = "gmorg";
+          $password = "gmorgpass";
+          $dbname = "finance";
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          $sql = "SELECT  SUM(amount) from expenses";
+          $result = $conn->query($sql);
+          while($row = mysqli_fetch_array($result)){
+            echo $row['SUM(amount)'];
+          }
+        ?>
+      </h3>
       <p>Current Expenses for <?php echo date('F'); ?></p>
     </div>
   </div>
@@ -63,28 +76,19 @@ adminOnly();
     <div class="card1">
       <p><i id="img" class="fa fa-calendar"></i></p>
       <h3 style="color:white;">
-    
-    
-      <?php $servername = "localhost";
-            $username = "gmorg";
-            $password = "gmorgpass";
-            $dbname = "finance";
-            $conn = new mysqli($servername, $username, $password, $dbname);
-
-            $sql = "SELECT  SUM(amount) from income";
-            $result = $conn->query($sql);
-            while($row = mysqli_fetch_array($result)){
-              echo $row['SUM(amount)'];
-            }
+        <?php 
+          $servername = "localhost";
+          $username = "gmorg";
+          $password = "gmorgpass";
+          $dbname = "finance";
+          $conn = new mysqli($servername, $username, $password, $dbname);
+          $sql = "SELECT  SUM(amount) from income";
+          $result = $conn->query($sql);
+          while($row = mysqli_fetch_array($result)){
+            echo $row['SUM(amount)'];
+          }
         ?>
-    
-    
-    
-    
-    
-    
-    
-    </h3>
+      </h3>
       <p>Current Income for <?php echo date('F'); ?></p>
     </div>
   </div>
