@@ -84,7 +84,7 @@ adminOnly();
                                 $sql = "SELECT name FROM cateogories";
                                 $result = $conn->query($sql);
                                 if ($result->num_rows > 0) {
-                                    echo "<select name='cateogories'>";
+                                    echo "<select class='text-input' name='cateogories'>";
                                 while($row = $result->fetch_assoc()) {
                                     echo "<option value='" . $row['name'] . "'>" . $row['name'] . "</option>";
                                 }
