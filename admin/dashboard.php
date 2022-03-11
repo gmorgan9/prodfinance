@@ -61,7 +61,7 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  SUM(amount) from expenses";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from expenses";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
             echo "$" . $row['SUM(amount)'];
@@ -82,7 +82,7 @@ adminOnly();
           $password = "gmorgpass";
           $dbname = "finance";
           $conn = new mysqli($servername, $username, $password, $dbname);
-          $sql = "SELECT  SUM(amount) from income";
+          $sql = "SELECT  ROUND(SUM(amount), 2) from income";
           $result = $conn->query($sql);
           while($row = mysqli_fetch_array($result)){
             echo "$" . $row['SUM(amount)'];
